@@ -13,7 +13,7 @@
   <string name="local_invisible_directory">Другое</string>
   <string name="voicemail_from_column">Сообщение голосовой почты от:</string>
   <string name="debug_dump_title">Скопировать базу данных контактов</string>
-  <string name="debug_dump_database_message">Вам необходимо: 1) сделать копию базы данных содержащую записи из журнала звонков и контактную информацию и 2) оправить его по эл.почте. Не забудьте удалить копию как только вы получите ответное сообщение или скопируете данные на другое устройство.</string>
+  <string name="debug_dump_database_message">Вам необходимо: 1) сделать копию базы данных содержащую записи из журнала звонков и контактную информацию и 2) оправить его по эл.почте. Не забудьте удалить копию, как только вы получите ответное сообщение или скопируете данные на другое устройство.</string>
   <string name="debug_dump_delete_button">Удалить</string>
   <string name="debug_dump_start_button">Начать</string>
   <string name="debug_dump_email_sender_picker">Выберите программу для отправки файла</string>
@@ -22,7 +22,4 @@
   <string name="ownerPackage">com.android.dialer</string>
   <string name="read_write_all_voicemail_description">Разрешить приложению хранить или искать все доступные сообщения голосовой почты на данном устройстве</string>
   <string name="read_write_all_voicemail_label">Доступ к голосовой почте</string>
-  <item type="string" name="APKTOOL_DUMMY_0016">false</item>
-  <item type="string" name="APKTOOL_DUMMY_0017">false</item>
-  <item type="string" name="APKTOOL_DUMMY_0018">false</item>
 </resources>
