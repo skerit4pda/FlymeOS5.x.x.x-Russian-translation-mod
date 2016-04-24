@@ -289,7 +289,7 @@
     .param p1, "icon"    # Landroid/graphics/drawable/Drawable;
 
     .prologue
-    const/16 v3, 0x20
+    const/16 v3, 0x2D
 
     .line 65
     check-cast p1, Landroid/graphics/drawable/BitmapDrawable;
