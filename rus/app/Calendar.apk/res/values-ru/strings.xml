@@ -306,9 +306,9 @@
     <string name="recurrence_end_date">До:</string>
     <string name="recurrence_end_times">Сколько</string>
     <string name="relex">Отдых</string>
-    <string name="reminders_label">Добавить напоминание</string>
+    <string name="reminders_label">Выводить напоминание</string>
     <string name="repeats_end_label">Окончание повтора</string>
-    <string name="repeats_label">Повторы</string>
+    <string name="repeats_label">Повторять</string>
     <string name="response_accept">Принять</string>
     <string name="response_decline">Отклонить</string>
     <string name="response_maybe">Возможно</string>
