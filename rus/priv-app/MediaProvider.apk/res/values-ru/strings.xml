@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Add_More_Ringtones">Больше рингтонов...</string>
+  <string name="uid_label">Сервис медиа</string>
+  <string name="app_label">Медианоситель</string>
+  <string name="upgrade_msg">Обновление базы мульимедиа</string>
+  <string name="artist_label">Исполнитель</string>
+  <string name="ringtone_default">Ринтон по умолчанию</string>
+  <string name="notification_sound_default">Звук уведомления по умолчанию</string>
+  <string name="alarm_sound_default">Звук будильника по умолчанию</string>
+  <string name="root_images">Фото</string>
+  <string name="root_videos">Видео</string>
+  <string name="root_audio">Аудио</string>
+  <item type="string" name="APKTOOL_DUMMY_000b">false</item>
+</resources>
