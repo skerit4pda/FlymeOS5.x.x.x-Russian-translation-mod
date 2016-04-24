@@ -540,18 +540,18 @@
     <string name="coupon_amount_s">%s </string>
     <string name="coupon_code">Код обмена:</string>
     <string name="coupon_count_n">%d</string>
-    <string name="coupon_instructions_content_1">Денежный купон Flyme это подарочный сертификат Flyme, который может быть использован в качестве скидки при покупке в магазине Flyme</string>
+    <string name="coupon_instructions_content_1">Денежный купон Flyme - это подарочный сертификат Flyme, который может быть использован в качестве скидки при покупке в магазине Flyme</string>
     <string name="coupon_instructions_content_2">Обычные денежные купоны Flyme могут быть исползованы для приобретения музыки, игр, приложений и тем, спецкупоны могут быть исползованы только в специальных сервисах</string>
     <string name="coupon_instructions_content_3_1_1">1. </string>
-    <string name="coupon_instructions_content_3_1_2">При оплате данной покупки, доступные купоны будут выбраны автоматически</string>
+    <string name="coupon_instructions_content_3_1_2">При оплате данной покупки, доступные купоны будут списаны автоматически</string>
     <string name="coupon_instructions_content_3_2_1">2. </string>
     <string name="coupon_instructions_content_3_2_2">Купон может быть единично использован только в качестве скидки, его нельзя обменять, обналичить, или передать</string>
     <string name="coupon_instructions_content_3_3_1">3. </string>
-    <string name="coupon_instructions_content_3_3_2">Купон не можеи быть использован когда сумма скидки больше суммы оплаты</string>
+    <string name="coupon_instructions_content_3_3_2">Купон не можеn быть использован когда сумма скидки больше суммы оплаты</string>
     <string name="coupon_instructions_content_3_4_1">4. </string>
     <string name="coupon_instructions_content_3_4_2">Пожалуйста, используйте купоны до истечения их срока действия, просроченные купоны бесполезны</string>
     <string name="coupon_instructions_content_4">Вы можете получить купон участвую в мероприятиях Flyme, выкупая купоны, и т.д.</string>
-    <string name="coupon_instructions_title_1">Что такое - денежный купон Flyme?</string>
+    <string name="coupon_instructions_title_1">Что такое денежный купон Flyme?</string>
     <string name="coupon_instructions_title_2">Где вы можете использовать денежный купон Flyme?</string>
     <string name="coupon_instructions_title_3">Как можно использовать денежный купон Flyme?</string>
     <string name="coupon_instructions_title_4">Как получить денежный купон Flyme?</string>
@@ -795,9 +795,9 @@
 • 40ТБ места под хранение своих данных
 • Бесплатный доступ к сервисам Taobao"</string>
     <string name="confirm_ali_sync">Подтвердить</string>
-    <string name="desc_ali_sync">Слияние данных серевера Flyme с данными сервера YunOS</string>
+    <string name="desc_ali_sync">Слияние данных сервера Flyme с данными сервера YunOS</string>
     <string name="game_download_dec">Вы можете скачивать игры и использовать подарки в Game Center</string>
-    <string name="msg_ali_sync_dialog">Расход трафика может происходить при хранении одинаковых данных в облаках YunOS и Flyme.</string>
+    <string name="msg_ali_sync_dialog">Расход трафика может происходить при хранении идентичных данных в облаках YunOS и Flyme.</string>
     <string name="msg_no_taobao_bound">Нет привязанного аккаунта Taobao</string>
     <string name="msg_time_error">Ошибка входа. Убедитесь в правильности вводимых данных.</string>
     <string name="notification_desc_ali_sync">Интегрировать облачные данные Flyme и YunOS</string>
