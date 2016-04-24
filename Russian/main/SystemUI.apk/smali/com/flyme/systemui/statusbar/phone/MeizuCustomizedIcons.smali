@@ -100,22 +100,7 @@
     .param p0, "pkg"    # Ljava/lang/String;
 
     .prologue
-    .line 281
-    sget-object v0, Lcom/flyme/systemui/statusbar/phone/MeizuCustomizedIcons;->MZ_CUSTOMIZED_ICONS:Ljava/util/Map;
-
-    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    :goto_0
-    return v0
-
-    :cond_0
     const/4 v0, 0x0
 
-    goto :goto_0
+    return v0
 .end method
