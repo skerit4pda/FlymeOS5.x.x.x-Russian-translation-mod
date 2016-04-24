@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Диспетчер загрузки</string>
-    <string name="permlab_downloadManager">Доступ к менеджеру загрузки.</string>
+    <string name="permlab_downloadManager">Доступ к диспетчеру загрузки.</string>
     <string name="permdesc_downloadManager">Приложение получит доступ к диспетчеру загрузок и сможет загружать файлы через него. Вредоносные программы смогут таким образом прерывать загрузки и просматривать личную информацию.</string>
-    <string name="permlab_downloadManagerAdvanced">Расширенные функции менеджера загрузки.</string>
+    <string name="permlab_downloadManagerAdvanced">Расширенные функции диспетчера загрузки.</string>
     <string name="permdesc_downloadManagerAdvanced">Приложение получит доступ к расширенным функциям диспетчера загрузок. Вредоносные программы смогут таким образом прерывать загрузки и просматривать личную информацию.</string>
     <string name="permlab_downloadCompletedIntent">Отправить оповещение о загрузке.</string>
     <string name="permdesc_downloadCompletedIntent">Приложение сможет отправлять оповещения о завершенных загрузках. Вредоносные программы смогут таким образом мешать работе приложений, загружающих файлы.</string>
@@ -15,14 +15,14 @@
     <string name="permdesc_downloadWithoutNotification">Приложение сможет загружать файлы через диспетчер загрузок без уведомления пользователя.</string>
     <string name="permlab_accessAllDownloads">Доступ ко всем загрузкам</string>
     <string name="permdesc_accessAllDownloads">Приложение сможет открывать и изменять загрузки независимо от того, через какое ПО они были загружены.</string>
-    <string name="download_unknown_title">&lt;без названия></string>
+    <string name="download_unknown_title">&lt;Без названия></string>
     <string name="notification_filename_separator">", "</string>
     <string name="notification_filename_extras">" и ещё %d"</string>
     <string name="notification_download_complete">Загрузка завершена</string>
     <string name="notification_download_failed">Не удалось загрузить файл</string>
     <string name="notification_need_wifi_for_size">Загрузка только по Wi-Fi</string>
     <string name="notification_paused_in_background">Загрузка приостановлена</string>
-    <string name="notification_speed_format">%s/С</string>
+    <string name="notification_speed_format">%s/с</string>
     <string name="wifi_required_title">Слишком большой файл для сети оператора</string>
     <string name="wifi_required_body" formatted="false">"Для завершения загрузки файла размером %s  необходимо подключение к сети Wi-Fi.
 
@@ -49,7 +49,7 @@
     <string name="download_wait_reconnect">Ожидание подключения...</string>
     <string name="download_install_success">Установка выполнена</string>
     <string name="download_failed_sdcard">Ошибка загрузки, карта памяти удалена</string>
-    <string name="download_device_error_info">Вы можете перезагрузить в директорию по умолчанию</string>
+    <string name="download_device_error_info">Вы можете загрузить файл в директорию по умолчанию</string>
     <string name="download_device_error_ignore">Игнорировать</string>
     <string name="download_device_error_restart">Перезагрузить</string>
     <string name="status_paused">Приостановлено</string>
