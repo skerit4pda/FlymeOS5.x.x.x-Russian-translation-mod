@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hotknotbeam_saved_location">beam</string>
-    <string name="app_name">Турбо загрузчик</string>
-    <string name="hetcomm_intro">Загружать маленькие файлы(менее 20 МБ) быстрее, используя Wi-Fi и 4G/3G сети в same время. Иконка Турбо Загрузчика будет показана в статус баре когда он работает. Чтобы использовать Турбо Загрузчик, Wi-Fi и Моб. данные должны быть включены. When it is enabled, any application data that your have selected to download via Wi-Fi only will be downloaded via WLAN and 4G/3G networks anyway.</string>
+    <string name="hotknotbeam_saved_location">Beam</string>
+    <string name="app_name">Режим "Турбо"</string>
+    <string name="hetcomm_intro">Загружайте большие файлы(более 20 МБ) быстрее, используя Wi-Fi и 4G/3G сети одновременно. Иконка режима "Турбо" будет показана в статус баре когда он работает. Чтобы использовать режим "Турбо", Wi-Fi и Моб. данные должны быть включены. When it is enabled, any application data that your have selected to download via Wi-Fi only will be downloaded via WLAN and 4G/3G networks anyway.</string>
     <string name="enable_switch_on">Включить</string>
     <string name="enable_switch_off">Выключить</string>
-    <string name="notify_top_title">Ускоритель Загрузки</string>
-    <string name="unit_Mbps">Mbps</string>
+    <string name="notify_top_title">Ускорение загрузки</string>
+    <string name="unit_Mbps">Мб/сек</string>
     <string name="network_WiFi">Wi-Fi</string>
     <string name="network_Mobile">3/4G</string>
     <string name="connection_wlan">Wi-Fi</string>
-    <string name="connection_mobile">Моб. Данные</string>
-    <string name="conn_notice_title">Either Mobile or Wi-Fi is OFF.</string>
-    <string name="conn_notice_detail">Чтобы включить Турбо Загрузчик, both Wi-Fi и Моб. данные должны быть включены.</string>
+    <string name="connection_mobile">Моб. данные</string>
+    <string name="conn_notice_title">Моб. данные или Wi-Fi отключены.</string>
+    <string name="conn_notice_detail">Чтобы включить режим "Турбо", Wi-Fi и Моб. данные должны быть включены.</string>
     <string name="conn_charging_warning">Загрузка по моб. сетям несет дополнительные расходы в зависимости от вашего тарифного плана.</string>
-    <string name="turn_on">Включено %1$s</string>
-    <string name="turn_off_due_to_vpn">Turbo Download ОСТАНОВЛЕНА из-за включенного Vpn</string>
-    <string name="turn_off_due_to_tether">Turbo Download ОСТАНОВЛЕНА из-за включения режима Модема</string>
-    <string name="turn_off_due_to_shutdown">Turbo Download ОСТАНОВЛЕНА из-за Выключения</string>
-    <string name="turn_off_due_to_roaming">Turbo Download ОСТАНОВЛЕНА из-за Роуминга</string>
-    <string name="ratio_is_single">Скорость Wi-Fi/Моб данных очень медленная. Чтобы ускорить загрузку, Турбо загрузка будет использовать только Моб. данные/Wi-Fi чтобы скачивать файлы.</string>
-    <string name="ratio_is_back">Turbo загрузка reuse Wi-Fi and Mobile data together to download files.</string>
+    <string name="turn_on">Включен %1$s</string>
+    <string name="turn_off_due_to_vpn">Режим "Турбо" остановлен из-за включенного VPN</string>
+    <string name="turn_off_due_to_tether">Режим "Турбо" остановлен из-за включения точки доступа</string>
+    <string name="turn_off_due_to_shutdown">Режим "Турбо" остановлен из-за выключения устройства</string>
+    <string name="turn_off_due_to_roaming">Режим "Турбо" остановлен из-за роуминга</string>
+    <string name="ratio_is_single">Скорость Wi-Fi/Моб данных очень медленная. Чтобы ускорить загрузку, Режим "Турбо" будет использовать только Моб. данные/Wi-Fi чтобы скачивать файлы.</string>
+    <string name="ratio_is_back">Режим "Турбо" использует сеть Wi-Fi и передачу данных совместно для загрузки файлов.</string>
     <string name="action_help">Помощь</string>
-    <string name="hetcomm_help">&lt;html>&lt;body>&lt;h1>Turbo Download Help&lt;/u> &lt;/h1>&lt;br>Download large files at top speed by using Wi-Fi and 4G/3G at the same time. &lt;h4>1. Go to Settings and tap Turbo Download.&lt;/h4> &lt;h4>2. Tap the switch to turn on Turbo Download.&lt;/h4> &lt;p>&lt;b>[Tip]&lt;/b> To speed up download if connected to both Wi-Fi and 4G/3G at the start of your download. &lt;p>&lt;b>[Tip]&lt;/b> If your Wi-Fi or 4G/3G connection is too slow, you can use your faster network connection to download. &lt;p>&lt;b>[Tip]&lt;/b> Speed and performance of Turbo Download may be affected network environment while downloading. &lt;br>&amp;nbsp;&amp;nbsp;- If the signals are unstable, the speed and performance of this feature may be affected. &lt;br>&amp;nbsp;&amp;nbsp;- however, on the average, download speed will be doubled than compared to using only Wi-Fi or 4G/3G alone. &lt;p>&lt;b>[Tip]&lt;/b> When the speed difference of Wi-Fi and 4G/3G is large(Normally 2.5 times), the Turbo Download will stop or will not support to avoid getting bad performance with regard to speed. &lt;p>&lt;b>[Tip]&lt;/b> The Turbo Download would be disabled automatically once Tethering/Vpn is turned on. &lt;/body>&lt;/html></string>
+    <string name="hetcomm_help">&lt;html>&lt;body>&lt;h1>Помощь по режиму "Турбо" &lt;/u> &lt;/h1>&lt;br>Загружайте большие файлы быстрее, используя Wi-Fi и 4G/3G сети одновременно. &lt;h4>1. Перейдите в настройки и нажмите "Режим "Турбо"".&lt;/h4> &lt;h4>2. Нажмите на переключатель для включение режима "Турбо".&lt;/h4> &lt;p>&lt;b>[Tip]&lt;/b> To speed up download if connected to both Wi-Fi and 4G/3G at the start of your download. &lt;p>&lt;b>[Tip]&lt;/b> If your Wi-Fi or 4G/3G connection is too slow, you can use your faster network connection to download. &lt;p>&lt;b>[Tip]&lt;/b> Speed and performance of Turbo Download may be affected network environment while downloading. &lt;br>&amp;nbsp;&amp;nbsp;- If the signals are unstable, the speed and performance of this feature may be affected. &lt;br>&amp;nbsp;&amp;nbsp;- however, on the average, download speed will be doubled than compared to using only Wi-Fi or 4G/3G alone. &lt;p>&lt;b>[Tip]&lt;/b> When the speed difference of Wi-Fi and 4G/3G is large(Normally 2.5 times), the Turbo Download will stop or will not support to avoid getting bad performance with regard to speed. &lt;p>&lt;b>[Tip]&lt;/b> The Turbo Download would be disabled automatically once Tethering/Vpn is turned on. &lt;/body>&lt;/html></string>
 </resources>
