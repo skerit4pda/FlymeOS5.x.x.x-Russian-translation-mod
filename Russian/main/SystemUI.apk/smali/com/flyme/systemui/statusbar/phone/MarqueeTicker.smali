@@ -410,7 +410,13 @@
 
     move-result v4
 
-    if-eqz v4, :cond_3
+    if-nez v4, :cond_skip
+
+    invoke-static {v0, v13}, Lcom/flyme/systemui/statusbar/phone/IconScaleTicker;->ScaleTicker(Landroid/content/Context;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v13
+
+    :cond_skip
 
     .line 116
     move-object/from16 v18, v13
