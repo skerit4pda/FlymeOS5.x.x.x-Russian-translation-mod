@@ -18,14 +18,25 @@ if ! mount -o remount,rw /system ; then
 fi
 
 VERSION="5.1"
-echo "Russian translation installer"
-echo "for MEIZU M2 Note (Flyme OS 5.6.4.19)"
 echo " "
 echo " "
-echo "Deleting chinese"
-echo "Waiting..."
-# make system partition writeable
+echo "Russian translation mod installer"
+echo "By flymeos5translate team"
+echo "Script by 1Speede1"
+echo "for Meizu M2 Note (Flyme OS 5.6.4.19)"
+echo " "
+echo " "
+# make partitions writeable
+echo "- Mounting /data, /custom, /system partitions"
+mount /data;
+mount /custom;
+mount /system;
 mount -o remount,rw -t auto /data;
+mount -o remount,rw -t auto /custom;
+mount -o remount,rw -t auto /system;
+
+# delete chinese apps
+echo "- Deleting chinese"
 rm -rf /data/data/com.meizu.mstore;
 rm -rf /data/data/com.meizu.mstore-1;
 rm -rf /data/data/com.meizu.mstore-3;
@@ -101,9 +112,7 @@ rm -rf /data/data/com.android.settings/cache;
 rm -rf /data/data/com.android.dialer/databases;
 rm -rf /data/data/com.android.dialer/cache;
 rm -rf /data/data/com.meizu.flyme.input/databases;
-mount -o remount,rw -t auto /custom;
 rm -rf /custom/3rd-party/apk/*;
-mount -o remount,rw -t auto /system;
 rm -rf /system/priv-app/EBook;
 rm -rf /system/priv-app/AliAppAccount;
 rm -rf /system/priv-app/MzAccountPlugin;
@@ -125,11 +134,9 @@ rm -rf /system/app/Reader;
 rm -rf /system/app/Search;
 rm -rf /system/app/Weather;
 rm -rf /system/app/O2OService;
-echo " "
-echo " "
-echo "Installation RUS&Gapps"
-echo "Waiting..."
 
+# install russification and Google Apps
+echo "- Installing russification and GApps"
 # make missing directories, set owner and permissions
 find . -type d | grep -vE "^\.$|META-INF" | while read ; do
     if [ ! -d "${REPLY#.}" ] ; then 
@@ -162,9 +169,6 @@ if [ -d system/xbin ] ; then
         chmod 755 "/$REPLY"
     done
 fi
-echo " "
-echo " "
-echo "Installation complete!"
-echo "Reboot..."
+echo "- Installation complete!"
 reboot
 
