@@ -586,14 +586,14 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Настройки</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="bitrate">%d Kbps</string>
+    <string name="bitrate">%d Кбит/с</string>
     <string name="fast_scroll_alphabet">\#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="flyme_music">Музыка_Flyme</string>
     <string name="free_flow">Бесплатно</string>
     <string name="get_month">Месяц</string>
     <string name="get_today">Сегодня</string>
     <string name="hello_world">Hello world!</string>
-    <string name="mc_action_settings">Settings</string>
+    <string name="mc_action_settings">Настройки/string>
     <string name="mc_app_name">MeizuCommon</string>
     <string name="mc_hello_world">Hello world!</string>
     <string name="mc_pattern_hour_minute" formatted="false">%H:%M</string>
