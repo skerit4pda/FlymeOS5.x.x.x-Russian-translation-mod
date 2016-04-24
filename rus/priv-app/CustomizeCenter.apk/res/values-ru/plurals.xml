@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="color_ring_dialog_title">
+        <item quantity="other">Установка рингтона за %d RMBs в месяц</item>
+    </plurals>
+    <plurals name="color_ring_ring_info">
+        <item quantity="other">1. Платная опция, %d в месяц</item>
+    </plurals>
+    <plurals name="color_ring_vip_info">
+        <item quantity="other">%1$d. Платная опция, %2$d юан./месяц</item>
+    </plurals>
+    <plurals name="evaluate_count">
+        <item quantity="other">%d всего</item>
+    </plurals>
+    <plurals name="theme_updates">
+        <item quantity="other">Можно обновить %d тему(ы)</item>
+    </plurals>
+    <plurals name="theme_updates_complete">
+        <item quantity="other">Обновлено тем: %1$d</item>
+    </plurals>
+</resources>
