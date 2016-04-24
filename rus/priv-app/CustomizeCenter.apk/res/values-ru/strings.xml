@@ -43,7 +43,7 @@
     <string name="apply">Применить</string>
     <string name="apply_both_wallpaper">На оба экрана</string>
     <string name="apply_launcher_wallpaper">На рабочий стол</string>
-    <string name="apply_lock_wallpaper">На эран блокировки</string>
+    <string name="apply_lock_wallpaper">На экран блокировки</string>
     <string name="apply_smart_wallpaper">Смарт-обои</string>
     <string name="apply_wallpaper_menu_title">Применить</string>
     <string name="applying_wallpaper">Установка обоев</string>
@@ -237,17 +237,17 @@
     <string name="mc_permission_apply">Разрешения</string>
     <string name="mc_permission_message_content">%1$s требуется %2$s %3$d разрешений</string>
     <string name="mc_pm_allow_check_app">Разрешить</string>
-    <string name="mc_pm_allow_dialog_push">Разрешить Push</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
     <string name="mc_pm_bluetooth">Bluetooth</string>
     <string name="mc_pm_call">Вызов</string>
     <string name="mc_pm_call_log">Читать журнал вызовов</string>
     <string name="mc_pm_camera">Камера (Фото/Видео)</string>
     <string name="mc_pm_close">Выкл.</string>
     <string name="mc_pm_contacts">Читать контакты</string>
-    <string name="mc_pm_dialog_push">Всплывающий Push</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
     <string name="mc_pm_dlg_cancel">Отмена</string>
     <string name="mc_pm_dlg_ok">ОК</string>
-    <string name="mc_pm_location">Позиционирование</string>
+    <string name="mc_pm_location">Местоположение</string>
     <string name="mc_pm_network">Передача данных</string>
     <string name="mc_pm_nfc">NFC</string>
     <string name="mc_pm_not_allow_check_app">Запретить</string>
@@ -282,7 +282,7 @@
     <string name="mc_voice_icon">Голосовой поиск</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
     <string name="mix_apply">Применить</string>
     <string name="mix_apply_message">Смешанная тема</string>
@@ -291,7 +291,7 @@
     <string name="mix_default">По умолчанию</string>
     <string name="mix_font_item">Шрифт</string>
     <string name="mix_icon_item">Значок</string>
-    <string name="mix_lock_screen_item">Экран блокиировки</string>
+    <string name="mix_lock_screen_item">Экран блокировки</string>
     <string name="mix_module_title">Модуль</string>
     <string name="mix_plugin_item">Виджет</string>
     <string name="mix_style_title">Стиль</string>
@@ -315,7 +315,7 @@
     <string name="mz_date_time_sec">с</string>
     <string name="mz_date_time_year">г</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
-    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
     <string name="mzuc_cancel">Отменить</string>
     <string name="mzuc_cancel_download">Отменить загрузку</string>
