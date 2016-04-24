@@ -42,9 +42,9 @@
     <string name="mobile_provisioning_url" />
     <string name="mobile_redirected_provisioning_url">http://google.com</string>
     <string name="gsm_alphabet_default_charset" />
-    <string name="db_default_journal_mode">PERSIST</string>
-    <string name="db_default_sync_mode">FULL</string>
-    <string name="db_wal_sync_mode">FULL</string>
+    <string name="db_default_journal_mode">ЗАЩИЩЕННЫЙ</string>
+    <string name="db_default_sync_mode">ПОЛНЫЙ</string>
+    <string name="db_wal_sync_mode">ПОЛНЫЙ</string>
     <string name="config_useragentprofile_url" />
     <string name="config_mms_user_agent">Android-Mms/0.1</string>
     <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
@@ -92,7 +92,7 @@
     <string name="font_family_body_1_material">sans-serif</string>
     <string name="font_family_caption_material">sans-serif</string>
     <string name="font_family_button_material">sans-serif-medium</string>
-    <string name="byteShort">Б</string>
+    <string name="byteShort">Байт</string>
     <string name="kilobyteShort">Кб</string>
     <string name="megabyteShort">Мб</string>
     <string name="gigabyteShort">Гб</string>
