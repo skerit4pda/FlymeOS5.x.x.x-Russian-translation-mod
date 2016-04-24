@@ -26,6 +26,7 @@ echo "Script by 1Speede1"
 echo "for Meizu M2 Note (Flyme OS 5.6.4.19)"
 echo " "
 echo " "
+
 # make partitions writeable
 echo "- Mounting /data, /custom, /system partitions"
 mount /data;
