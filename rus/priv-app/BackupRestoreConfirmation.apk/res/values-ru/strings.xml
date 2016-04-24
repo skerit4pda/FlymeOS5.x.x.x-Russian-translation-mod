@@ -14,8 +14,8 @@
   <string name="deny_restore_button_label">Не восстанавливать</string>
   <string name="current_password_text">Введите пароль резервного копирования:</string>
   <string name="device_encryption_restore_text">Введите пароль шифрования:</string>
-  <string name="device_encryption_backup_text">Введите пароль шифрования. Данная операция так же зашифрует архив с резервной копией</string>
-  <string name="backup_enc_password_text">Введите пароль для использования шифрования резервной копии. Если оставить данное поле пустым, будет использован пароль по умолчанию:</string>
+  <string name="device_encryption_backup_text">Введите пароль шифрования. Данная операция также зашифрует архив с резервной копией</string>
+  <string name="backup_enc_password_text">Введите пароль для шифрования резервной копии. Если оставить данное поле пустым, будет использован пароль по умолчанию:</string>
   <string name="backup_enc_password_optional">Если вы ходите зашифровать резервную копию данных - введите пароль:</string>
   <string name="backup_enc_password_required">При включенном шифровании устройства, необходимо зашифровать резервную копию. Введите пароль:</string>
   <string name="restore_enc_password_text">Если данные восстановления зашифрованы - введите пароль:</string>
