@@ -161,7 +161,7 @@
     <string name="enable_3G_service">Включить 3G</string>
     <string name="setting_for_3G_service">Сервис 3G</string>
     <string name="confirm_4g_3g_switch">Установить службу 4G/3G на данной SIM-карте? При этом данная SIM-карта будет автоматически установлена как SIM-карта по умолчанию для видеовызовов.</string>
-    <string name="confirm_4g_3g_switch_to_off">Are you sure you want to turn off 4G/3G service? This will also turn off Video call service automatically.</string>
+    <string name="confirm_4g_3g_switch_to_off">Отключить службу 4G/3G на данной SIM-карте? При этом настройки видеовызова будут сброшены автоматически.</string>
     <string name="enable_4g_3g_service">Включить 4G/3G</string>
     <string name="setting_for_4g_3g_service">Сервис 4G/3G</string>
     <string name="gemini_4g_3g_disable_warning_case1">4G/3G-сервис недоступен для этой SIM-карты.Это может стать причиной низкой скорости передачи данных. Вы можете изменить это в Настройки > Мобильная сеть > Режим сети. Выбрать эту SIM-карту?</string>
@@ -315,7 +315,7 @@
     <string name="simContacts_emptyLoading_ex">Чтение контактов с SIM 1…</string>
     <string name="one_retry_left">Осталась одна попытка</string>
     <string name="retries_left">Осталось попыток: %d</string>
-    <string name="pin2_unblocked">Код PIN2 разблокирован</string>
+    <string name="pin2_unblocked">PIN2 разблокирован</string>
     <string name="unblock_pin2">Разблокировать PIN2</string>
     <string name="sim_permanently_locked">Ввод неверного кода PUK2 более 10 раз, SIM-карта временно блокирована</string>
     <string name="pin_length_indicate">(4-8 символов)</string>
@@ -343,17 +343,17 @@
     <string name="incomingcall_settings_title">Входящий вызов</string>
     <string name="misccall_settings_title">Others</string>
     <string name="vibrate_on_connected_toggle_title">Вибрация при соединении</string>
-    <string name="vibrate_on_connected_toggle_summary">Vibrate when call is connected</string>
-    <string name="toggle_auto_insert_prefix_title">Auto-add prefix/IP number</string>
+    <string name="vibrate_on_connected_toggle_summary">Вибрации при соединение с абонентом </string>
+    <string name="toggle_auto_insert_prefix_title">Автодобавление префикса/IP номера</string>
     <string name="toggle_auto_insert_prefix_summary">Долгое нажатие для добавления префикса к номеру</string>
     <string name="toggle_auto_insert_prefix">Долгое нажатие для добавления префикса</string>
     <string name="labelBtnInsertPrefixNumber">Префикс номера</string>
     <string name="auto_record_when_calling_title">Запись вызовов</string>
-    <string name="auto_record_when_calling_summary">No effect when call in progress via Bluetooth headset</string>
+    <string name="auto_record_when_calling_summary">Запись не происходит при звонке через Bluetooth-гарнитуру</string>
     <string name="epnp_disableallcf">Отключить всю переадресацию</string>
-    <string name="summary_setting_in_progress">Setting in progress</string>
-    <string name="call_first_settings_title">Prioritize calls</string>
-    <string name="call_first_settings_summary">Only for GSM mode</string>
+    <string name="summary_setting_in_progress">Настройка...</string>
+    <string name="call_first_settings_title">Приоритет вызовов</string>
+    <string name="call_first_settings_summary">Только для режима GSM/2G</string>
     <string name="labelCFNRc_ex">Когда нет ответа</string>
     <string name="phone_number_transfer_title">Перевод средств через телефон</string>
     <string name="phone_number_transfer_summary">Перевести средства получателю с помощью мобильного телефона</string>
@@ -390,8 +390,8 @@
     <string name="waitingcall_answer">+ Answer</string>
     <string name="waitingcall_answer_with_quote">\" + Answer</string>
     <string name="waitingcall_answer_and_hangup_all">Hang up other calls + Answer</string>
-    <string name="waitingcall_current_call">current call</string>
-    <string name="reject_dec">Decline</string>
+    <string name="waitingcall_current_call">Текущий вызов</string>
+    <string name="reject_dec">Отклонить</string>
     <string name="stop_record_for_sd_nospace">Недостаточно места. Невозможно инициализировать запись</string>
     <string name="stop_record_for_bluetooth">Вызов через Bluetooth-гарнитуру активен. Включить запись разговоров нельзя.</string>
     <string name="stop_record_for_start_error">Start Phone Record Failed!</string>
@@ -408,8 +408,8 @@
     <string name="reject_outof_phonebook_toggle_title">Блокир. вызовы от неизвестных</string>
     <string name="reject_outof_phonebook_toggle_summary">Международные вызовы разрешены</string>
     <string name="spam_call_filter_title">Блокировка вызовов</string>
-    <string name="spam_call_filter_summary">Blocked calls will show in the recent call list</string>
-    <string name="waitingCallText">Waiting</string>
+    <string name="spam_call_filter_summary">Блокированные вызовы будут отображатся в журнале звонков</string>
+    <string name="waitingCallText">Ожидание</string>
     <string name="forwardedCallText">Forwarded Call</string>
     <string name="callForwardedText">Call Forwarded</string>
     <string name="card_title_alerting">Alerting</string>
@@ -432,52 +432,52 @@
     <string name="record_return_normal">Back to normal</string>
     <string name="record_end_call">End</string>
     <string name="hang_up_record">Hang up \"recording message</string>
-    <string name="deline_call">deline</string>
+    <string name="deline_call">Отклонить</string>
     <string name="labelRecordEnabled">Запись вызовов включена</string>
     <string name="labelRecordDisabled">Call Record Disabled</string>
     <string name="speed_dial">Быстрый набор</string>
-    <string name="menu_stats_refresh">Refresh</string>
-    <string name="location_settings_title">Location services</string>
-    <string name="data_usage_flow_limit_disabled">Disabled</string>
-    <string name="merge_reach_max">Merge failed, reach max</string>
+    <string name="menu_stats_refresh">Обновить</string>
+    <string name="location_settings_title">Сервисы местоположения</string>
+    <string name="data_usage_flow_limit_disabled">Отключено</string>
+    <string name="merge_reach_max">Невозможно совместить, достигнут лимит</string>
     <string name="notification_unreadedRecordTitle">Непрочитанная запись</string>
     <string name="notification_unreadedRecordsMsg">%s непрочит. записей</string>
     <string name="notification_unreadedRecordTicker">Непрочитанная запись от %s</string>
     <string name="stop_power_off">Включить</string>
-    <string name="flyme_push_title">Push</string>
-    <string name="flyme_button_close_warning">Please close your Flyme Account</string>
+    <string name="flyme_push_title">Push-уведомления</string>
+    <string name="flyme_button_close_warning">Пожалуйста, закройте аккаунт Flyme</string>
     <string name="flyme_button_close_msg">"disable system push service、lookup phone、
 flyme message and file transfer、contact
  synchronization"</string>
-    <string name="flyme_button_open_warning">Mobile Network data traffic generated</string>
+    <string name="flyme_button_open_warning">Трафик передачи данных мобильной сети сгенерирован</string>
     <string name="contact_title">Аккаунты и контакты</string>
     <string name="account_title">Аккаунты и контакты</string>
     <string name="prior_select_network">Приоритетная сеть</string>
-    <string name="network_index">Network Index</string>
-    <string name="network_name">Network Name</string>
-    <string name="network_id_message">The Length of Network id should be 5 or 6</string>
-    <string name="act_mode_title">ACT mode</string>
+    <string name="network_index">Индекс сети</string>
+    <string name="network_name">Название сети</string>
+    <string name="network_id_message">Длина идент.номера сети должна составлять 5 или 6 символов</string>
+    <string name="act_mode_title">Режим ACT</string>
     <string name="gsm_act">GSM ACT</string>
-    <string name="gsm_compact_act">GSM compact ACT</string>
+    <string name="gsm_compact_act">Компактный GSM ACT</string>
     <string name="utran_act">UTRAN ACT</string>
     <string name="eutran_act">EUTRAN ACT</string>
-    <string name="enable_gsm_act">Enable GSM ACT</string>
-    <string name="disable_gsm_act">Disable GSM ACT</string>
-    <string name="enable_gsm_compact_act">Enable GSM compact ACT</string>
-    <string name="disable_gsm_compact_act">Disable GSM compact ACT</string>
-    <string name="enable_utran_act">Enable UTRAN ACT</string>
-    <string name="disable_utran_act">Disable UTRAN ACT</string>
-    <string name="enable_eutran_act">Enable EUTRAN ACT</string>
-    <string name="disable_eutran_act">Disable EUTRAN ACT</string>
+    <string name="enable_gsm_act">Включить GSM ACT</string>
+    <string name="disable_gsm_act">Отключить GSM ACT</string>
+    <string name="enable_gsm_compact_act">Включить компактный GSM ACT</string>
+    <string name="disable_gsm_compact_act">Отключить компактный GSM ACT</string>
+    <string name="enable_utran_act">Включить UTRAN ACT</string>
+    <string name="disable_utran_act">Отключить UTRAN ACT</string>
+    <string name="enable_eutran_act">ВключитьEUTRAN ACT</string>
+    <string name="disable_eutran_act">Отключить EUTRAN ACT</string>
     <string name="delete">Удалить</string>
-    <string name="store">store</string>
-    <string name="quit">quit</string>
+    <string name="store">хранить</string>
+    <string name="quit">выйти</string>
     <string name="add">Добавить</string>
     <string name="auto_record_all">Все вызовы</string>
     <string name="auto_record_specify">Только контакты</string>
-    <string name="puk2_left_count">Remaining time</string>
-    <string name="puk2_requested_new">Enter PUK2 to change PIN2.</string>
-    <string name="sms_fast_reply">Drag upward for Quick Reply</string>
+    <string name="puk2_left_count">Оставшееся время</string>
+    <string name="puk2_requested_new">Введите PUK2 для изменения PIN2.</string>
+    <string name="sms_fast_reply">Проведите вверх для быстрого ответа</string>
     <string name="non_support_for_sip_call_tip">Эта операция не поддерживает SIP-вызов</string>
     <string name="emergency_calls">Экстренный вызов</string>
     <string name="emergency_calls_reference">Номера экстренных служб</string>
@@ -497,7 +497,7 @@ flyme message and file transfer、contact
     <string name="notification_delete">Удалить</string>
     <string name="flyme_settings_open">Вкл.</string>
     <string name="flyme_settings_close">Выкл.</string>
-    <string name="msg_guest_mode_toast">Message app not available in Guset Mode</string>
+    <string name="msg_guest_mode_toast">Сообщения недоступны в гостевом режиме</string>
     <string name="button_ends_call_prerefence_title">Отбой вызова кнопкой питания</string>
     <string name="app_name_sim1">SIM 1 -</string>
     <string name="app_name_sim2">SIM 2 -</string>
@@ -529,13 +529,13 @@ flyme message and file transfer、contact
     <string name="lte_only_dialog_button_yes">Да</string>
     <string name="lte_only_dialog_button_no">Нет</string>
     <string name="lte_only_dialog_title_prompt">По запросу</string>
-    <string name="only_use_LTE_data">Only Use LTE Data</string>
-    <string name="only_use_LTE_data_summary">To enable only use single data, the function will not be able to use Phone call and text messages.</string>
-    <string name="enable_4G_data">Enable 4G data</string>
-    <string name="enable_4G_data_summary">4G can provide better and faster Internet access</string>
+    <string name="only_use_LTE_data">Только LTE</string>
+    <string name="only_use_LTE_data_summary">При включении режима "Только передача данных" - голосовые вызовы и текстовые сообщения будут недоступны.</string>
+    <string name="enable_4G_data">Включить 4G</string>
+    <string name="enable_4G_data_summary">4G позволяет осуществлять более легкий и быстрый доступ к Интернету</string>
     <string name="sim1_labelCallerId">Номер (SIM 1)</string>
     <string name="sim2_labelCallerId">Номер (SIM 2)</string>
-    <string name="sim_calls_category">Dual sim card</string>
+    <string name="sim_calls_category">Две SIM-карты</string>
     <string name="sim_calls_category_title">SIM-карта для вызова по умолчанию</string>
     <string name="sim_calls_defaule_name">Нет</string>
     <string name="preference_import_contacts_from_storagedisk_title">Импорт с диска</string>
@@ -1066,19 +1066,19 @@ flyme message and file transfer、contact
     <string name="default_transport">UDP</string>
     <string name="sip_always">SIP_ALWAYS</string>
     <string name="sip_address_only">SIP_ADDRESS_ONLY</string>
-    <string name="domain_address">SipDomain</string>
-    <string name="username">UserName</string>
-    <string name="password">Password</string>
-    <string name="display_name">DisplayName</string>
-    <string name="proxy_address">ProxyAddress</string>
-    <string name="port">Port</string>
-    <string name="transport">Protocol</string>
+    <string name="domain_address">Домен Sip</string>
+    <string name="username">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="display_name">Имя пользователя</string>
+    <string name="proxy_address">Адрес прокси</string>
+    <string name="port">Порт</string>
+    <string name="transport">Протокол</string>
     <string name="send_keepalive">SendKeepAlive</string>
-    <string name="advanced_settings_container">advanced settings container</string>
-    <string name="auth_username">AuthUserName</string>
+    <string name="advanced_settings_container">Хранилище дополнительных настроек</string>
+    <string name="auth_username">Имя авториз. пользоват.</string>
     <string name="sip_connection_service_label">Встроенный сервис интернет-вызовов</string>
     <string name="sip_ask_me_each_time">SIP_ASK_ME_EACH_TIME</string>
-    <string name="set_primary">SetPrimary</string>
+    <string name="set_primary">Установить главным</string>
     <string name="dialpad_0_number">0</string>
     <string name="dialpad_1_number">1</string>
     <string name="dialpad_2_number">2</string>
@@ -1152,11 +1152,11 @@ flyme message and file transfer、contact
     <string name="abc_action_bar_home_description">Перейти на главный экран</string>
     <string name="abc_action_bar_up_description">Перейти вверх</string>
     <string name="abc_action_menu_overflow_description">Другие параметры</string>
-    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="abc_toolbar_collapse_description">Критическая ошибка</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_searchview_description_search">Поиск</string>
-    <string name="abc_search_hint">Search…</string>
+    <string name="abc_search_hint">Поиск…</string>
     <string name="abc_searchview_description_query">Поисковый запрос</string>
     <string name="abc_searchview_description_clear">Удалить запрос</string>
     <string name="abc_searchview_description_submit">Отправить запрос</string>
@@ -1180,7 +1180,7 @@ flyme message and file transfer、contact
     <string name="alwaysUse">По умолчанию для этого действия</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
-    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mc_pattern_hour_minute" formatted="false">%H:%M</string>
     <string name="mc_pattern_hour_minute_12" formatted="false">%p %I:%M</string>
     <string name="mc_pattern_week">%a</string>
@@ -1201,8 +1201,8 @@ flyme message and file transfer、contact
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_a_minute_before">1 минуту назад</string>
     <string name="mc_pattern_today">Сегодня</string>
-    <string name="mc_app_name">MeizuCommon</string>
-    <string name="mc_action_settings">Settings</string>
+    <string name="mc_app_name">Общие файлы Meizu</string>
+    <string name="mc_action_settings">Настройки</string>
     <string name="mc_hello_world">Hello world!</string>
     <string name="mc_yes">ОК</string>
     <string name="mc_cancel">Отмена</string>
@@ -1219,7 +1219,7 @@ flyme message and file transfer、contact
     <string name="mc_sunday">ВС</string>
     <string name="mc_never">Единожды</string>
     <string name="mc_every_day">Ежедневно</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_weekend">Выходные</string>
     <string name="mc_date_time_month">м</string>
     <string name="mc_date_time_year">г</string>
@@ -1246,7 +1246,7 @@ flyme message and file transfer、contact
     <string name="mc_pm_s_mms">Послать MMS</string>
     <string name="mc_pm_network">Передача данных</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
-    <string name="mc_pm_location">Позиционирование</string>
+    <string name="mc_pm_location">Местоположение</string>
     <string name="mc_pm_recordaudio_local">Аудиозаписи</string>
     <string name="mc_pm_recordaudio_phone">Записи разговоров</string>
     <string name="mc_pm_camera">Камера (Фото/Видео)</string>
@@ -1258,14 +1258,14 @@ flyme message and file transfer、contact
     <string name="mc_pm_dlg_cancel">Отмена</string>
     <string name="mc_pm_bluetooth">Bluetooth</string>
     <string name="mc_pm_nfc">NFC</string>
-    <string name="mc_pm_dialog_push">Всплывающий Push</string>
-    <string name="mc_pm_allow_dialog_push">Разрешить Push</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
     <string name="mc_pm_not_allow_dialog_push">Отключить</string>
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_set_bluetooth_on">Включить Bluetooth</string>
     <string name="mc_pm_set_gprs_on">Включить передачу данных</string>
     <string name="mc_pm_online_intenert">Интернет</string>
-    <string name="mc_pull_refresh">Вниз для обновления</string>
+    <string name="mc_pull_refresh">Проведите вниз для обновления</string>
     <string name="mc_is_Refreshing">Обновление</string>
     <string name="mc_go_Refreshing">Обновить</string>
     <string name="mc_last_refresh">Последнее обновление</string>
@@ -1282,92 +1282,5 @@ flyme message and file transfer、contact
     <string name="mc_disable">Отключить</string>
     <string name="mc_time_picker_leap">Встав.</string>
     <string name="mc_loading_view_text">Загрузка</string>
-    <item type="string" name="APKTOOL_DUMMY_02d2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02d8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02db">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02dc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02dd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_030c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_030d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0311">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0312">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0357">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03fd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03ff">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0400">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0401">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0402">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0403">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0404">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0405">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0406">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0407">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0408">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0409">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0426">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0429">false</item>
-    <item type="string" name="APKTOOL_DUMMY_042c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_042d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_042e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_042f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0430">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0431">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04ba">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04bb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04bc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04bd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04be">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02c1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02c2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02cc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02cf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02d4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02d6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02d7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02d9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02eb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02f4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_02fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0306">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0307">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0308">false</item>
-    <item type="string" name="APKTOOL_DUMMY_030b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_030f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0310">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0314">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0348">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0349">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0351">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0356">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0358">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0359">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03b5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03f7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03f9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03fa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_03fe">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0410">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0411">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0412">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0420">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0423">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0427">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0428">false</item>
-    <item type="string" name="APKTOOL_DUMMY_042a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_042b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_043a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_04b7">false</item>
 </resources>
 
