@@ -40,7 +40,7 @@
     <string name="connect_text">Подключить</string>
     <string name="content_text" formatted="false">%s папок, %s файлов</string>
     <string name="content_title">Данные:  </string>
-    <string name="copy_to_here">Копировать сюда</string>
+    <string name="copy_to_here">Копировать</string>
     <string name="copying">Копирование</string>
     <string name="date_am">д.п.</string>
     <string name="date_pm">п.п.</string>
@@ -82,8 +82,8 @@
     <string name="extract_to_here">Извлечь сюда</string>
     <string name="extracting">Извлечение</string>
     <string name="fast_folder">Избранное</string>
-    <string name="fastfolder_count">Удаление избранных папок: %s</string>
-    <string name="fastfolder_delete">Удалено</string>
+    <string name="fastfolder_count">Удаление выбранных папок: %s</string>
+    <string name="fastfolder_delete">Удалить</string>
     <string name="file_count">%s</string>
     <string name="file_exists">Имя файла уже существует</string>
     <string name="file_limit_error">Путь к файлу слишком длинный, сократите путь</string>
@@ -222,7 +222,7 @@
     <string name="menu_move_to_security_title">Переместить в хранилище</string>
     <string name="menu_open_title">Открыть через...</string>
     <string name="menu_rename_limit_text">Можно переименовать до 100 файлов</string>
-    <string name="menu_rename_title">Переименовать</string>
+    <string name="menu_rename_title">Переименовать:</string>
     <string name="menu_save_title">Сохранить</string>
     <string name="menu_share_limit_text">Вы можете передать до 100 файлов.</string>
     <string name="menu_share_title">Передать</string>
@@ -245,7 +245,7 @@
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Нет</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="mz_date_time_day">д</string>
     <string name="mz_date_time_hour">ч</string>
     <string name="mz_date_time_min">м</string>
@@ -292,7 +292,7 @@
     <string name="none_space">Недостаточно места</string>
     <string name="none_space_text">Недостаточно места</string>
     <string name="normal_toolbar_title">Выбрать файлы</string>
-    <string name="not_show_hidden_file_text">Не показывать скрытые файлы/папки</string>
+    <string name="not_show_hidden_file_text">Не показывать скрытые элементы</string>
     <string name="notif_server_restart">FTP перезагружен</string>
     <string name="notif_server_starting">FTP запущен</string>
     <string name="notif_title">FTP запущен</string>
@@ -328,7 +328,7 @@
     <string name="save_to_here">Сохранить сюда</string>
     <string name="saved_to">Сохранено в %s</string>
     <string name="saving">Сохранение</string>
-    <string name="sdcard_capacity_title">Карта памяти</string>
+    <string name="sdcard_capacity_title">SD карта</string>
     <string name="sdcard_name">Диск</string>
     <string name="search_select_text_all">Все</string>
     <string name="search_select_text_apk">APK</string>
@@ -341,8 +341,8 @@
     <string name="server_control_charset">Кодирование передачи</string>
     <string name="setting">Настройки</string>
     <string name="share_dialog_title">Передать</string>
-    <string name="show_hidden_file_text">Показывать скрытые файлы/папки</string>
-    <string name="size_info">%1$s из %2$s доступно</string>
+    <string name="show_hidden_file_text">Показывать скрытые элементы</string>
+    <string name="size_info">Доступно: %1$s из %2$s</string>
     <string name="size_title">Размер:  </string>
     <string name="sort_by_date">По дате</string>
     <string name="sort_by_name">По имени</string>
