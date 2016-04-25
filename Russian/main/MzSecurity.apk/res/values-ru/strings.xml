@@ -1079,4 +1079,5 @@
     <string name="title_app_cutawaken">Откл. общий запуск в режиме сна</string>
     <string name="app_standby_management">Управление спящим режимом</string>
     <string name="cleaned_junk_files">Очищено %1$s мусора</string>
+    <string name="remainTraffic">Остаток трафика</string>
 </resources>
