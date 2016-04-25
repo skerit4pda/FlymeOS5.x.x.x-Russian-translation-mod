@@ -24,8 +24,8 @@
      <string name="call_log">Чтение истории вызовов</string>
      <string name="call_log_c">Чтение истории вызовов</string>
      <string name="camera">Камера (Фото/Видео)</string>
-     <string name="change_num">Update</string>
-     <string name="chooseDefLauncher">выберите Домашний экран по умолчанию</string>
+     <string name="change_num">Обновить</string>
+     <string name="chooseDefLauncher">Выберите Домашний экран по умолчанию</string>
      <string name="clckDisableSmsFault">Не удалось отключить SMS</string>
      <string name="clckDisableVoiceFault">Не удалось отключить голос</string>
      <string name="clckDisableVoiceFaultSmsOK">SMS disabled successfully, fail to disable voice</string>
@@ -36,7 +36,7 @@
      <string name="clckEnableVoiceOKSmsFault">Voice enabled successfully, failed to enable SMS</string>
      <string name="close">Выкл.</string>
      <string name="config_def_theme">nrsnh</string>
-     <string name="config_default_location_provider_mode">auto</string>
+     <string name="config_default_location_provider_mode">Авто</string>
      <string name="confirm_access_password_tip">Введите пароль</string>
      <string name="confirm_password_error">Неверный пароль! Попробуйте снова.</string>
      <string name="contacts">Чтение контактов</string>
@@ -51,8 +51,8 @@
      <string name="d_mms_c">Удаление MMS</string>
      <string name="d_sms">Удаление SMS</string>
      <string name="d_sms_c">Удаление SMS</string>
-     <string name="date_time_set">Set</string>
-     <string name="delete">Delete</string>
+     <string name="date_time_set">Установить</string>
+     <string name="delete">Удалить</string>
      <string name="dexopt_apps_apk">Оптимизация приложений %1$d/%2$d</string>
      <string name="dexopt_apps_title">Оптимизация приложений,</string>
      <string name="dialog_push">Всплывающие уведомления</string>
@@ -85,7 +85,7 @@
      <string name="gesture_data_path_string">/sys/devices/platform/mx-gs/gesture_data</string>
      <string name="global_action_power_restart">Перезагрузить</string>
      <string name="global_action_shut_down">Выключить</string>
-     <string name="global_actions_toggle_airplane_mode">Полет</string>
+     <string name="global_actions_toggle_airplane_mode">Полёт</string>
      <string name="hall_state_path_string">/sys/devices/platform/gpio-keys.0/key_hall_state</string>
      <string name="hour">Часы</string>
      <string name="launcher_choose_hint">Setting/Customize set the default Launcher</string>
@@ -93,7 +93,7 @@
      <string name="location">Определение местоположения</string>
      <string name="location_c">Определение местоположения</string>
      <string name="lock_month_day">д ММММ,</string>
-     <string name="lock_password_left_times">%s attempt(s) left to enter the password!</string>
+     <string name="lock_password_left_times">%s попыт. осталось для введения пароль!</string>
      <string name="lock_week">(EEE) д ММММ</string>
      <string name="lockscreen_carrier_default">Нет сети</string>
      <string name="low_internal_storage_view_title">Внутреннее хранилище заполнено</string>
@@ -109,7 +109,7 @@
      <string name="mz_drive_mode_message">Нажмите, чтобы просмотреть детали</string>
      <string name="mz_drive_mode_title">Ассистент Вождения активирован</string>
      <string name="mz_font_family_button_alertdialog">sans-serif</string>
-     <string name="mz_fp_verify_failed">"Fingerprints don't match"</string>
+     <string name="mz_fp_verify_failed">"Отпечатки не совпадают"</string>
      <string name="mz_go_Refreshing">Перезагрузите</string>
      <string name="mz_is_Refreshing">Перезагрузка</string>
      <string name="mz_low_battery_upgrade_tips">The update will be installed after your phone is rebooted. Currently battery is low, please connect your charger and then tap Reboot now.</string>
@@ -125,7 +125,7 @@
      <string name="mz_permlab_networkUpgrade">Обновление сети</string>
      <string name="mz_pull_refresh">Потяните, чтобы обновить</string>
      <string name="mz_resolver_back">Отменить</string>
-     <string name="mz_resolver_default_app">Default</string>
+     <string name="mz_resolver_default_app">По умолчанию</string>
      <string name="mz_resolver_grid_text_more">Ещё</string>
      <string name="mz_share_title">Выберите способ отправки</string>
      <string name="mz_sina_weibo">Weibo</string>
@@ -175,16 +175,16 @@
      <string name="oper_short_46697">TWN</string>
      <string name="oper_short_99997">AD1</string>
      <string name="oper_short_99999">AD</string>
-     <string name="pattern_a_hour_before">an hour ago</string>
-     <string name="pattern_a_minute_before">a minute ago</string>
-     <string name="pattern_hour_before">, hours ago</string>
+     <string name="pattern_a_hour_before">час назад</string>
+     <string name="pattern_a_minute_before">минуту назад</string>
+     <string name="pattern_hour_before">, часов назад</string>
      <string name="pattern_hour_minute">%H:%M</string>
      <string name="pattern_hour_minute_12">%p %I:%M</string>
-     <string name="pattern_minute_before">, minutes ago</string>
+     <string name="pattern_minute_before">, минут назад</string>
      <string name="pattern_month_day">%-m/%-e</string>
      <string name="pattern_month_day_hour_minute">%-m/%-e %H:%M</string>
      <string name="pattern_month_day_hour_minute_12">%-m/%-e %p %I:%M</string>
-     <string name="pattern_today">Today</string>
+     <string name="pattern_today">Сегодня</string>
      <string name="pattern_week">%a</string>
      <string name="pattern_week_hour_minute">%a %H:%M</string>
      <string name="pattern_week_hour_minute_12">%a %p %I:%M</string>
@@ -194,7 +194,7 @@
      <string name="pattern_year_month_day">%Y/%-m/%-e</string>
      <string name="pattern_year_month_day_hour_minute">%Y/%-m/%-e %H:%M</string>
      <string name="pattern_year_month_day_hour_minute_12">%Y/%-m/%-e %p %I:%M</string>
-     <string name="pattern_yesterday">Yesterday</string>
+     <string name="pattern_yesterday">Вчера</string>
      <string name="perm_alert">Всплывающие окна</string>
      <string name="perm_aotulunch">Автозапуск</string>
      <string name="perm_notification">Уведомления</string>
@@ -244,7 +244,7 @@
      <string name="recordaudio_phone">Записи звонков</string>
      <string name="remember_me">Запомнить мой выбор</string>
      <string name="requestNotSupported">This operation is not supported</string>
-     <string name="ringtone_default">Default ringtone</string>
+     <string name="ringtone_default">Рингтон по умолчанию</string>
      <string name="ringtone_silent">None</string>
      <string name="ringtone_unknown">Без звука</string>
      <string name="s_mms">Отправка MMS</string>
@@ -258,7 +258,7 @@
      <string name="set_gprs_on_c">Использование мобильных данных</string>
      <string name="set_wifi_on">Включение Wi-Fi</string>
      <string name="set_wifi_on_c">Включение Wi-Fi</string>
-     <string name="share">Share</string>
+     <string name="share">Поделиться</string>
      <string name="socialProfileTypeCustom">Custom</string>
      <string name="socialProfileTypeOther">Other</string>
      <string name="socialProfileTypeSinaWeibo">Sina Weibo</string>
@@ -324,7 +324,7 @@
      <string name="specail_number_zhiliang">质量监督服务热线</string>
      <string name="specail_number_zhongguo">中国银行</string>
      <string name="specail_number_zhongxin">中信银行</string>
-     <string name="storage_sd_card">SD Card</string>
+     <string name="storage_sd_card">SD Карта</string>
      <string name="tethered_notification_message">Нажмите для настройки</string>
      <string name="tethered_notification_message_devices">Точка доступа активна: %1$d подключений</string>
      <string name="tethered_notification_message_devices_title">Устройств подключено: %1$d</string>
@@ -342,7 +342,7 @@
      <string name="voice_text_normal">Press and hold it while speaking</string>
      <string name="voice_text_over">Release to end</string>
      <string name="voice_text_press">Slip on your fingers to cancel</string>
-     <string name="voice_text_remain">Can speak%sseconds</string>
+     <string name="voice_text_remain">Can speak %s seconds</string>
      <string name="vpn_can_not_load_credential">No certificate</string>
      <string name="vpn_no_network">Not connected to the network. Please try again later</string>
      <string name="w_call_log">Редактирование истории вызовов</string>
