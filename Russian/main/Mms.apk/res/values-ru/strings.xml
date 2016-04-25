@@ -503,10 +503,10 @@
     <string name="message_favorite_label">Избранное</string>
     <string name="message_has_expire_title">Сообщение истекло</string>
     <string name="message_has_expired">Срок действия истек. Не может быть загружено.</string>
-    <string name="message_notice_label">Уведомления</string>
-    <string name="message_notice_labell_has_unread">Уведомл. %s</string>
-    <string name="message_person_label">Личное</string>
-    <string name="message_person_label_has_unread">Непрочит. %s</string>
+    <string name="message_notice_label">Сообщения</string>
+    <string name="message_notice_labell_has_unread">Принято %s</string>
+    <string name="message_person_label">Беседы</string>
+    <string name="message_person_label_has_unread">Принято %s</string>
     <string name="message_popup_veri_close">Закрыть</string>
     <string name="message_popup_veri_copy">Копировать</string>
     <string name="message_popup_veri_tip">Код подтверждения</string>
