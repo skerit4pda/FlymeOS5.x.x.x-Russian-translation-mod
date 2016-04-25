@@ -179,23 +179,23 @@
         <item>Добавить в контакты</item>
     </string-array>
     <string-array name="urlspan_email_dialog_title">
-        <item>Send e-mail</item>
+        <item>Отправить Email</item>
         <item>Копировать</item>
         <item>Добавить в контакты</item>
     </string-array>
     <string-array name="urlspan_date_dialog_title">
-        <item>New Event</item>
-        <item>Open In Calendar</item>
+        <item>Новое событие</item>
+        <item>Открыть в календаре</item>
         <item>Копировать</item>
     </string-array>
     <string-array name="urlspan_open_dialog_title">
-        <item>Open</item>
+        <item>Открыть</item>
         <item>Копировать</item>
     </string-array>
     <string-array name="urlspan_open_dialog_title_chinamobile">
-        <item>Open</item>
+        <item>Открыть</item>
         <item>Копировать</item>
-        <item>Add To BookMark</item>
+        <item>Добавить в избранное</item>
     </string-array>
     <string-array name="calendar_week_title">
         <item>Вс</item>
