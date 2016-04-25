@@ -392,6 +392,8 @@
     <string name="touch_3d_horoscope">Гороскоп</string>
     <string name="touch_3d_new_event">Новое событие</string>
     <string name="touch_3d_search">Поиск</string>
-	<string name="new_event_smart_bar">Новое событие</string>
-	<string name="event_smart_bar">Список событий</string>
+    <string name="new_event_smart_bar">Новое событие</string>
+    <string name="event_smart_bar">Список событий</string>
+    <string name="in_num_calc_after">%d дн. вперёд</string>
+    <string name="in_num_calc_ago">%d дн. назад</string>
 </resources>
