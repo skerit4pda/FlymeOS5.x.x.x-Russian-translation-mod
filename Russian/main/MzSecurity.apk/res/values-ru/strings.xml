@@ -275,7 +275,7 @@
     <string name="clear_sdk_lost_dir">Потерянные системные файлы</string>
     <string name="clear_sdk_temp_file">Временные файлы</string>
     <string name="clear_sdk_thumbnail">Эскизы галереи</string>
-    <string name="clear_sdk_thumbnail_invalid">Ошибочные миниатюры галереи</string>
+    <string name="clear_sdk_thumbnail_invalid">Ошибочные эскизы галереи</string>
     <string name="close_perm_manage">Управление разрешениями</string>
     <string name="cloud_query">Поиск в облаке</string>
     <string name="collision_lite_version_toast">Обнаружен конфликт безопасности lite-версии! Спам-блокировка будет временно отключена.</string>
@@ -370,7 +370,7 @@
     <string name="high_power_save_subtitle">Время работы увеличено на 30%</string>
     <string name="high_power_save_title">Основн.</string>
     <string name="import_str">Импорт</string>
-    <string name="inint_stat_circle">Фоновый звук при инициации</string>
+    <string name="inint_stat_circle">Фоновый звук при включении</string>
     <string name="initMounthAccountDate">1-й день каждого месяца</string>
     <string name="installed">Установлено</string>
     <string name="insurance_name">Страхование от несчастных случаев</string>
@@ -383,7 +383,7 @@
     <string name="junior_power_save_subtitle">Сохраняется около 10%</string>
     <string name="junk_apk_num">Неиспользуемых APK: %1$s</string>
     <string name="junk_app_cache_num">Кэш ПО: %1$s</string>
-    <string name="junk_clear_mode">Лечение</string>
+    <string name="junk_clear_mode">Режим очистки</string>
     <string name="junk_system_cache_num">Системный кэш: %1$s</string>
     <string name="junk_system_num">Ненужных файлов: %1$s</string>
     <string name="junk_timer_clear_mode1">Сканировать без очистки</string>
@@ -864,8 +864,8 @@
     <string name="sysclear_trash_lost_find">Фрагментированные файлы</string>
     <string name="sysclear_trash_pushLog">Лог GDC push</string>
     <string name="sysclear_trash_rt_anr">Лог зависания системы</string>
-    <string name="sysclear_trash_rt_apps">APK</string>
-    <string name="sysclear_trash_rt_dalvik">Остаточный кэш Dalvik</string>
+    <string name="sysclear_trash_rt_apps">APK файлы</string>
+    <string name="sysclear_trash_rt_dalvik">Dalvik кэш</string>
     <string name="sysclear_trash_rt_log">Лог запуска</string>
     <string name="sysclear_trash_rt_lost">Корзина системы</string>
     <string name="sysclear_trash_rt_tmp">Лог временных файлов</string>
