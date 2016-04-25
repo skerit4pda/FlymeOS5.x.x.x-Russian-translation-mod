@@ -90,7 +90,7 @@
     <string name="mc_date_time_sec">с</string>
     <string name="mc_date_time_set">Выбрать</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
-    <string name="mc_custom_date_time_gregorian">Григориан.</string>
+    <string name="mc_custom_date_time_gregorian">Григор.</string>
     <string name="mc_permission_apply">Запрос разрешений</string>
     <string name="mc_alway_allow">Всегда разрешать</string>
     <string name="mc_reject">Запретить</string>
@@ -146,7 +146,7 @@
     <string name="mc_cancel_collected_message">Удалено из избранного</string>
     <string name="mc_praised_message">Нравится</string>
     <string name="mc_cancel_praised_message">Не нравится</string>
-    <string name="mc_time_picker_leap">Leap month</string>
+    <string name="mc_time_picker_leap">Високосный месяц</string>
     <string name="mc_loading_view_text">Загрузка</string>
     <string name="mc_value_checked">Выбрано</string>
     <string name="mc_value_not_checked">Не выбрано</string>
