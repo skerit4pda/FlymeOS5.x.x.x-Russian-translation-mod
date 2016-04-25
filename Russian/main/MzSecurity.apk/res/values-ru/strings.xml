@@ -13,7 +13,7 @@
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
     <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
     <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
-    <string name="BG_Description">Фоновая картинка</string>
+    <string name="BG_Description">Фон</string>
     <string name="Day">" д."</string>
     <string name="DayUsed">За сегодня</string>
     <string name="MouthUsed">За месяц</string>
@@ -37,7 +37,7 @@
     <string name="PERM_ID_SETTINGS">Системные настройки</string>
     <string name="PERM_ID_SMSDB">Читать историю SMS</string>
     <string name="PERM_ID_VIDEO_RECORDER">Камера</string>
-    <string name="PERM_ID_WIFI_CONNECTIVITY">Включение Wi-Fi</string>
+    <string name="PERM_ID_WIFI_CONNECTIVITY">Включать Wi-Fi</string>
     <string name="PERM_ID_WRITE_CALLLOG">Изменять историю вызовов</string>
     <string name="PERM_ID_WRITE_CONTACT">Изменять записи контактов</string>
     <string name="PERM_ID_WRITE_MMSDB">Изменять историю MMS</string>
@@ -733,7 +733,7 @@
     <string name="scan_done_no_safe">%1$s угроз найдено</string>
     <string name="scan_done_safe">Сканирование окончено, ваш телефон в безопасности</string>
     <string name="scan_hint_opt_done">Готово</string>
-    <string name="scan_phone_clean">Поиск больших файлов иприложений</string>
+    <string name="scan_phone_clean">Поиск больших файлов и приложений</string>
     <string name="scan_power_mode_item">Поиск энергоёмких приложений</string>
     <string name="scan_ram">Сканирование RAM</string>
     <string name="scan_rubbish">Поиск ненужных файлов</string>
