@@ -761,7 +761,7 @@
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Снять все</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
@@ -783,7 +783,7 @@
     <string name="mzc_alipay">Alipay</string>
     <string name="mzc_alipay_transfer">Перевод Alipay</string>
     <string name="mzc_all_call_log">Полная история</string>
-    <string name="mzc_as_default_account">Установить аккаунтом по умолчанию</string>
+    <string name="mzc_as_default_account">Установить как аккаунт по умолчанию</string>
     <string name="mzc_callDetailsDurationFormat" formatted="false">%s м %s с</string>
     <string name="mzc_callDetailsDurationFormat3">Гудков: %s</string>
     <string name="mzc_callDetailsDurationFormatSecond">%s с</string>
@@ -903,14 +903,14 @@
     <string name="mzc_modify_mark">Изменить метку</string>
     <string name="mzc_more">Больше данных</string>
     <string name="mzc_network_communications">Сетевые коммуникации</string>
-    <string name="mzc_new_contact_in">Создать в</string>
+    <string name="mzc_new_contact_in">Создать контакт в:</string>
     <string name="mzc_nfc_vcard_save_successed">Чтение завершено, контакты сохранены</string>
     <string name="mzc_no_contacts">Нет контактов</string>
     <string name="mzc_no_sdcard_title">Нет карты памяти</string>
     <string name="mzc_no_search_result">Нет результатов</string>
     <string name="mzc_not_set">Не установлено</string>
     <string name="mzc_other">Другие действия</string>
-    <string name="mzc_pick_contacts_title">Выбрать контакты</string>
+    <string name="mzc_pick_contacts_title">Выбор контактов</string>
     <string name="mzc_pick_menu_add">Добавить</string>
     <string name="mzc_pick_share_contact">Передать контакт</string>
     <string name="mzc_pick_vcard_title">Выбрать vCard</string>
@@ -949,7 +949,7 @@
     <string name="mzc_type_voicemail">Голосовая почта</string>
     <string name="mzc_type_voicemail_fail">Нет голосовых сообщений</string>
     <string name="mzc_unknown">Неизвест.</string>
-    <string name="mzc_vcard_empty">нет vCard</string>
+    <string name="mzc_vcard_empty">Нет vCard</string>
     <string name="mzc_vcard_export_failed">Ошибка экспорта</string>
     <string name="mzc_vcard_file_parse">Анализ</string>
     <string name="mzc_vcard_import_failed">Ошибка импорта</string>
