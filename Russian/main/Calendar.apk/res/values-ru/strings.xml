@@ -33,7 +33,7 @@
     <string name="action_info_edit">Правка</string>
     <string name="action_info_import">Импорт</string>
     <string name="action_jump_select_time">Перейти</string>
-    <string name="action_notice_settings">Напомнить и уведомить/string>
+    <string name="action_notice_settings">Напомнить и уведомить</string>
     <string name="action_search">Поиск</string>
     <string name="action_search_cancel">Отмена</string>
     <string name="action_send_mail_to_guests">Разослать электронные письма участникам</string>
