@@ -21,7 +21,7 @@
     <string name="business_tab_card">Визитка</string>
     <string name="business_tab_cover">Обложки, плакаты</string>
     <string name="business_tab_qr_code">QR-коды, Bar-коды</string>
-    <string name="businesscard_choose_type"Изменить метку</string>
+    <string name="businesscard_choose_type">Изменить метку</string>
     <string name="businesscard_no_data">Данные визитки не найдены!</string>
     <string name="businesscard_no_save_exit">Выйти без сохранения?</string>
     <string name="businesscard_photo_not_found">Фотография визитки не найдена!</string>
