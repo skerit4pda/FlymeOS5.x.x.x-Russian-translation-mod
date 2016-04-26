@@ -1,0 +1,5 @@
+    <string-array name="config_cnLocationProviderPackageNames">
+        <item>com.baidu.map.location</item>
+    </string-array>
+    <string-array name="preloaded_color_state_lists">
+    </string-array>
