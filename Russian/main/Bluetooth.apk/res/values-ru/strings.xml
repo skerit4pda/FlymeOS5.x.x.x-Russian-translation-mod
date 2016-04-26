@@ -161,7 +161,7 @@
     <string name="alwaysUse">По умолчанию для этого действия</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
-    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mc_pattern_hour_minute" formatted="false">%H:%M</string>
     <string name="mc_pattern_hour_minute_12" formatted="false">%p %I:%M</string>
     <string name="mc_pattern_week">%a</string>
@@ -200,7 +200,7 @@
     <string name="mc_sunday">ВС</string>
     <string name="mc_never">Единожды</string>
     <string name="mc_every_day">Ежедневно</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_weekend">Выходные</string>
     <string name="mc_date_time_month">м</string>
     <string name="mc_date_time_year">г</string>
@@ -227,7 +227,7 @@
     <string name="mc_pm_s_mms">Послать MMS</string>
     <string name="mc_pm_network">Передача данных</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
-    <string name="mc_pm_location">Позиционирование</string>
+    <string name="mc_pm_location">Местоположение</string>
     <string name="mc_pm_recordaudio_local">Аудиозаписи</string>
     <string name="mc_pm_recordaudio_phone">Записи разговоров</string>
     <string name="mc_pm_camera">Камера (Фото/Видео)</string>
@@ -239,8 +239,8 @@
     <string name="mc_pm_dlg_cancel">Отмена</string>
     <string name="mc_pm_bluetooth">Bluetooth</string>
     <string name="mc_pm_nfc">NFC</string>
-    <string name="mc_pm_dialog_push">Всплывающий Push</string>
-    <string name="mc_pm_allow_dialog_push">Разрешить Push</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
     <string name="mc_pm_not_allow_dialog_push">Отключить</string>
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_set_bluetooth_on">Включить Bluetooth</string>
@@ -314,4 +314,13 @@
     <string name="incoming_file_confirm_with_number">Получение %1$s файла(ов)</string>
     <string name="bluetooth_history_button_view_single_file">Просмотр</string>
     <string name="bluetooth_toast_dialog_btn_ok">ОК</string>
+     <string name="mc_search_icon_input_clear">Очистить</string>
+    <string name="mc_search_icon">Поиск</string>
+    <string name="mc_voice_icon">Голосовой поиск</string>
+    <string name="mc_collected_message">Избранное</string>
+    <string name="mc_cancel_collected_message">Удаленно из избранного</string>
+    <string name="mc_praised_message">Нравится</string>
+    <string name="mc_cancel_praised_message">Не нравится</string>
+     <string name="mc_value_checked">Выбрано</string>
+    <string name="mc_value_not_checked">Не выбрано</string>
 </resources>
