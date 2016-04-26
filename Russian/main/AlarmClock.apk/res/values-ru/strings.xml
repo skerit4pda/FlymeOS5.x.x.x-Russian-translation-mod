@@ -142,7 +142,7 @@
     <string name="mc_voice_icon">Голосовой поиск</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
     <string name="message_ringtong_picker">Поместите свои рингтоны в \"Disk/Ringtones\"</string>
     <string name="message_ringtong_picker_flyme">Поместите рингтон в \"Disk/Music\"</string>
@@ -155,7 +155,7 @@
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Нет</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="mz_date_time_day">д</string>
     <string name="mz_date_time_hour">ч</string>
     <string name="mz_date_time_min">м</string>
@@ -163,7 +163,7 @@
     <string name="mz_date_time_sec">с</string>
     <string name="mz_date_time_year">г</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
-    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
     <string name="mzuc_cancel">Отменить</string>
     <string name="mzuc_cancel_download">Отменить загрузку</string>
@@ -244,15 +244,15 @@
     <string name="timers_in_use">Таймеров: %d</string>
     <string name="timers_stopped">Таймеров остановлено: %d</string>
     <string name="tuesday">ВТ</string>
-    <string name="unchecked">не проверено</string>
+    <string name="unchecked">Не проверено</string>
     <string name="unit_hour">ч.</string>
     <string name="unit_minute">м.</string>
     <string name="unit_second">с.</string>
     <string name="wednesday">СР</string>
     <string name="weekend">Выходные</string>
     <string name="world_clock">Мировое время</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
