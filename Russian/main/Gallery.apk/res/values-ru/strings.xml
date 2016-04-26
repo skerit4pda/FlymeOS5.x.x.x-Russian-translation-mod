@@ -822,7 +822,7 @@
     <string name="three_two_crop_aspect">3:2</string>
     <string name="thumbfrag_sync_status_off">(для копирования)</string>
     <string name="thumbfrag_sync_status_on">(копирование)</string>
-    <string name="thumbnail_sub_tile_string">Всего %d фото</string>
+    <string name="thumbnail_sub_tile_string">Всего %d изображений</string>
     <string name="thumbnail_sub_tile_string_record">Всего записей: %d</string>
     <string name="thumbnail_user_guide_msg">Нажмите, чтобы свернуть/развернуть категорию</string>
     <string name="time">Время</string>
