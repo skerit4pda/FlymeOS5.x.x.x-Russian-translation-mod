@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="address_type">
+        <item>Дом</item>
+        <item>Компания</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="businesscard_address_type">
+        <item>Home</item>
+        <item>Company</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="businesscard_instantmessenger_type">
+        <item>QQ</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>Hangouts</item>
+        <item>ICQ</item>
+    </string-array>
+    <string-array name="businesscard_mail_type">
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="businesscard_phone_type">
+        <item>Home</item>
+        <item>Company</item>
+        <item>Mobile</item>
+        <item>Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="mail_type">
+        <item>Личный</item>
+        <item>Работа</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_month">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    <string-array name="phone_type">
+        <item>Домашний</item>
+        <item>Компания</item>
+        <item>Мобильный</item>
+        <item>Факс</item>
+        <item>Пейджер</item>
+        <item>Другое</item>
+    </string-array>
+</resources>
