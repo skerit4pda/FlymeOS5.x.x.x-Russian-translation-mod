@@ -116,17 +116,17 @@
     <string name="mc_permission_apply">Разрешения</string>
     <string name="mc_permission_message_content">%1$s требуется %2$s, %3$d разрешений</string>
     <string name="mc_pm_allow_check_app">Разрешить</string>
-    <string name="mc_pm_allow_dialog_push">Разрешить Push</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
     <string name="mc_pm_bluetooth">Bluetooth</string>
     <string name="mc_pm_call">Вызов</string>
     <string name="mc_pm_call_log">Читать журнал вызовов</string>
     <string name="mc_pm_camera">Камера (Фото/Видео)</string>
     <string name="mc_pm_close">Выкл.</string>
     <string name="mc_pm_contacts">Читать контакты</string>
-    <string name="mc_pm_dialog_push">Всплывающий Push</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
     <string name="mc_pm_dlg_cancel">Отмена</string>
     <string name="mc_pm_dlg_ok">ОК</string>
-    <string name="mc_pm_location">Позиционирование</string>
+    <string name="mc_pm_location">Местоположение</string>
     <string name="mc_pm_network">Передача данных</string>
     <string name="mc_pm_nfc">NFC</string>
     <string name="mc_pm_not_allow_check_app">Запретить</string>
@@ -143,7 +143,7 @@
     <string name="mc_pm_set_gprs_on">Включить передачу данных</string>
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
-    <string name="mc_pull_refresh">Вниз для обновления</string>
+    <string name="mc_pull_refresh">Проведите вниз для обновления</string>
     <string name="mc_reject">Отклонить</string>
     <string name="mc_saturday">СБ</string>
     <string name="mc_search">Поиск</string>
@@ -154,7 +154,7 @@
     <string name="mc_tuesday">ВТ</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
     <string name="more_item_label">Ещё</string>
     <string name="mz_address">Контакты</string>
@@ -229,7 +229,7 @@
     <string name="mz_manual_shutter_speed_toast">Держите камеру неподвижно, пока осуществляется фотографирование</string>
     <string name="mz_manual_wb_title">Баланс белого</string>
     <string name="mz_no_support_video_filter_480P">Переключить в режим 480P</string>
-    <string name="mz_pano_hint">"Нажмите затвор и двигайте камеру 
+    <string name="mz_pano_hint">"Нажмите кнопку спуск и двигайте камеру 
 по горизонтали"</string>
     <string name="mz_pano_hint_direc_confirming">Двигайте камеру по горизонтали</string>
     <string name="mz_pano_hint_in_panning">Продолжайте двигать по горизонтали</string>
@@ -307,7 +307,7 @@
     <string name="mz_forcetouch_item_mirror">Зеркало</string>
     <string name="mz_forcetouch_item_video">Видео</string>
     <string name="mz_gif_crop_title">Обрезать</string>
-    <string name="mz_gif_hint">Нажмите на затвор для записи</string>
+    <string name="mz_gif_hint">Нажмите кнопку спуск для записи</string>
     <string name="mz_gif_hint_handling">Обработка…</string>
     <string name="mz_gif_ok">Сохранить</string>
     <string name="mz_gif_recapture">Переснять</string>
@@ -353,7 +353,7 @@
     <string name="mz_setting_voice_action_title">Голосовое управление</string>
     <string name="mz_space_is_low">Недостаточно места</string>
     <string name="mz_system_battery_level_low_close_record">Низкий заряд батареи, приложение приостановлено</string>
-    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
     <string name="mz_wifi_display_close_record">Приложение приостановлено из-за режима проектора</string>
     <string name="spaceIsLow_use_sdcard">Память телефона заполнена. Сохранять данные на карте памяти?</string>
