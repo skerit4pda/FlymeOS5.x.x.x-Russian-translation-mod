@@ -176,7 +176,7 @@ W"</string>
     <string name="paused">Пауза</string>
     <string name="pending">Ожидание</string>
     <string name="pref_auto_download">Автозагрузка обновлений</string>
-    <string name="pref_auto_download_desc">Через Wi-Fi, при заряде батареи не менее 30%</string>
+    <string name="pref_auto_download_desc">через Wi-Fi, при заряде батареи не менее 30%</string>
     <string name="rcpb_downloaded">%s %% загружено</string>
     <string name="rcpb_paused">Продолжить %s %%</string>
     <string name="reboot">Перезагрузить сейчас</string>
