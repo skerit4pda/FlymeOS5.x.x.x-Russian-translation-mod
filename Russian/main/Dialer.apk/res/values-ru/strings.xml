@@ -746,7 +746,7 @@
     <string name="mzc_callDetailsDurationFormat3">Гудков: %s</string>
     <string name="mzc_callDetailsDurationFormatSecond">%s с</string>
     <string name="mzc_callDetailsDurationFormatWithHour" formatted="false">%s ч %s м %s с</string>
-    <string name="mzc_call_detail_all_entries_delete_call">Очистить</string>>
+    <string name="mzc_call_detail_all_entries_delete_call">Очистить</string>
     <string name="mzc_call_ip_number">Набор IP-номера</string>
     <string name="mzc_call_log">Журнал вызовов</string>
     <string name="mzc_call_log_date_format" formatted="false">%s / %s</string>
@@ -816,7 +816,6 @@
     <string name="mzc_description_dialpad_hide_button">Скрыть клавиатуру</string>
     <string name="mzc_description_no_checked">Отменено: %s</string>
     <string name="mzc_description_search_clear">Очистить</string>
-    <string name="mzc_detail">Детали</string>
     <string name="mzc_detail_contact_info">Информация</string>
     <string name="mzc_dialer_invalid_dialing">Ошибка набора</string>
     <string name="mzc_dialog_voicemail_no_sim_message">Пожалуйста, вставьте SIM-карту</string>
@@ -897,7 +896,6 @@
     <string name="mzc_network_communications">Сетевые коммуникации</string>
     <string name="mzc_new_contact_in">Создать контакт в:</string>
     <string name="mzc_new">Новый</string>
-    <string name="mzc_new_contact_in">Создать контакт в:</string>
     <string name="mzc_nfc_vcard_save_successed">Чтение завершено, контакты сохранены</string>
     <string name="mzc_no_contacts">Нет контактов</string>
     <string name="mzc_no_sdcard_title">Нет карты памяти</string>
@@ -1068,12 +1066,12 @@
     <string name="mzc_config_export_file_suffix" />
     <string name="mzc_config_export_sd_file_suffix">sd</string>
     <string name="mzc_contacts_from_other_receive_percent">%</string>
-    <string name="mzc_meizu_address">Tangjiawan, Zhuhai, Meizu Technology Building Science & Technology Innovation Coast</string>
+    <string name="mzc_meizu_address">Tangjiawan, Zhuhai, Meizu Technology Building Science and Technology Innovation Coast</string>
     <string name="mzc_sougou_remind_text">Данные предоставлены номером Sogou</string>
     <string name="photo_file_provider_authority">com.android.contacts.files</string>
     <string name="search_font_family">sans-serif</string>
     <string name="specail_number_anbang">Property Insurance Co., Ltd.</string>
-    <string name="specail_number_dadi">China Continent Property & Casualty Insurance Co., Ltd.</string>
+    <string name="specail_number_dadi">China Continent Property and Casualty Insurance Co., Ltd.</string>
     <string name="specail_number_debon">Debon logistics</string>
     <string name="specail_number_dhl">DHL</string>
     <string name="specail_number_dianli">Государственная энергетическая корпорация</string>
@@ -1087,12 +1085,12 @@
     <string name="specail_number_guangda">China Everbright Bank</string>
     <string name="specail_number_guangfazhan">Guangdong Development Bank</string>
     <string name="specail_number_hezhong">Union Life Insurance Co., Ltd.</string>
-    <string name="specail_number_huaan">Hua'an Property Insurance Co., Ltd.</string>
+    <string name="specail_number_huaan">Hua\'an Property Insurance Co., Ltd.</string>
     <string name="specail_number_huanbao">Горячая линия службы экологического мониторинга</string>
     <string name="specail_number_huatai">Huatai Property Insurance Co., Ltd.</string>
     <string name="specail_number_huaxia">Huaxia Bank</string>
     <string name="specail_number_jiage">Горячая линия службы по надзору цен</string>
-    <string name="specail_number_jianbao">Chinese People's Health Insurance Company</string>
+    <string name="specail_number_jianbao">Chinese People\'s Health Insurance Company</string>
     <string name="specail_number_jianshe">China Construction Bank</string>
     <string name="specail_number_jiaotong">Коммуникационный Банк Китая</string>
     <string name="specail_number_jubao">Горячая линия статистического учреждения </string>
@@ -1106,7 +1104,7 @@
     <string name="specail_number_pingancaibao">China Ping An Property Insurance Corporation</string>
     <string name="specail_number_pudong">Shanghai Pudong Development Bank</string>
     <string name="specail_number_quanyi">Курьерская служба</string>
-    <string name="specail_number_renbao">China People's Insurance Company</string>
+    <string name="specail_number_renbao">China People\'s Insurance Company</string>
     <string name="specail_number_renbaogufeng">Minsheng Life Insurance Co.</string>
     <string name="specail_number_renshou">China Life Insurance Company</string>
     <string name="specail_number_shenfazhan">Shenzhen Development Bank</string>
@@ -1125,7 +1123,7 @@
     <string name="specail_number_yangguang">Sunshine Property Insurance Co., Ltd.</string>
     <string name="specail_number_yidong">Служба поддержки China Mobile</string>
     <string name="specail_number_yinlian">China UnionPay Co., Ltd.</string>
-    <string name="specail_number_yongan">Yong'an Property Insurance Co., Ltd.</string>
+    <string name="specail_number_yongan">Yong\'an Property Insurance Co., Ltd.</string>
     <string name="specail_number_youzheng">Почтовый сберегательный банк Китая</string>
     <string name="specail_number_zaijisong">Доставка на дом</string>
     <string name="specail_number_zhaoshang">China Merchants Securities Co. , Ltd.</string>
