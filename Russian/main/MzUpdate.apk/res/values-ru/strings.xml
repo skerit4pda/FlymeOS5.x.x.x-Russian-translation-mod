@@ -98,7 +98,7 @@
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
     <string name="mc_praised_message">Нравится</string>
-    <string name="mc_pull_refresh">Вниз для обновления</string>
+    <string name="mc_pull_refresh">Проведите вниз для обновления</string>
     <string name="mc_reject">Отклонить</string>
     <string name="mc_saturday">СБ</string>
     <string name="mc_search">Поиск</string>
@@ -115,13 +115,13 @@
     <string name="mc_voice_icon">Голосовой поиск</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
     <string name="more_item_label">Ещё</string>
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Нет</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="mz_date_time_day">д</string>
     <string name="mz_date_time_hour">ч</string>
     <string name="mz_date_time_min">м</string>
@@ -209,8 +209,8 @@ W"</string>
     <string name="validating">Проверка...</string>
     <string name="video_upgrade">Видео-презентация обновления Flyme</string>
     <string name="yes">Да</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
@@ -231,7 +231,7 @@ W"</string>
 2. Включение пункта \"Получать эксперементальные прошивки\" все равно позволяет вам обновляться до стабильных версий прошивок"</string>
     <string name="experience_firmware_switch_summary">Обнаруживать эксперементальные обновления, чтобы вы могли опробовать новые функции первыми</string>
     <string name="experience_firmware_switch_title">Получать эксперементальные прошивки</string>
-    <string name="firmware_type_switch_error">Network anomalies, please try again</string>
+    <string name="firmware_type_switch_error">Неполадки сети, пожалуйста попытайтесь снова</string>
     <string name="firmware_type_switching_title">Пожалуйста подождите...</string>
     <string name="mc_pattern_hour_minute_12" formatted="false">%I:%M %p</string>
     <string name="mc_pattern_week_hour_minute_12" formatted="false">%a %I:%M %p</string>
