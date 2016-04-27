@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Адаптивный вход</string>
-    <string name="action_use_network">Использовать эту сеть как</string>
-    <string name="action_do_not_use_network">Не использовать эту сеть</string>
-    <string name="action_bar_label">Войти в сеть</string>
+    <string name="app_name">РђРґР°РїС‚РёРІРЅС‹Р№ РІС…РѕРґ</string>
+    <string name="action_use_network">РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЌС‚Сѓ СЃРµС‚СЊ РєР°Рє</string>
+    <string name="action_do_not_use_network">РќРµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЌС‚Сѓ СЃРµС‚СЊ</string>
+    <string name="action_bar_label">Р’РѕР№С‚Рё РІ СЃРµС‚СЊ</string>
 </resources>
