@@ -222,7 +222,7 @@
     <string name="menu_move_to_security_title">Переместить в хранилище</string>
     <string name="menu_open_title">Открыть через...</string>
     <string name="menu_rename_limit_text">Можно переименовать до 100 файлов</string>
-    <string name="menu_rename_title">Переименовать:</string>
+    <string name="menu_rename_title">Переименовать</string>
     <string name="menu_save_title">Сохранить</string>
     <string name="menu_share_limit_text">Вы можете передать до 100 файлов.</string>
     <string name="menu_share_title">Передать</string>
@@ -317,7 +317,7 @@
     <string name="remove_server_text">Удалить</string>
     <string name="rename_exist">%1$d файл(ов) переименовано, %2$d файл(ов) уже существует</string>
     <string name="rename_fail">%1$d файл(ов) переименовано, ошибка переименования %2$d файл(ов)</string>
-    <string name="rename_title_text">Переименовать</string>
+    <string name="rename_title_text">Переименовать:</string>
     <string name="renaming">Переименование</string>
     <string name="samba">Сетевое окружение</string>
     <string name="samba_connect_retry">Повтор</string>
