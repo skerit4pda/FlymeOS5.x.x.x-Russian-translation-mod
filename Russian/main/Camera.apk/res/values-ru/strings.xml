@@ -263,7 +263,7 @@
     <string name="mz_manual_whitebalance_label_daylight">Солнечно</string>
     <string name="mz_manual_whitebalance_label_fluorescent">Флюоресц.</string>
     <string name="mz_manual_whitebalance_label_incandescent">Лампа накал.</string>
-    <string name="mz_meter_separate_title">Разделение замера фокуса</string>
+    <string name="mz_meter_separate_title">Замер экспозиции</string>
     <string name="mz_mirror_not_support_burst">Серийную съемку нельзя использовать в данном случае</string>
     <string name="mz_mx3_filter_10_title">Подсветка</string>
     <string name="mz_mx3_filter_11_title">Принт</string>
@@ -282,7 +282,7 @@
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_no_support_video_filter_480P">Переключить в режим 480P</string>
     <string name="mz_no_support_video_filter_720P">Переключить в режим 720P</string>
-    <string name="mz_pano_hint">"Нажмите затвор и двигайте камеру 
+    <string name="mz_pano_hint">"Нажмите кнопку спуск и двигайте камеру 
 по горизонтали"</string>
     <string name="mz_pano_hint_direc_confirming">Двигайте камеру по горизонтали</string>
     <string name="mz_pano_hint_in_panning">Продолжайте двигать по горизонтали</string>
