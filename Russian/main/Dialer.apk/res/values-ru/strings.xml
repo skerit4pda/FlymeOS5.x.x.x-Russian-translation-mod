@@ -621,44 +621,17 @@
     <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="yesterday">Вчера</string>
     <string name="alwaysUse">По умолчанию для этого действия</string>
-    <string name="mz_date_time_day">д</string>
-    <string name="mz_date_time_hour">ч</string>
-    <string name="mz_date_time_min">м</string>
-    <string name="mz_date_time_month">м</string>
-    <string name="mz_date_time_sec">с</string>
-    <string name="mz_date_time_year">г</string>
-    <string name="mzuc_cancel">Отменить</string>
-    <string name="mzuc_cancel_download">Отменить загрузку</string>
-    <string name="mzuc_cancel_install">Отменить установку</string>
-    <string name="mzuc_delete">Удалить</string>
-    <string name="mzuc_download_fail">Ошибка загрузки</string>
-    <string name="mzuc_download_finish_install">Загрузка завершена, нажмите для установки</string>
-    <string name="mzuc_download_finish_s" formatted="false">%s V%s загрузка завершена</string>
-    <string name="mzuc_download_progress_desc_s" formatted="false">Загрузка %s %s</string>
-    <string name="mzuc_downloading">Загрузка</string>
-    <string name="mzuc_file_size_s">Размер: %s</string>
-    <string name="mzuc_found_update_s">Доступно обновление: %s</string>
-    <string name="mzuc_install_cancel_tip">Загрузка отменена</string>
-    <string name="mzuc_install_fail">Ошибка установки</string>
-    <string name="mzuc_install_immediately">Установить сейчас</string>
-    <string name="mzuc_install_later">Установить позже</string>
-    <string name="mzuc_installing">Установка</string>
-    <string name="mzuc_notification_message_s">Что нового: %s</string>
-    <string name="mzuc_ok">OK</string>
-    <string name="mzuc_retry">Повтор</string>
-    <string name="mzuc_skip_version">Пропустить эту версию</string>
-    <string name="mzuc_skip_warn_tip">Если пропустить эту версию, то предложение об установке не последует</string>
-    <string name="mzuc_update_finish">Обновление завершено</string>
-    <string name="mzuc_update_immediately">Обновить сейчас</string>
-    <string name="mzuc_update_msg_title_s" formatted="false">%s V%s</string>
-    <string name="mzuc_update_title_s" formatted="false">%s V%s версия</string>
-    <string name="mzuc_wait_tip">Пожалуйста, подождите</string>
-    <string name="mzuc_warn_later">Напомнить позже</string>
-    <string name="percentage">%s%%</string>
+    <string name="cancel_install">Отменить установку</string>
+    <string name="hw_version">Аппаратная версия</string>
+    <string name="install_fail">Не установлено</string>
     <string name="mc_allow">Разрешить</string>
     <string name="mc_alway_allow">Разрешать всегда</string>
     <string name="mc_cancel">Отмена</string>
+    <string name="mc_cancel_button_text">Отмена</string>
+    <string name="mc_cancel_collected_message">Удалено из избранного</string>
+    <string name="mc_cancel_praised_message">Не нравится</string>
     <string name="mc_change_num">Обновить</string>
+    <string name="mc_collected_message">Избранное</string>
     <string name="mc_custom_date_time_gregorian">Григор.</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
     <string name="mc_date_time_day">д</string>
@@ -667,7 +640,6 @@
     <string name="mc_date_time_month">м</string>
     <string name="mc_date_time_sec">с</string>
     <string name="mc_date_time_set">Установить</string>
-    <string name="mc_date_time_year">г</string>
     <string name="mc_description_target_answer">Правильный вариант</string>
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_disable">Отключить</string>
@@ -676,24 +648,15 @@
     <string name="mc_go_Refreshing">Обновить</string>
     <string name="mc_hour">час</string>
     <string name="mc_is_Refreshing">Обновление</string>
+    <string name="mc_last_refresh">Последнее обновление</string>
+    <string name="mc_last_refresh_hour">" час назад"</string>
+    <string name="mc_last_refresh_just_now">сейчас</string>
+    <string name="mc_last_refresh_minute">мин назад</string>
+    <string name="mc_last_refresh_second">сек назад</string>
+    <string name="mc_loading_view_text">Загрузка</string>
     <string name="mc_minute">мин</string>
     <string name="mc_monday">ПН</string>
     <string name="mc_never">Единожды</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
-    <string name="mc_pattern_hour_before">, часов назад</string>
-    <string name="mc_pattern_minute_before">, минут назад</string>
-    <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
-    <string name="mc_pattern_month_day_hour_minute" formatted="false">%-e/%-m %H:%M</string>
-    <string name="mc_pattern_month_day_hour_minute_12" formatted="false">%-e/%-m %p %I:%M</string>
-    <string name="mc_pattern_today">Сегодня</string>
-    <string name="mc_pattern_week_month_day_hour_minute" formatted="false">%a %-e/%-m %H:%M</string>
-    <string name="mc_pattern_week_month_day_hour_minute_12" formatted="false">%a %-e/%-m %p %I:%M</string>
-    <string name="mc_pattern_year_month" formatted="false">%-m/%Y</string>
-    <string name="mc_pattern_year_month_day" formatted="false">%-e/%-m/%Y</string>
-    <string name="mc_pattern_year_month_day_hour_minute" formatted="false">%-e/%-m/%Y %H:%M</string>
-    <string name="mc_pattern_year_month_day_hour_minute_12" formatted="false">%-e/%-m/%Y %p %I:%M</string>
-    <string name="mc_pattern_yesterday">Вчера</string>
     <string name="mc_permission_apply">Разрешения</string>
     <string name="mc_permission_message_content">%1$s требуется %2$s, %3$d разрешений</string>
     <string name="mc_pm_allow_check_app">Разрешить</string>
@@ -724,44 +687,39 @@
     <string name="mc_pm_set_gprs_on">Включить передачу данных</string>
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
+    <string name="mc_praised_message">Нравится</string>
     <string name="mc_pull_refresh">Проведите вниз для обновления</string>
     <string name="mc_reject">Отклонить</string>
     <string name="mc_saturday">СБ</string>
     <string name="mc_search">Поиск</string>
+    <string name="mc_search_button_text">Поиск</string>
+    <string name="mc_search_icon">Поиск</string>
+    <string name="mc_search_icon_input_clear">Очистить</string>
+    <string name="mc_search_text">Поиск</string>
     <string name="mc_second">сек</string>
     <string name="mc_selectionbutton_all">Все</string>
     <string name="mc_sunday">ВС</string>
-    <string name="mc_thursday">ЧТ</string>
+    <string name="mc_thursday">ВТ</string>
     <string name="mc_time_picker_leap">Встав.</string>
-    <string name="mc_tuesday">ВТ</string>
+    <string name="mc_tuesday">ЧТ</string>
+    <string name="mc_voice_icon">Голосовой поиск</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
     <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
-    <string name="more_item_label">Ещё</string>
-    <string name="yp_dialog_cancel">Отмена</string>
-    <string name="yp_dialog_confirm">ОК</string>
-    <string name="yp_dialog_not_install_msg">Нажмите для установки Справочника Flyme</string>
-    <string name="yp_load_error">Ошибка загрузки</string>
-    <string name="yp_loading">Поиск</string>
-    <string name="yp_not_install">Приложение не установлено</string>
-    <string name="cancel_install">Отменить установку</string>
-    <string name="hw_version">Аппаратная версия</string>
-    <string name="install_fail">Не установлено</string>
-    <string name="mc_cancel_button_text">Отмена</string>
-    <string name="mc_last_refresh">Последнее обновление</string>
-    <string name="mc_last_refresh_hour">" час назад"</string>
-    <string name="mc_last_refresh_just_now">сейчас</string>
-    <string name="mc_last_refresh_minute">мин назад</string>
-    <string name="mc_last_refresh_second">сек назад</string>
-    <string name="mc_loading_view_text">Загрузка</string>
-    <string name="mc_search_button_text">Поиск</string>
-    <string name="mc_search_text">Поиск</string>
+    <string name="message_sip_address">Этот аккаунт не поддерживает VoIP</string>
     <string name="model_name">Модель</string>
+    <string name="more_item_label">Ещё</string>
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Снять все</string>
     <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
+    <string name="mz_date_time_day">д</string>
+    <string name="mz_date_time_hour">ч</string>
+    <string name="mz_date_time_min">м</string>
+    <string name="mz_date_time_month">м</string>
+    <string name="mz_date_time_sec">с</string>
+    <string name="mz_date_time_year">г</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
@@ -788,13 +746,17 @@
     <string name="mzc_callDetailsDurationFormat3">Гудков: %s</string>
     <string name="mzc_callDetailsDurationFormatSecond">%s с</string>
     <string name="mzc_callDetailsDurationFormatWithHour" formatted="false">%s ч %s м %s с</string>
+    <string name="mzc_call_detail_all_entries_delete_call">Очистить</string>>
     <string name="mzc_call_ip_number">Набор IP-номера</string>
     <string name="mzc_call_log">Журнал вызовов</string>
+    <string name="mzc_call_log_date_format" formatted="false">%s / %s</string>
     <string name="mzc_call_log_delete_dialog_ok_text">Очистить %s записи</string>
     <string name="mzc_call_log_deleting">Удаление</string>
     <string name="mzc_call_log_no_choiced_title">Выбрать записи</string>
+    <string name="mzc_call_missed_ring_one_time">Один гудок</string>
     <string name="mzc_call_phone">Позвонить</string>
     <string name="mzc_change_label">Изменение ярлыка</string>
+    <string name="mzc_clear_call_log">Очистить журнал вызовов</string>
     <string name="mzc_contactSavedErrorToast">Ошибка сохранения</string>
     <string name="mzc_contact_count">Контактов: %s</string>
     <string name="mzc_contact_edit_filter_info">Введён неподдерживаемый символ</string>
@@ -802,9 +764,9 @@
     <string name="mzc_contact_editor_title_new_contact">Новый контакт</string>
     <string name="mzc_contact_editor_update_photo">Обновить фото</string>
     <string name="mzc_contact_in_group_manager">Управление</string>
-    <string name="mzc_contact_name_already_exists">"Контакт уже существует,
-сохранение объединит контакты"</string>
-    <string name="mzc_contact_sort_description">Сортировка</string>
+    <string name="mzc_contact_name_already_exists">"Контакт уже существует, сохранение объединит контакты"</string>
+    <string name="mzc_contact_photo">Фото</string>
+     <string name="mzc_contact_sort_description">Сортировка</string>
     <string name="mzc_contacts_delete_progress">Удаление</string>
     <string name="mzc_contacts_from_other">Импорт контактов</string>
     <string name="mzc_contacts_from_other_bluetooth_one">1. Включите Bluetooth на другом устройстве</string>
@@ -825,8 +787,19 @@
     <string name="mzc_contacts_from_other_receive_contact">Получение %1$s контактов</string>
     <string name="mzc_contacts_from_other_receive_reading">Чтение контактов</string>
     <string name="mzc_contacts_from_other_receive_stop_dialog">Остановить получение контактов?</string>
+    <string name="mzc_content_description_recent_call" formatted="false">Недавние вызовы: %s. %s. %s</string>
+    <string name="mzc_context_menu_batch_edit">Групповая очистка</string>
+    <string name="mzc_context_menu_normal_call">Обычный вызов</string>
+    <string name="mzc_context_menu_sip_call">Интернет-вызов</string>
     <string name="mzc_custom_ringtone">Рингтоны</string>
     <string name="mzc_date_picker_dialog_title">Установка даты</string>
+    <string name="mzc_debug_dump_database_message">You need to: 1) make a copy of your database which includes all contact information and all call logs to the internal storage, and 2) email it. Remember to delete the copy asap after you have copied it from the device or the email is received.</string>
+    <string name="mzc_debug_dump_delete_button">Удалить</string>
+    <string name="mzc_debug_dump_email_body">Attached is my dialer database with all my contact information. Be careful when handling it!</string>
+    <string name="mzc_debug_dump_email_sender_picker">Выберите программу для отправки файла</string>
+    <string name="mzc_debug_dump_email_subject">База данных телефона прикреплена</string>
+    <string name="mzc_debug_dump_start_button">Начать</string>
+    <string name="mzc_debug_dump_title">Скопировать базу данных телефона</string>
     <string name="mzc_default_account">Аккаунт по умолчанию</string>
     <string name="mzc_default_account_show">Контакты в этом аккаунте всегда отображаются</string>
     <string name="mzc_default_ringtone">Рингтон по умолчанию</string>
@@ -835,6 +808,15 @@
     <string name="mzc_delete_group_confirm">Удалить группу</string>
     <string name="mzc_delete_vcard">Удалить</string>
     <string name="mzc_detail">Детали</string>
+    <string name="mzc_description_checked">Проверено: %s</string>
+    <string name="mzc_description_detail_of">Детали %1$s</string>
+    <string name="mzc_description_dialpad_delete_button">Удалить</string>
+    <string name="mzc_description_dialpad_dial_button1">Вызов с SIM 1</string>
+    <string name="mzc_description_dialpad_dial_button2">Вызов с SIM 2</string>
+    <string name="mzc_description_dialpad_hide_button">Скрыть клавиатуру</string>
+    <string name="mzc_description_no_checked">Отменено: %s</string>
+    <string name="mzc_description_search_clear">Очистить</string>
+    <string name="mzc_detail">Детали</string>
     <string name="mzc_detail_contact_info">Информация</string>
     <string name="mzc_dialer_invalid_dialing">Ошибка набора</string>
     <string name="mzc_dialog_voicemail_no_sim_message">Пожалуйста, вставьте SIM-карту</string>
@@ -842,7 +824,7 @@
     <string name="mzc_edit_contact">Изменить контакт</string>
     <string name="mzc_editor_contacts_no_name">Сохранить контакт без имени?</string>
     <string name="mzc_editor_contacts_save">Сохранить</string>
-    <string name="mzc_error_correction">Ошибка правки</string>
+    <string name="mzc_error_correction">Ошибка правки</string>>
     <string name="mzc_error_success_missing_count" formatted="false">Детали: %s успешно, %s неудачно</string>
     <string name="mzc_eventLabelsGroup">Дата</string>
     <string name="mzc_export_to_item_bluetooth">Bluetooth</string>
@@ -850,15 +832,20 @@
     <string name="mzc_export_to_item_mms">Новое сообщение</string>
     <string name="mzc_export_to_item_nfc">NFC</string>
     <string name="mzc_export_to_item_sdcard">Проводник</string>
+    <string name="mzc_export_to_prepare_vcard">Подготовка vCard</string>
     <string name="mzc_export_to_title">Экспорт в</string>
+    <string name="mzc_export_vcard_activity_title">Экспорт контактов</string>
     <string name="mzc_exporting_contact_finished_title">Экспорт завершён</string>
     <string name="mzc_exporting_contact_list_message">Экспорт контактов</string>
     <string name="mzc_fail_reason">"
 Возможная причина ошибки:
 1.SIM-карта заполнена 
 2.Ошибка имени или номера"</string>
+  <string name="mzc_fail_reason_could_not_initialize_exporter">Невозможно начать экспорт: %s</string>
     <string name="mzc_fail_reason_could_not_open_file" formatted="false">Невозможно открыть %s: %s</string>
     <string name="mzc_fail_reason_error_occurred_during_export">Ошибка экспорта: %s</string>
+    <string name="mzc_fail_reason_failed_to_collect_vcard_meta_info">Не удалось собрать метаданные файлов vCard</string>
+    <string name="mzc_fail_reason_failed_to_read_files">Один или несколько файлов невозможно импортировать (%s)</string>
     <string name="mzc_fail_reason_io_error">Ошибка I/O</string>
     <string name="mzc_fail_reason_low_memory_during_import">Недостаточно памяти. Возможно, файл слишком большой.</string>
     <string name="mzc_fail_reason_no_exportable_contact">Нет контактов для экспорта</string>
@@ -869,6 +856,7 @@
     <string name="mzc_fail_reason_too_many_vcard">Слишком много файлов vCard в памяти</string>
     <string name="mzc_fail_reason_unknown">Неизвестная ошибка</string>
     <string name="mzc_fail_reason_vcard_can_not_parse_error">Не удалось открыть vCard</string>
+    <string name="mzc_fail_reason_vcard_parse_error">Невозможно открыть файл vCard</string>
     <string name="mzc_footer_import">Импорт контактов</string>
     <string name="mzc_gal_lable">%s контакты Exchange</string>
     <string name="mzc_group_account_name">Все %s</string>
@@ -878,6 +866,7 @@
     <string name="mzc_group_remove">Удалить</string>
     <string name="mzc_group_title_already_exists">Имя группы уже существует</string>
     <string name="mzc_group_title_weibo_contacts">Контакты Weibo</string>
+    <string name="mzc_hour">час</string>
     <string name="mzc_imLabelsGroup">Мессенджер</string>
     <string name="mzc_import_contact">Импорт в телефон</string>
     <string name="mzc_import_contact_to">Импорт в</string>
@@ -885,13 +874,16 @@
     <string name="mzc_import_vcard_activity_title">Импорт с диска</string>
     <string name="mzc_importing">Импортирование</string>
     <string name="mzc_importing_vcard_finished_title">Импорт завершён</string>
+    <string name="mzc_international_search_exchange_directory">Поиск глобальных контактов</string>
     <string name="mzc_is_supper_power_mode_warning">Это действие не поддерживается в текущем режиме</string>
     <string name="mzc_item_call_edit">Изменить перед набором</string>
     <string name="mzc_item_copy_text">Копировать</string>
     <string name="mzc_item_default_sim_ip_call">+ %s</string>
+    <string name="mzc_item_sim_card_call">SIM %s - совершить вызов</string>
     <string name="mzc_item_sim_card_ip_call" formatted="false">SIM%s + %s</string>
     <string name="mzc_loading">Загрузка</string>
     <string name="mzc_local_profile_title">Мой профиль</string>
+    <string name="mzc_max_limit">Поддерживается не более: %1$s шт.</string>
     <string name="mzc_menu_delete">Удалить</string>
     <string name="mzc_menu_delete_text">Очистить</string>
     <string name="mzc_menu_export">Экспорт</string>
@@ -904,6 +896,8 @@
     <string name="mzc_more">Больше данных</string>
     <string name="mzc_network_communications">Сетевые коммуникации</string>
     <string name="mzc_new_contact_in">Создать контакт в:</string>
+    <string name="mzc_new">Новый</string>
+    <string name="mzc_new_contact_in">Создать контакт в:</string>
     <string name="mzc_nfc_vcard_save_successed">Чтение завершено, контакты сохранены</string>
     <string name="mzc_no_contacts">Нет контактов</string>
     <string name="mzc_no_sdcard_title">Нет карты памяти</string>
@@ -914,8 +908,14 @@
     <string name="mzc_pick_menu_add">Добавить</string>
     <string name="mzc_pick_share_contact">Передать контакт</string>
     <string name="mzc_pick_vcard_title">Выбрать vCard</string>
+    <string name="mzc_preference_account_dialog_subtitle">Аккаунт по умолчанию для сохранения новых контактов</string>
     <string name="mzc_preference_export_contacts_title">Экспорт контактов</string>
     <string name="mzc_preference_import_contacts_from_otherphone_title">Импорт с другого телефона</string>
+    <string name="mzc_preference_import_contacts_from_sim_title">Импорт с SIM-карты</string>
+    <string name="mzc_preference_import_contacts_from_storagedisk_title">Импорт с диска</string>
+    <string name="mzc_preference_sim_contacts_title">Контакты SIM</string>
+    <string name="mzc_read_only_contact">Данный контакт в режиме "только для чтения"</string>
+    <string name="mzc_preference_title">Управление контактами</string>
     <string name="mzc_progress_notifier_message">Импорт %1$s/%2$s: %3$s</string>
     <string name="mzc_read_only_contacts_export_failed">Нельзя экспортировать контакты в режиме только для чтения</string>
     <string name="mzc_recent">Недавние</string>
@@ -938,6 +938,7 @@
     <string name="mzc_sip_call">Совершить интернет-вызов</string>
     <string name="mzc_sip_label">Интернет-вызов</string>
     <string name="mzc_sip_mms">Отправить интернет-сообщение</string>
+    <string name="mzc_star_mark">Добавить в избранное</string>
     <string name="mzc_tab_call_log">Журнал звонков</string>
     <string name="mzc_tab_dialpad">Набор номера</string>
     <string name="mzc_tab_net_contacts">Жёлтые страницы</string>
@@ -949,13 +950,42 @@
     <string name="mzc_type_voicemail">Голосовая почта</string>
     <string name="mzc_type_voicemail_fail">Нет голосовых сообщений</string>
     <string name="mzc_unknown">Неизвест.</string>
+    <string name="mzc_vcard_detail_info">Предпросмотр vCard</string>
     <string name="mzc_vcard_empty">Нет vCard</string>
     <string name="mzc_vcard_export_failed">Ошибка экспорта</string>
     <string name="mzc_vcard_file_parse">Анализ</string>
     <string name="mzc_vcard_import_failed">Ошибка импорта</string>
-    <string name="mzc_vcard_import_failed_notification">"Невозможно импортировать vCard"</string>
+    <string name="mzc_vcard_import_failed_notification">Невозможно импортировать vCard</string>
     <string name="mzc_vcard_import_request_rejected_message">Запрос на импорт vCard был отклонён. Попробуйте позже.</string>
     <string name="mzc_voicemail">Голосовая почта</string>
+    <string name="mzuc_cancel">Отменить</string>
+    <string name="mzuc_cancel_download">Отменить загрузку</string>
+    <string name="mzuc_cancel_install">Отменить установку</string>
+    <string name="mzuc_delete">Удалить</string>
+    <string name="mzuc_download_fail">Ошибка загрузки</string>
+    <string name="mzuc_download_finish_install">Загрузка завершена, нажмите для установки</string>
+    <string name="mzuc_download_finish_s" formatted="false">%s V%s загрузка завершена</string>
+    <string name="mzuc_download_progress_desc_s" formatted="false">Загрузка %s %s</string>
+    <string name="mzuc_downloading">Загрузка</string>
+    <string name="mzuc_file_size_s">Размер: %s</string>
+    <string name="mzuc_found_update_s">Доступно обновление: %s</string>
+    <string name="mzuc_install_cancel_tip">Загрузка отменена</string>
+    <string name="mzuc_install_fail">Ошибка установки</string>
+    <string name="mzuc_install_immediately">Установить сейчас</string>
+    <string name="mzuc_install_later">Установить позже</string>
+    <string name="mzuc_installing">Установка</string>
+    <string name="mzuc_notification_message_s">Что нового: %s</string>
+    <string name="mzuc_ok">OK</string>
+    <string name="mzuc_retry">Повтор</string>
+    <string name="mzuc_skip_version">Пропустить эту версию</string>
+    <string name="mzuc_skip_warn_tip">Если пропустить эту версию, то предложение об установке не последует</string>
+    <string name="mzuc_update_finish">Обновление завершено</string>
+    <string name="mzuc_update_immediately">Обновить сейчас</string>
+    <string name="mzuc_update_msg_title_s" formatted="false">%s V%s</string>
+    <string name="mzuc_update_title_s" formatted="false">%s V%s release</string>
+    <string name="mzuc_wait_tip">Пожалуйста, подождите</string>
+    <string name="mzuc_warn_later">Напомнить позже</string>
+    <string name="open_download">Нажмите для загрузки</string>
     <string name="open_wifi">Включить Wi-Fi</string>
     <string name="prl_version">Версия PRL</string>
     <string name="sw_version">Версия ПО</string>
@@ -966,40 +996,42 @@
     <string name="version">Версия</string>
     <string name="whether_download">Загрузить</string>
     <string name="whether_install">Все равно установить</string>
-    <string name="message_sip_address">Этот аккаунт не поддерживает VoIP</string>
-    <string name="mzc_call_detail_all_entries_delete_call">Очистить</string>
-    <string name="mzc_call_log_date_format" formatted="false">%s / %s</string>
-    <string name="mzc_call_missed_ring_one_time">Один гудок</string>
-    <string name="mzc_clear_call_log">Очистить журнал вызовов</string>
-    <string name="mzc_context_menu_batch_edit">Групповая очистка</string>
-    <string name="mzc_export_to_prepare_vcard">Подготовка vCard</string>
-    <string name="mzc_export_vcard_activity_title">Экспорт контактов</string>
-    <string name="mzc_fail_reason_could_not_initialize_exporter">Невозможно начать экспорт: %s</string>
-    <string name="mzc_fail_reason_failed_to_collect_vcard_meta_info">Не удалось собрать метаданные файлов vCard</string>
-    <string name="mzc_fail_reason_failed_to_read_files">Один или несколько файлов невозможно импортировать (%s)</string>
-    <string name="mzc_fail_reason_vcard_parse_error">Невозможно открыть файл vCard</string>
-    <string name="mzc_hour">час</string>
-    <string name="mzc_international_search_exchange_directory">Поиск глобальных контактов</string>
-    <string name="mzc_item_sim_card_call">SIM %s - совершить вызов</string>
-    <string name="mzc_preference_account_dialog_subtitle">Аккаунт по умолчанию для сохранения новых контактов</string>
-    <string name="mzc_preference_default_account">Аккаунт по умолчанию</string>
-    <string name="mzc_preference_import_contacts_from_storagedisk_title">Импорт с диска</string>
-    <string name="mzc_preference_sim_contacts_title">Контакты SIM</string>
-    <string name="mzc_preference_title">Управление контактами</string>
-    <string name="mzc_vcard_detail_info">Предпросмотр vCard</string>
-    <string name="open_download">Включить загрузку</string>
+    <string name="yp_dialog_cancel">Отмена</string>
+    <string name="yp_dialog_confirm">OK</string>
+    <string name="yp_dialog_not_install_msg">Нажмите для установки Справочника Flyme</string>
+    <string name="yp_load_error">Ошибка загрузки</string>
+    <string name="yp_loading">Загрузка...</string>
+    <string name="yp_not_install">Приложение не установлено</string>
+    <string name="percentage">%s%%</string>
+    <string name="mc_pattern_a_hour_before">1 час назад</string>
+    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_hour_before">, часов назад</string>
+    <string name="mc_pattern_minute_before">, минут назад</string>
+    <string name="mc_pattern_month_day" formatted="false">%-m/%-e</string>
+    <string name="mc_pattern_month_day_hour_minute" formatted="false">%-m/%-e %H:%M</string>
+    <string name="mc_pattern_month_day_hour_minute_12" formatted="false">%-m/%-e %I:%M %p</string>
+    <string name="mc_pattern_today">Сегодня</string>
+    <string name="mc_pattern_week_month_day_hour_minute" formatted="false">%a %-m/%-e %H:%M</string>
+    <string name="mc_pattern_week_month_day_hour_minute_12" formatted="false">%a %-m/%-e %I:%M %p</string>
+    <string name="mc_pattern_year_month" formatted="false">%Y/%-m</string>
+    <string name="mc_pattern_year_month_day" formatted="false">%Y/%-m/%-e</string>
+    <string name="mc_pattern_year_month_day_hour_minute" formatted="false">%Y/%-m/%-e %H:%M</string>
+    <string name="mc_pattern_year_month_day_hour_minute_12" formatted="false">%Y/%-m/%-e %I:%M %p</string>
+    <string name="mc_pattern_yesterday">Вчера</string>
+    <string name="mc_value_checked">Выбрано</string>
+    <string name="mc_value_not_checked">Не выбрано</string>
     <string name="eventTypeLunarBirthday">День рождения (Лунный кал.)</string>
     <string name="mzc_emailTypeWork">Рабочий</string>
+    <string name="mzc_eventTypeAnniversary">Юбилей</string>
     <string name="mzc_phoneTypeFaxWork">Рабочий факс</string>
     <string name="mzc_phoneTypeWork">Рабочий</string>
     <string name="mzc_postalTypeWork">Рабочий</string>
     <string name="socialProfileTypeCustom">Пользовательский</string>
     <string name="socialProfileTypeOther">Другой</string>
     <string name="socialProfileTypeSinaWeibo">Sina Weibo</string>
-    <string name="mc_pattern_hour_minute_12" formatted="false">%p %I:%M</string>
-    <string name="mc_pattern_week_hour_minute_12" formatted="false">%a %p %I:%M</string>
+    <string name="mc_pattern_hour_minute_12" formatted="false">%I:%M %p</string>
+    <string name="mc_pattern_week_hour_minute_12" formatted="false">%a %I:%M %p</string>
     <string name="mzc_net_type_wlan">Wi-Fi</string>
-    <string name="mzc_eventTypeAnniversary">Юбилей</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_search_hint">Поиск…</string>
@@ -1021,7 +1053,7 @@
     <string name="help_url_people_edit" />
     <string name="help_url_people_main" />
     <string name="letter_tile_letter_font_family">sans-serif-light</string>
-    <string name="mc_action_settings">Натройки</string>
+    <string name="mc_action_settings">Настройки</string>
     <string name="mc_app_name">Общие файлы Meizu</string>
     <string name="mc_hello_world">Hello world!</string>
     <string name="mc_pattern_hour_minute" formatted="false">%H:%M</string>
@@ -1031,124 +1063,77 @@
     <string name="mzc_account_type_lable_eas_meizu">Meizu</string>
     <string name="mzc_account_type_lable_eas_qq">QQ</string>
     <string name="mzc_account_type_lable_flyme">Flyme</string>
+    <string name="mzc_applicationLabel">@string/launcherActivityLabel</string>
     <string name="mzc_config_export_dir">/sdcard</string>
     <string name="mzc_config_export_file_suffix" />
     <string name="mzc_config_export_sd_file_suffix">sd</string>
     <string name="mzc_contacts_from_other_receive_percent">%</string>
-    <string name="mzc_meizu_address">Tangjiawan, Zhuhai, Meizu Technology Building Science and Technology Innovation Coast</string>
-    <string name="mzc_sougou_remind_text">Data provided by Sogou number through</string>
+    <string name="mzc_meizu_address">Tangjiawan, Zhuhai, Meizu Technology Building Science & Technology Innovation Coast</string>
+    <string name="mzc_sougou_remind_text">Данные предоставлены номером Sogou</string>
     <string name="photo_file_provider_authority">com.android.contacts.files</string>
     <string name="search_font_family">sans-serif</string>
-    <string name="specail_number_anbang">安邦财产保险股份有限公司</string>
-    <string name="specail_number_dadi">中国大地财产保险股份有限公司</string>
-    <string name="specail_number_debon">德邦物流</string>
-    <string name="specail_number_dhl">中外运敦豪</string>
-    <string name="specail_number_dianli">国家电力公司</string>
-    <string name="specail_number_dianxin">中国电信客服热线</string>
-    <string name="specail_number_dishui">地税纳税服务热线</string>
-    <string name="specail_number_doubang">都邦财产保险股份有限公司</string>
-    <string name="specail_number_ems">中国邮政特快专递</string>
-    <string name="specail_number_federal">联邦快递</string>
-    <string name="specail_number_gongshang">中国工商银行</string>
-    <string name="specail_number_gongyi">政府公益服务热线</string>
-    <string name="specail_number_guangda">中国光大银行</string>
-    <string name="specail_number_guangfazhan">广东发展银行</string>
-    <string name="specail_number_hezhong">合众人寿保险股份有限公司</string>
-    <string name="specail_number_huaan">华安财产保险股份有限公司</string>
-    <string name="specail_number_huanbao">环保监督服务热线</string>
-    <string name="specail_number_huatai">华泰财产保险股份有限公司</string>
-    <string name="specail_number_huaxia">华夏银行</string>
-    <string name="specail_number_jiage">价格监督服务热线</string>
-    <string name="specail_number_jianbao">中国人民健康保险股份有限公司</string>
-    <string name="specail_number_jianshe">中国建设银行</string>
-    <string name="specail_number_jiaotong">中国交通银行</string>
-    <string name="specail_number_jubao">机构编制违规举报热线</string>
-    <string name="specail_number_laodong">劳动者维权服务热线</string>
-    <string name="specail_number_lianhe">中华联合财产保险公司</string>
-    <string name="specail_number_liantong">中国联通客服热线</string>
-    <string name="specail_number_meizu">魅族客服热线</string>
-    <string name="specail_number_minsheng">中国民生银行</string>
-    <string name="specail_number_nongye">中国农业银行</string>
-    <string name="specail_number_pinganbaoxian">中国平安保险（集团）股份有限公司</string>
-    <string name="specail_number_pingancaibao">中国平安财产保险股份公司</string>
-    <string name="specail_number_pudong">上海浦东发展银行</string>
-    <string name="specail_number_quanyi">全一快递</string>
-    <string name="specail_number_renbao">中国人民保险公司</string>
-    <string name="specail_number_renbaogufeng">民生人寿保险股份有限公司</string>
-    <string name="specail_number_renshou">中国人寿保险公司</string>
-    <string name="specail_number_shenfazhan">深圳发展银行</string>
-    <string name="specail_number_shunfeng">顺丰速运</string>
-    <string name="specail_number_sifa">司法服务热线</string>
-    <string name="specail_number_taibao">太平人寿保险有限公司</string>
-    <string name="specail_number_taikang">泰康人寿保险公司</string>
-    <string name="specail_number_tianan">天安保险股份有限公司</string>
-    <string name="specail_number_tianqi">天气预报</string>
-    <string name="specail_number_tietong">中国铁通客服热线</string>
-    <string name="specail_number_tnt">中外运天地</string>
+    <string name="specail_number_anbang">Property Insurance Co., Ltd.</string>
+    <string name="specail_number_dadi">China Continent Property & Casualty Insurance Co., Ltd.</string>
+    <string name="specail_number_debon">Debon logistics</string>
+    <string name="specail_number_dhl">DHL</string>
+    <string name="specail_number_dianli">Государственная энергетическая корпорация</string>
+    <string name="specail_number_dianxin">Служба поддержки China Telecom</string>
+    <string name="specail_number_dishui">Горячая линия налоговой службы</string>
+    <string name="specail_number_doubang">Государственная страховая компания</string>
+    <string name="specail_number_ems">China Post Express Mail</string>
+    <string name="specail_number_federal">FedEx</string>
+    <string name="specail_number_gongshang">Коммерческий банк Китая</string>
+    <string name="specail_number_gongyi">Горячая линия государственной службы</string>
+    <string name="specail_number_guangda">China Everbright Bank</string>
+    <string name="specail_number_guangfazhan">Guangdong Development Bank</string>
+    <string name="specail_number_hezhong">Union Life Insurance Co., Ltd.</string>
+    <string name="specail_number_huaan">Hua'an Property Insurance Co., Ltd.</string>
+    <string name="specail_number_huanbao">Горячая линия службы экологического мониторинга</string>
+    <string name="specail_number_huatai">Huatai Property Insurance Co., Ltd.</string>
+    <string name="specail_number_huaxia">Huaxia Bank</string>
+    <string name="specail_number_jiage">Горячая линия службы по надзору цен</string>
+    <string name="specail_number_jianbao">Chinese People's Health Insurance Company</string>
+    <string name="specail_number_jianshe">China Construction Bank</string>
+    <string name="specail_number_jiaotong">Коммуникационный Банк Китая</string>
+    <string name="specail_number_jubao">Горячая линия статистического учреждения </string>
+    <string name="specail_number_laodong">Горячая линии правозащиты работников</string>
+    <string name="specail_number_lianhe">China United Property Insurance Company</string>
+    <string name="specail_number_liantong">Служба поддержки China Unicom</string>
+    <string name="specail_number_meizu">Служба поддержки Meizu</string>
+    <string name="specail_number_minsheng">China Minsheng Bank</string>
+    <string name="specail_number_nongye">Сельскохозяйственный банк Китая</string>
+    <string name="specail_number_pinganbaoxian">China Ping An Insurance ( Group ) Co., Ltd.</string>
+    <string name="specail_number_pingancaibao">China Ping An Property Insurance Corporation</string>
+    <string name="specail_number_pudong">Shanghai Pudong Development Bank</string>
+    <string name="specail_number_quanyi">Курьерская служба</string>
+    <string name="specail_number_renbao">China People's Insurance Company</string>
+    <string name="specail_number_renbaogufeng">Minsheng Life Insurance Co.</string>
+    <string name="specail_number_renshou">China Life Insurance Company</string>
+    <string name="specail_number_shenfazhan">Shenzhen Development Bank</string>
+    <string name="specail_number_shunfeng">S.F. Express</string>
+    <string name="specail_number_sifa">Горячая линия судебной службы</string>
+    <string name="specail_number_taibao">Taiping Life Insurance Co., Ltd.</string>
+    <string name="specail_number_taikang">Taikang Life Insurance Company</string>
+    <string name="specail_number_tianan">Tian An Insurance Co., Ltd.</string>
+    <string name="specail_number_tianqi">Прогноз погоды</string>
+    <string name="specail_number_tietong">Служба поддержки China Railcom</string>
+    <string name="specail_number_tnt">Sinotrans world</string>
     <string name="specail_number_ups">UPS</string>
-    <string name="specail_number_xiaofeizhe">消费者协会服务热线</string>
-    <string name="specail_number_xingye">兴业银行</string>
-    <string name="specail_number_xinhua">新华人寿保险公司</string>
-    <string name="specail_number_yangguang">阳光财产保险股份有限公司</string>
-    <string name="specail_number_yidong">中国移动客服热线</string>
-    <string name="specail_number_yinlian">中国银联股份有限公司</string>
-    <string name="specail_number_yongan">永安财产保险股份有限公司</string>
-    <string name="specail_number_youzheng">中国邮政储蓄银行</string>
-    <string name="specail_number_zaijisong">宅急送</string>
-    <string name="specail_number_zhaoshang">招商证券股份有限公司</string>
-    <string name="specail_number_zhaoshangbank">招商银行</string>
-    <string name="specail_number_zhiliang">质量监督服务热线</string>
-    <string name="specail_number_zhongguo">中国银行</string>
-    <string name="specail_number_zhongxin">中信银行</string>
+    <string name="specail_number_xiaofeizhe">Горячая линия промышленного банка Китая</string>
+    <string name="specail_number_xingye">Промышленный банк Китая</string>
+    <string name="specail_number_xinhua">Xinhua Life Insurance Company</string>
+    <string name="specail_number_yangguang">Sunshine Property Insurance Co., Ltd.</string>
+    <string name="specail_number_yidong">Служба поддержки China Mobile</string>
+    <string name="specail_number_yinlian">China UnionPay Co., Ltd.</string>
+    <string name="specail_number_yongan">Yong'an Property Insurance Co., Ltd.</string>
+    <string name="specail_number_youzheng">Почтовый сберегательный банк Китая</string>
+    <string name="specail_number_zaijisong">Доставка на дом</string>
+    <string name="specail_number_zhaoshang">China Merchants Securities Co. , Ltd.</string>
+    <string name="specail_number_zhaoshangbank">China Merchants Bank</string>
+    <string name="specail_number_zhiliang">Горячая линия по надзору за качеством</string>
+    <string name="specail_number_zhongguo">Банк Китая</string>
+    <string name="specail_number_zhongxin">CITIC Bank</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tab_font_family">sans-serif</string>
     <string name="view_full_call_history_font_family">sans-serif</string>
-    <string name="add_field">Добавить еще одно поле</string>
-    <string name="contact_detail_picture_description">Изменить фотографию.</string>
-    <string name="contactsAllLabel">Все контакты</string>
-    <string name="contactsGroupsLabel">Все группы</string>
-    <string name="description_dial_phone_number">Набор номера телефона %1$s</string>
-    <string name="description_send_message">%1$s пожалуйста, отправьте нам сообщение</string>
-    <string name="no_contact_details">Там нет никакой дополнительной информации для этого контакта.</string>
-    <string name="people">Люди</string>
-    <string name="use_photo_as_primary">Используйте эту фотографию</string>
-    <string name="viewContactDesription">Просмотреть контакт</string>
-    <string name="call_log_empty_gecode">-</string>
-    <string name="call_settings">Настройки</string>
-    <string name="description_add_contact">Добавить контакт</string>
-    <string name="description_call_log_incoming_call">входящий вызов</string>
-    <string name="description_call_log_missed_call">пропущенный вызов</string>
-    <string name="description_call_log_outgoing_call">исходящий вызов</string>
-    <string name="description_call_log_voicemail">Голосовая почта</string>
-    <string name="description_delete_button">Удалить</string>
-    <string name="description_image_button_eight">восемь</string>
-    <string name="description_image_button_five">пять</string>
-    <string name="description_image_button_four">четыре</string>
-    <string name="description_image_button_nine">девять</string>
-    <string name="description_image_button_one">один</string>
-    <string name="description_image_button_pound">решётка</string>
-    <string name="description_image_button_seven">семь</string>
-    <string name="description_image_button_six">шесть</string>
-    <string name="description_image_button_star">звёздочка</string>
-    <string name="description_image_button_three">три</string>
-    <string name="description_image_button_two">два</string>
-    <string name="description_image_button_zero">ноль</string>
-    <string name="description_voicemail_button">Голосовая почта</string>
-    <string name="dialerDialpadHintText">В дополнение к вызову, наберите номер в</string>
-    <string name="dialerKeyboardHintText">Ediin с помощью клавиатуры для набора номера</string>
-    <string name="dialpad_0_number">0</string>
-    <string name="dialpad_1_number">1</string>
-    <string name="dialpad_2_number">2</string>
-    <string name="dialpad_3_number">3</string>
-    <string name="dialpad_4_number">4</string>
-    <string name="dialpad_5_number">5</string>
-    <string name="dialpad_6_number">6</string>
-    <string name="dialpad_7_number">7</string>
-    <string name="dialpad_8_number">8</string>
-    <string name="dialpad_9_number">9</string>
-    <string name="launcherDialer">Телефон</string>
-    <string name="show_all_contacts">Показать все контакты</string>
-    <string name="show_all_contacts_button_text">Все контакты</string>
-    <string name="show_all_contacts_title">Все контакты</string>
-    <string name="mzc_preference_import_contacts_from_sim_title">Импорт с SIM-карты</string>
 </resources>
