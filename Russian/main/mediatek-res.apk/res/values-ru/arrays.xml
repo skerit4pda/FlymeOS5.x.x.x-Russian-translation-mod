@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="bootup_mode">
-        <item>Dual SIMs</item>
-        <item>SIM1</item>
-        <item>SIM2</item>
+        <item>Две SIM-карты</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
     <string-array name="gprs_mode_1">
-        <item>SIM1</item>
-        <item>Do not connect data.</item>
-        <item>Cancel</item>
+        <item>SIM 1</item>
+        <item>Не включать передачу данных.</item>
+        <item>Отмена</item>
     </string-array>
     <string-array name="gprs_mode_2">
-        <item>SIM2</item>
-        <item>Do not connect data.</item>
-        <item>Cancel</item>
+        <item>SIM 2</item>
+        <item>Не включать передачу данных.</item>
+        <item>Отмена</item>
     </string-array>
     <string-array name="dtag_dual_apn_plmn_list">
         <item>26201</item>
