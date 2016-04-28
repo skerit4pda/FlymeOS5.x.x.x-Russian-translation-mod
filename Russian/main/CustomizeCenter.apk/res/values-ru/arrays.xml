@@ -51,7 +51,7 @@
         <item>Декабрь</item>
     </string-array>
     <string-array name="sizeUnit">
-        <item>байт</item>
+        <item>Байт</item>
         <item>Кб</item>
         <item>Мб</item>
         <item>Гб</item>
