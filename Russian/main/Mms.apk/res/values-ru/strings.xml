@@ -392,7 +392,7 @@
     <string name="location_search_fail">Местоположение не найдено</string>
     <string name="location_search_hint">Поиск местоположения</string>
     <string name="location_search_pro">Поиск %s</string>
-    <string name="location_service_message">Позиционирование требует активации сервиса местоположения. Включите его.</string>
+    <string name="location_service_message">Позиционирование требует активного сервиса местоположения. Включите его.</string>
     <string name="location_service_title">Сервис местоположения не доступен.</string>
     <string name="location_unknow_distance">Неизвестно</string>
     <string name="long_press_menu_copy">Копировать</string>
@@ -434,8 +434,8 @@
     <string name="mc_last_refresh">Последнее обновление</string>
     <string name="mc_last_refresh_hour">" час назад"</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
-    <string name="mc_last_refresh_minute">мин назад</string>
-    <string name="mc_last_refresh_second">сек назад</string>
+    <string name="mc_last_refresh_minute">мин. назад</string>
+    <string name="mc_last_refresh_second">сек. назад</string>
     <string name="mc_loading_view_text">Загрузка</string>
     <string name="mc_minute">мин</string>
     <string name="mc_monday">ПН</string>
@@ -614,7 +614,7 @@
     <string name="not_default_message_app_dialog_message">Стандартному приложению отказано в отправке сообщений и прочим действиям</string>
     <string name="not_default_message_app_dialog_title">Стандартное приложение не является приложением по умолчанию</string>
     <string name="notification_download_failed">Ошибка загрузки</string>
-    <string name="notify_hide_content_msg">%1$s сообщений от %2$s адресатов</string>
+    <string name="notify_hide_content_msg">%1$s сообщен. от %2$s отправит.</string>
     <string name="notify_hide_content_msg_unique">Получено сообщений: %s</string>
     <string name="online">Онлайн</string>
     <string name="open_flyme_sub_title">После включения можно использовать бесплатные звонки и сообщения</string>
