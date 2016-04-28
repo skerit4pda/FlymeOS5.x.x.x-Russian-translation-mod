@@ -5,7 +5,7 @@
         <item quantity="one">"Удаление переписок: %1$s "</item>
     </plurals>
     <plurals name="message_count_notification_overflow">
-        <item quantity="other">Еще %1$s сообщений</item>
+        <item quantity="other">Еще сообщений: %1$s</item>
         <item quantity="one">Еще %1$s сообщение</item>
     </plurals>
     <plurals name="recipient_count">
@@ -21,7 +21,7 @@
         <item quantity="few">%s с.</item>
     </plurals>
     <plurals name="confirm_delete_messages">
-        <item quantity="other">Удаление %1$s сообщений</item>
+        <item quantity="other">Удаление сообщений: %1$s</item>
         <item quantity="one">Удаление %1$s сообщения</item>
     </plurals>
 </resources>
