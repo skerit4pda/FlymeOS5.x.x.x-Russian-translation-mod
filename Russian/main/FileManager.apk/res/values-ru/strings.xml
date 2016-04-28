@@ -16,7 +16,7 @@
     <string name="add_fast_folder">Добавить в избранное</string>
     <string name="add_fast_folder_fail_tips">Добавлено в избранное</string>
     <string name="add_fast_folder_success_tips">Добавлено</string>
-    <string name="alwaysUse">По умолчанию для этого действия</string>
+    <string name="alwaysUse">Использовать по умолчанию</string>
     <string name="apk_display_name">Файлы APK</string>
     <string name="app_name">Проводник</string>
     <string name="before_month">Месяц назад</string>
@@ -35,6 +35,7 @@
     <string name="close_wifi_share_wifi_name">"LAN: "</string>
     <string name="cloud_history">История</string>
     <string name="cloud_storage_name">Облако</string>
+    <string name="compress_count">Архивов: %s</string>
     <string name="compress_display_name">Сжатые файлы</string>
     <string name="connect_server_text">Подключение к серверу</string>
     <string name="connect_text">Подключить</string>
@@ -82,7 +83,7 @@
     <string name="extract_to_here">Извлечь сюда</string>
     <string name="extracting">Извлечение</string>
     <string name="fast_folder">Избранное</string>
-    <string name="fastfolder_count">Удаление выбранных папок: %s</string>
+    <string name="fastfolder_count">Удалить из избранного: %s</string>
     <string name="fastfolder_delete">Удалить</string>
     <string name="file_count">%s</string>
     <string name="file_exists">Имя файла уже существует</string>
@@ -156,8 +157,8 @@
     <string name="mc_last_refresh">Последнее обновление</string>
     <string name="mc_last_refresh_hour">" час назад"</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
-    <string name="mc_last_refresh_minute">мин назад</string>
-    <string name="mc_last_refresh_second">сек назад</string>
+    <string name="mc_last_refresh_minute">мин. назад</string>
+    <string name="mc_last_refresh_second">сек. назад</string>
     <string name="mc_loading_view_text">Загрузка</string>
     <string name="mc_minute">мин</string>
     <string name="mc_monday">ПН</string>
@@ -226,7 +227,7 @@
     <string name="menu_save_title">Сохранить</string>
     <string name="menu_share_limit_text">Вы можете передать до 100 файлов.</string>
     <string name="menu_share_title">Передать</string>
-    <string name="menu_tip_delete">"Удалить "</string>
+    <string name="menu_tip_delete">"Удаление файлов: "</string>
     <string name="menu_tip_refresh">Обновить</string>
     <string name="menu_to_search_title">Найти</string>
     <string name="menu_to_upload_title">Загрузить</string>
