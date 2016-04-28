@@ -126,7 +126,7 @@
     <string name="percentage">%</string>
     <string name="power_alert_dialog_ok">OK</string>
     <string name="remainingbattery">Осталось заряда</string>
-    <string name="remainingstandbytime">Хватит на:</string>
+    <string name="remainingstandbytime">Осталось:</string>
     <string name="sure">OK</string>
     <string name="title">Хотите выйти?</string>
     <string name="unknow_contact_person">Неизвест.</string>
