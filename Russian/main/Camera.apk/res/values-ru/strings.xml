@@ -203,7 +203,8 @@
     <string name="mz_fb_eye">Глаза</string>
     <string name="mz_fb_slime">Подтяжка</string>
     <string name="mz_fb_smooth">Гладкая кожа</string>
-    <string name="mz_fb_tone">"Отбелив."</string>
+    <string name="mz_fb_tone">"Отбелива-
+ние"</string>
     <string name="mz_filter_10_title">Дерево</string>
     <string name="mz_filter_14_title">Оливково-жёлтый</string>
     <string name="mz_filter_16_title">Голубой</string>
@@ -228,7 +229,7 @@
     <string name="mz_geo_latitude">Широта:</string>
     <string name="mz_geo_longitude">Долгота:</string>
     <string name="mz_gif_crop_title">Обрезать</string>
-    <string name="mz_gif_hint">Нажмите кнопку спуск для записи</string>
+    <string name="mz_gif_hint">Нажмите кн. спуск для записи</string>
     <string name="mz_gif_hint_handling">Обработка…</string>
     <string name="mz_gif_ok">Сохранить</string>
     <string name="mz_gif_recapture">Переснять</string>
@@ -282,7 +283,7 @@
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_no_support_video_filter_480P">Переключить в режим 480P</string>
     <string name="mz_no_support_video_filter_720P">Переключить в режим 720P</string>
-    <string name="mz_pano_hint">"Нажмите кнопку спуск и двигайте камеру 
+    <string name="mz_pano_hint">"Нажмите кн. спуск и двигайте камеру 
 по горизонтали"</string>
     <string name="mz_pano_hint_direc_confirming">Двигайте камеру по горизонтали</string>
     <string name="mz_pano_hint_in_panning">Продолжайте двигать по горизонтали</string>
