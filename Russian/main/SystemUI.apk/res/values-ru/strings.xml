@@ -31,7 +31,7 @@
     <string name="smarttouch_help_button_title_1">Нажать</string>
     <string name="smarttouch_help_button_summary_1">Действие Назад</string>
     <string name="smarttouch_help_button_title_2">Дважды</string>
-    <string name="smarttouch_help_button_summary_2">Вниз</string>
+    <string name="smarttouch_help_button_summary_2">Потянуть экран вниз</string>
     <string name="smarttouch_help_button_title_3">Удержать</string>
     <string name="smarttouch_help_button_summary_3">Переместить кнопку</string>
     <string name="smarttouch_help_button_title_4">Вверх</string>
@@ -49,7 +49,7 @@
     <string name="recents_close_all_mem">%1$d Мб очищено</string>
     <string name="recents_close_all_mem_nothing">Пусто</string>
     <string name="recents_start_multi">Окно</string>
-    <string name="keyguard_camera_hint">Тяните вверх для запуска камеры</string>
+    <string name="keyguard_camera_hint">Слайд влево для запуска камеры</string>
     <string name="fake_notification_tip">Новых уведомлений: %1$d</string>
     <string name="fake_notification_tips">Новых уведомлений: %1$d</string>
     <string name="qs_header_date_main_pattern12">%s a</string>
@@ -62,7 +62,7 @@
     <string name="external_storage_unmounting_title">Отключение внешнего накопителя…</string>
     <string name="external_storage_unmounting_ticker">Отключение внешнего накопителя…</string>
     <string name="open_usb_device">Открыть %1$s сейчас?</string>
-    <string name="unmount_externalstorage">Отключить внешний накопитель %1$s?</string>
+    <string name="unmount_externalstorage">Отключить внешний накопитель: %1$s?</string>
     <string name="external_storage_open_button">Открыть</string>
     <string name="external_storage_remove_button">Отключить</string>
     <string name="open_sdcard">Открыть карту памяти?</string>
@@ -165,7 +165,7 @@
     <string name="battery_saver_start_action">Включить режим энергосбережения</string>
     <string name="status_bar_settings_settings_button">Настройки</string>
     <string name="status_bar_settings_wifi_button">Wi-Fi</string>
-    <string name="status_bar_settings_airplane">Полёт</string>
+    <string name="status_bar_settings_airplane">Реж. полёта</string>
     <string name="status_bar_settings_auto_rotation">Автоповорот</string>
     <string name="status_bar_settings_mute_label">Выкл.</string>
     <string name="status_bar_settings_auto_brightness_label">Авто</string>
@@ -340,7 +340,7 @@
     <string name="dessert_case">Коробка со сладостями</string>
     <string name="start_dreams">Заставка</string>
     <string name="ethernet_label">Ethernet</string>
-    <string name="quick_settings_airplane_mode_label">Полёт</string>
+    <string name="quick_settings_airplane_mode_label">Режим полёта</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d)</string>
     <string name="quick_settings_bluetooth_off_label">Bluetooth выкл.</string>
@@ -622,7 +622,7 @@
     <string name="voiceui_quota_start" />
     <string name="voiceui_quota_end" />
     <string name="voiceui_or">или</string>
-    <string name="keyguard_accessibility_alarm_unlock">Power-off Alarm</string>
+    <string name="keyguard_accessibility_alarm_unlock">Сигнал об отключении питания</string>
     <string name="alarm_alert_dismiss_text">Отклонить</string>
     <string name="alarm_alert_snooze_text">Дремать</string>
     <string name="keyguard_password_entering_puk_code">Введите PUK кол</string>
@@ -655,7 +655,7 @@
     <string name="keyguard_close">Закрыть</string>
     <string name="default_sim_setting_prompt">Установлены настройки по умолчанию:</string>
     <string name="keyguard_video_call">Видеовызов:</string>
-    <string name="lockscreen_pattern_wrong">Попробуйте еще раз</string>
+    <string name="lockscreen_pattern_wrong">Повторите попытку</string>
     <string name="invalid_sim_title">Неверная SIM-карта</string>
     <string name="invalid_sim_message">Невозможно распознать UIM/SIM-карту.</string>
     <string name="lockscreen_sim_locked_message_short">SIM-карта заблокирована</string>
@@ -685,7 +685,7 @@
     <string name="keyguard_password_enter_pin_password_code">Введите PIN-код</string>
     <string name="keyguard_password_wrong_pin_code">Неверный PIN-код.</string>
     <string name="keyguard_label_text">Для разблокировки нажмите \"Меню\", а затем 0.</string>
-    <string name="faceunlock_multiple_failures">Превышено количество попыток разблокировки FaceLock</string>
+    <string name="faceunlock_multiple_failures">Все попытки разблокировки \"Фейсконтроль\" использованы</string>
     <string name="keyguard_charged">Батарея заряжена</string>
     <string name="keyguard_plugged_in">Зарядка батареи</string>
     <string name="keyguard_low_battery">Подключите зарядное устройство.</string>
@@ -917,9 +917,9 @@
     <string name="mc_is_Refreshing">Обновление</string>
     <string name="mc_go_Refreshing">Обновить</string>
     <string name="mc_last_refresh">Последнее обновление</string>
-    <string name="mc_last_refresh_hour">" час назад"</string>
-    <string name="mc_last_refresh_minute">мин назад</string>
-    <string name="mc_last_refresh_second">сек назад</string>
+    <string name="mc_last_refresh_hour">" ч. назад"</string>
+    <string name="mc_last_refresh_minute">мин. назад</string>
+    <string name="mc_last_refresh_second">сек. назад</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
     <string name="mc_selectionbutton_all">Все</string>
     <string name="mc_search">Поиск</string>
