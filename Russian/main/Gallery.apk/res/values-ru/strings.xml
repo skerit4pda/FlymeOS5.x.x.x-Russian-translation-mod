@@ -628,7 +628,7 @@
     <string name="mz_barcode_menu_addcalendar">Добавить в календарь</string>
     <string name="mz_barcode_menu_addcontact">Добавить в контакт</string>
     <string name="mz_barcode_menu_send">Отправить</string>
-    <string name="mz_barcode_no_network"><Data>no network connection&lt;br/>&lt;font color=#b9babc size=3sp>click to try it again&lt;/font></Data></string>
+    <string name="mz_barcode_no_network"><Data>Нет подключения к сети&lt;br/>&lt;font color=#b9babc size=3sp>нажмите для повтора&lt;/font></Data></string>
     <string name="mz_barcode_no_response">Продукт не найден</string>
     <string name="mz_barcode_sb_title">Содержимое</string>
     <string name="mz_calendar">Детали события</string>
@@ -822,7 +822,7 @@
     <string name="three_two_crop_aspect">3:2</string>
     <string name="thumbfrag_sync_status_off">(для копирования)</string>
     <string name="thumbfrag_sync_status_on">(копирование)</string>
-    <string name="thumbnail_sub_tile_string">Всего %d изображений</string>
+    <string name="thumbnail_sub_tile_string">Всего изображений: %d</string>
     <string name="thumbnail_sub_tile_string_record">Всего записей: %d</string>
     <string name="thumbnail_user_guide_msg">Нажмите, чтобы свернуть/развернуть категорию</string>
     <string name="time">Время</string>
