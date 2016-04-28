@@ -137,9 +137,9 @@
     </string-array>
     <string-array name="pref_default_all_day_reminder_labels">
         <item>Нет</item>
-        <item>в день события (9:00 утра)</item>
-        <item>за 1 день (9:00 утра)</item>
-        <item>за 2 дня (9:00 утра)</item>
+        <item>В день события (9:00 утра)</item>
+        <item>За 1 день (9:00 утра)</item>
+        <item>За 2 дня (9:00 утра)</item>
     </string-array>
     <string-array name="pref_default_reminder_labels">
         <item>Нет</item>
@@ -183,9 +183,9 @@
         <item>Будильник</item>
     </string-array>
     <string-array name="repeats_end_labels">
-        <item>Постоянно</item>
+        <item>Всё время</item>
         <item>До даты</item>
-        <item>Несколько раз</item>
+        <item>Количество повторов</item>
     </string-array>
     <string-array name="sectional_array">
         <item></item>
