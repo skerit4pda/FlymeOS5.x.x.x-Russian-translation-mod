@@ -741,16 +741,16 @@
     <string name="mzc_alipay">Alipay</string>
     <string name="mzc_alipay_transfer">Перевод Alipay</string>
     <string name="mzc_all_call_log">Полная история</string>
-    <string name="mzc_as_default_account">Установить как аккаунт по умолчанию</string>
+    <string name="mzc_as_default_account">Установить аккаунтом по умолчанию</string>
     <string name="mzc_callDetailsDurationFormat" formatted="false">%s м %s с</string>
     <string name="mzc_callDetailsDurationFormat3">Гудков: %s</string>
-    <string name="mzc_callDetailsDurationFormatSecond">%s с</string>
-    <string name="mzc_callDetailsDurationFormatWithHour" formatted="false">%s ч %s м %s с</string>
+    <string name="mzc_callDetailsDurationFormatSecond">%s с.</string>
+    <string name="mzc_callDetailsDurationFormatWithHour" formatted="false">%s ч. %s м. %s с.</string>
     <string name="mzc_call_detail_all_entries_delete_call">Очистить</string>
     <string name="mzc_call_ip_number">Набор IP-номера</string>
     <string name="mzc_call_log">Журнал вызовов</string>
     <string name="mzc_call_log_date_format" formatted="false">%s / %s</string>
-    <string name="mzc_call_log_delete_dialog_ok_text">Очистить %s записи</string>
+    <string name="mzc_call_log_delete_dialog_ok_text">Удаление записей: %s</string>
     <string name="mzc_call_log_deleting">Удаление</string>
     <string name="mzc_call_log_no_choiced_title">Выбрать записи</string>
     <string name="mzc_call_missed_ring_one_time">Один гудок</string>
@@ -793,9 +793,9 @@
     <string name="mzc_context_menu_sip_call">Интернет-вызов</string>
     <string name="mzc_custom_ringtone">Рингтоны</string>
     <string name="mzc_date_picker_dialog_title">Установка даты</string>
-    <string name="mzc_debug_dump_database_message">You need to: 1) make a copy of your database which includes all contact information and all call logs to the internal storage, and 2) email it. Remember to delete the copy asap after you have copied it from the device or the email is received.</string>
+    <string name="mzc_debug_dump_database_message">Вы должны: 1) сделать копию базы данных (которая включает в себя всю контактную информацию и все журналы вызовов) на внутреннюю память; 2) отправить по электронной почте. Не забудьте удалить копию как можно скорее после того, как вы скопировали её из устройства или получили по электронной почте.</string>
     <string name="mzc_debug_dump_delete_button">Удалить</string>
-    <string name="mzc_debug_dump_email_body">Attached is my dialer database with all my contact information. Be careful when handling it!</string>
+    <string name="mzc_debug_dump_email_body">Во вложении база данных моих вызовов со всей моей контактной информацией. Будьте осторожны при обращении с этими данными!</string>
     <string name="mzc_debug_dump_email_sender_picker">Выберите программу для отправки файла</string>
     <string name="mzc_debug_dump_email_subject">База данных телефона прикреплена</string>
     <string name="mzc_debug_dump_start_button">Начать</string>
@@ -873,7 +873,7 @@
     <string name="mzc_import_vcard_activity_title">Импорт с диска</string>
     <string name="mzc_importing">Импортирование</string>
     <string name="mzc_importing_vcard_finished_title">Импорт завершён</string>
-    <string name="mzc_international_search_exchange_directory">Поиск глобальных контактов</string>
+    <string name="mzc_international_search_exchange_directory">Глобальный поиск контактов</string>
     <string name="mzc_is_supper_power_mode_warning">Это действие не поддерживается в текущем режиме</string>
     <string name="mzc_item_call_edit">Изменить перед набором</string>
     <string name="mzc_item_copy_text">Копировать</string>
@@ -905,7 +905,7 @@
     <string name="mzc_pick_contacts_title">Выбор контактов</string>
     <string name="mzc_pick_menu_add">Добавить</string>
     <string name="mzc_pick_share_contact">Передать контакт</string>
-    <string name="mzc_pick_vcard_title">Выбрать vCard</string>
+    <string name="mzc_pick_vcard_title">Выбор vCard</string>
     <string name="mzc_preference_account_dialog_subtitle">Аккаунт по умолчанию для сохранения новых контактов</string>
     <string name="mzc_preference_export_contacts_title">Экспорт контактов</string>
     <string name="mzc_preference_import_contacts_from_otherphone_title">Импорт с другого телефона</string>
