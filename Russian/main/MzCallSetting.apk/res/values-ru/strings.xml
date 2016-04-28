@@ -48,7 +48,7 @@
     <string name="new_message">%d новых сообщений</string>
     <string name="new_call">%d новых записей</string>
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
-    <string name="mz_action_bar_multi_choice_select_all">All</string>
+    <string name="mz_action_bar_multi_choice_select_all">Все</string>
     <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
     <string name="delete_record_item">Удалить записи: %d</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Не выбрано</string>
@@ -213,8 +213,8 @@
     <string name="mc_go_Refreshing">Обновить</string>
     <string name="mc_last_refresh">Последнее обновление</string>
     <string name="mc_last_refresh_hour">" час назад"</string>
-    <string name="mc_last_refresh_minute">мин назад</string>
-    <string name="mc_last_refresh_second">сек назад</string>
+    <string name="mc_last_refresh_minute">мин. назад</string>
+    <string name="mc_last_refresh_second">сек. назад</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
     <string name="mc_search">Поиск</string>
     <string name="mc_search_text">Поиск</string>
