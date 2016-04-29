@@ -81,9 +81,9 @@
         <item>Декабрь</item>
     </string-array>
     <string-array name="popupmenu_info">
-        <item>Однократно</item>
-        <item>Циклически</item>
-        <item>Продолжать</item>
+        <item>Однократное</item>
+        <item>Повтор</item>
+        <item>По очереди</item>
     </string-array>
     <string-array name="windowsize_info">
         <item>Вписать в экран</item>

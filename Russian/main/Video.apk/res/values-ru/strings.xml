@@ -323,7 +323,7 @@
     <string name="video_needpassword">Видео зашифровано</string>
     <string name="video_no_copyright">Запрет по авторсик правам</string>
     <string name="video_online_title">Домашняя страница</string>
-    <string name="video_play">Воспроизвести</string>
+    <string name="video_play">Воспроизведение</string>
     <string name="video_play_device">Воспроизвести</string>
     <string name="video_play_duration">Воспроизводится:</string>
     <string name="video_play_failed">Невозможно воспроизвести видео</string>
