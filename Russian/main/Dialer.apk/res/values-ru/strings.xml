@@ -878,7 +878,7 @@
     <string name="mzc_item_call_edit">Изменить перед набором</string>
     <string name="mzc_item_copy_text">Копировать</string>
     <string name="mzc_item_default_sim_ip_call">+ %s</string>
-    <string name="mzc_item_sim_card_call">SIM %s - совершить вызов</string>
+    <string name="mzc_item_sim_card_call">Использовать SIM %s</string>
     <string name="mzc_item_sim_card_ip_call" formatted="false">SIM%s + %s</string>
     <string name="mzc_loading">Загрузка</string>
     <string name="mzc_local_profile_title">Мой профиль</string>
