@@ -764,9 +764,9 @@
     <string name="mzc_contact_editor_title_new_contact">Новый контакт</string>
     <string name="mzc_contact_editor_update_photo">Обновить фото</string>
     <string name="mzc_contact_in_group_manager">Управление</string>
-    <string name="mzc_contact_name_already_exists">"Контакт уже существует, сохранение объединит контакты"</string>
+    <string name="mzc_contact_name_already_exists">Контакт уже существует, сохранение объединит контакты</string>
     <string name="mzc_contact_photo">Фото</string>
-     <string name="mzc_contact_sort_description">Сортировка</string>
+    <string name="mzc_contact_sort_description">Сортировка</string>
     <string name="mzc_contacts_delete_progress">Удаление</string>
     <string name="mzc_contacts_from_other">Импорт контактов</string>
     <string name="mzc_contacts_from_other_bluetooth_one">1. Включите Bluetooth на другом устройстве</string>
@@ -807,7 +807,6 @@
     <string name="mzc_delete_contact">Удалить контакт</string>
     <string name="mzc_delete_group_confirm">Удалить группу</string>
     <string name="mzc_delete_vcard">Удалить</string>
-    <string name="mzc_detail">Детали</string>
     <string name="mzc_description_checked">Проверено: %s</string>
     <string name="mzc_description_detail_of">Детали %1$s</string>
     <string name="mzc_description_dialpad_delete_button">Удалить</string>
@@ -816,6 +815,7 @@
     <string name="mzc_description_dialpad_hide_button">Скрыть клавиатуру</string>
     <string name="mzc_description_no_checked">Отменено: %s</string>
     <string name="mzc_description_search_clear">Очистить</string>
+    <string name="mzc_detail">Детали</string>
     <string name="mzc_detail_contact_info">Информация</string>
     <string name="mzc_dialer_invalid_dialing">Ошибка набора</string>
     <string name="mzc_dialog_voicemail_no_sim_message">Пожалуйста, вставьте SIM-карту</string>
@@ -840,7 +840,7 @@
 Возможная причина ошибки:
 1.SIM-карта заполнена 
 2.Ошибка имени или номера"</string>
-  <string name="mzc_fail_reason_could_not_initialize_exporter">Невозможно начать экспорт: %s</string>
+    <string name="mzc_fail_reason_could_not_initialize_exporter">Невозможно начать экспорт: %s</string>
     <string name="mzc_fail_reason_could_not_open_file" formatted="false">Невозможно открыть %s: %s</string>
     <string name="mzc_fail_reason_error_occurred_during_export">Ошибка экспорта: %s</string>
     <string name="mzc_fail_reason_failed_to_collect_vcard_meta_info">Не удалось собрать метаданные файлов vCard</string>
@@ -878,7 +878,7 @@
     <string name="mzc_item_call_edit">Изменить перед набором</string>
     <string name="mzc_item_copy_text">Копировать</string>
     <string name="mzc_item_default_sim_ip_call">+ %s</string>
-    <string name="mzc_item_sim_card_call" formatted="false">SIM %d - %s</string>
+    <string name="mzc_item_sim_card_call">Использовать SIM %d</string>
     <string name="mzc_item_sim_card_ip_call" formatted="false">SIM%s + %s</string>
     <string name="mzc_loading">Загрузка</string>
     <string name="mzc_local_profile_title">Мой профиль</string>
@@ -894,8 +894,8 @@
     <string name="mzc_modify_mark">Изменить метку</string>
     <string name="mzc_more">Больше данных</string>
     <string name="mzc_network_communications">Сетевые коммуникации</string>
-    <string name="mzc_new_contact_in">Создать контакт в:</string>
     <string name="mzc_new">Новый</string>
+    <string name="mzc_new_contact_in">Создать контакт в:</string>
     <string name="mzc_nfc_vcard_save_successed">Чтение завершено, контакты сохранены</string>
     <string name="mzc_no_contacts">Нет контактов</string>
     <string name="mzc_no_sdcard_title">Нет карты памяти</string>
@@ -912,9 +912,9 @@
     <string name="mzc_preference_import_contacts_from_sim_title">Импорт с SIM-карты</string>
     <string name="mzc_preference_import_contacts_from_storagedisk_title">Импорт с диска</string>
     <string name="mzc_preference_sim_contacts_title">Контакты SIM</string>
-    <string name="mzc_read_only_contact">Данный контакт в режиме "только для чтения"</string>
     <string name="mzc_preference_title">Управление контактами</string>
     <string name="mzc_progress_notifier_message">Импорт %1$s/%2$s: %3$s</string>
+    <string name="mzc_read_only_contact">Данный контакт в режиме только для чтения</string>
     <string name="mzc_read_only_contacts_export_failed">Нельзя экспортировать контакты в режиме только для чтения</string>
     <string name="mzc_recent">Недавние</string>
     <string name="mzc_recentMissed_empty">Нет вызовов</string>
@@ -1085,15 +1085,15 @@
     <string name="specail_number_guangda">China Everbright Bank</string>
     <string name="specail_number_guangfazhan">Guangdong Development Bank</string>
     <string name="specail_number_hezhong">Union Life Insurance Co., Ltd.</string>
-    <string name="specail_number_huaan">Hua\'an Property Insurance Co., Ltd.</string>
+    <string name="specail_number_huaan">"Hua'an Property Insurance Co., Ltd."</string>
     <string name="specail_number_huanbao">Горячая линия службы экологического мониторинга</string>
     <string name="specail_number_huatai">Huatai Property Insurance Co., Ltd.</string>
     <string name="specail_number_huaxia">Huaxia Bank</string>
     <string name="specail_number_jiage">Горячая линия службы по надзору цен</string>
-    <string name="specail_number_jianbao">Chinese People\'s Health Insurance Company</string>
+    <string name="specail_number_jianbao">"Chinese People's Health Insurance Company"</string>
     <string name="specail_number_jianshe">China Construction Bank</string>
     <string name="specail_number_jiaotong">Коммуникационный Банк Китая</string>
-    <string name="specail_number_jubao">Горячая линия статистического учреждения </string>
+    <string name="specail_number_jubao">Горячая линия статистического учреждения</string>
     <string name="specail_number_laodong">Горячая линии правозащиты работников</string>
     <string name="specail_number_lianhe">China United Property Insurance Company</string>
     <string name="specail_number_liantong">Служба поддержки China Unicom</string>
@@ -1104,7 +1104,7 @@
     <string name="specail_number_pingancaibao">China Ping An Property Insurance Corporation</string>
     <string name="specail_number_pudong">Shanghai Pudong Development Bank</string>
     <string name="specail_number_quanyi">Курьерская служба</string>
-    <string name="specail_number_renbao">China People\'s Insurance Company</string>
+    <string name="specail_number_renbao">"China People's Insurance Company"</string>
     <string name="specail_number_renbaogufeng">Minsheng Life Insurance Co.</string>
     <string name="specail_number_renshou">China Life Insurance Company</string>
     <string name="specail_number_shenfazhan">Shenzhen Development Bank</string>
@@ -1123,7 +1123,7 @@
     <string name="specail_number_yangguang">Sunshine Property Insurance Co., Ltd.</string>
     <string name="specail_number_yidong">Служба поддержки China Mobile</string>
     <string name="specail_number_yinlian">China UnionPay Co., Ltd.</string>
-    <string name="specail_number_yongan">Yong\'an Property Insurance Co., Ltd.</string>
+    <string name="specail_number_yongan">"Yong'an Property Insurance Co., Ltd."</string>
     <string name="specail_number_youzheng">Почтовый сберегательный банк Китая</string>
     <string name="specail_number_zaijisong">Доставка на дом</string>
     <string name="specail_number_zhaoshang">China Merchants Securities Co. , Ltd.</string>
