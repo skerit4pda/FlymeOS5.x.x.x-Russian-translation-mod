@@ -2648,6 +2648,8 @@
     <string name="wifi_use_static_ip">Статический IP</string>
     <string name="wifi_share_network_title">Поделиться сетью через QR-код</string>
     <string name="wifi_priority_settings_title">Предпочтительная сеть</string>
+    <string name="wifi_speed_test">Тестировать скорость сети</string>
+    <string name="wifi_network_diagn">Диагностика сети</string>
     <string name="wifi_forget_network_title">Отклонить сеть</string>
     <string name="wifi_modify_network_title">Изменить пароль</string>
     <string name="wifi_proxy_settings_title">Настройки прокси-сервера</string>
@@ -2991,7 +2993,7 @@
     <string name="screen_force_wakeup_title">Принудительное пробуждение</string>
     <string name="screen_force_wakeup_summary">Онлайн синхронизация сообщений, контактов, обмен данными</string>
     <string name="app_force_wakeup_rank">Будящие приложения</string>
-    <string name="app_force_wakeup_summary">"за %1$s пробуждён %2$d раз(а)"</string>
+    <string name="app_force_wakeup_summary">за %1$s пробуждён %2$d раз(а)</string>
     <string name="app_force_wakeup_frequency">%d d/h</string>
     <string name="battery_usage_statistics">Статистика потребления</string>
     <string name="system_sleep_wakeup_time">Время пробуждения:</string>
@@ -3144,7 +3146,7 @@
     <string name="system_version">"Версия системы: "</string>
     <string name="mz_settings_copyright_activity_title">Правовая информация</string>
     <string name="yunos_settings_copyright_title">Правовая информация</string>
-    <string name="yuno_copyright_text">"Ядро системы предоставлено Ali Baba YunOS, соответствующее программное обеспечение интеллектуальной собственности, принадлежащей Alibaba Group."</string>
+    <string name="yuno_copyright_text">Ядро системы предоставлено Ali Baba YunOS, соответствующее программное обеспечение интеллектуальной собственности, принадлежащей Alibaba Group.</string>
     <string name="sound_and_vibrate_title">Звук и вибрация</string>
     <string name="volume_adjustment_title">Громкость</string>
     <string name="silent_mode_title">Беззвучный режим</string>
@@ -3345,8 +3347,13 @@
     <string name="search_settings_title">Поиск</string>
     <string name="install_outside_app">Установка приложений из неофициальных источников</string>
     <string name="wifi_proxy_manual">Вручную</string>
+    <string name="logcat_reject_level_title">Запись логов</string>
+    <string name="logcat_reject_level_prevent_none">Разрешить всё</string>
+    <string name="logcat_reject_level_prevent_part">Разрешить некоторое</string>
+    <string name="logcat_reject_level_prevent_all">Запретить</string>
+    <string name="mz_install_unknown_applications">Неизвестные источники</string>
     <string name="fast_scroll_alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ#</string>
-    <string name="vioce_assisant_hit">Произнесите слово: "Мелодия"</string>
+    <string name="vioce_assisant_hit">Произнесите слово: Мелодия</string>
     <string name="mz_date_time_month">м</string>
     <string name="mz_date_time_year">г</string>
     <string name="mz_date_time_day">д</string>
@@ -3460,11 +3467,6 @@
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_description_target_answer">Правильный вариант</string>
     <string name="ringtone_unknown">Без звука</string>
-    <string name="mz_install_unknown_applications">Неизвестные источники</string>
-    <string name="logcat_reject_level_title">Запись логов</string>
-    <string name="logcat_reject_level_prevent_none">Разрешить всё</string>
-    <string name="logcat_reject_level_prevent_part">Разрешить некоторое</string>
-    <string name="logcat_reject_level_prevent_all">Запретить</string>
-    <string name="wifi_speed_test">Тестировать скорость сети</string>
-    <string name="wifi_network_diagn">Диагностика сети</string>
+	<string name="recently_1_hour">За час</string>
+    <string name="recently_22_hour">За 22 часа</string>
 </resources>
