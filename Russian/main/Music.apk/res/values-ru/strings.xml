@@ -550,8 +550,8 @@
   <string name="menu_scan_music">Сканировать музыку на накопителе</string>
   <string name="message_push">уведомляет о полуении сообщения</string>
   <string name="music_scan">Сканирование ...</string>
-  <string name="music_scan_count_other">scan%d song released * songs</string>
-  <string name="music_scan_count_zero">scan%d songs, free new songs</string>
+  <string name="music_scan_count_other">Найдено треков: %d</string>
+  <string name="music_scan_count_zero">Найдено треков: %d</string>
   <string name="new_version_upgrade">Доступна новая версия</string>
   <string name="no_content">Нет контента</string>
   <string name="no_desc_title">Нет заставки</string>
