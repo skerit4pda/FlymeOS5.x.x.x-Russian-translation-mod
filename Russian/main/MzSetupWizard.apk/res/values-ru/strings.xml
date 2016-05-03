@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="AirModeOn">Для использования Wi-Fi отключите режим полёта</string>
+    <string name="Back">Назад</string>
+    <string name="Complete">Готово</string>
+    <string name="NextStep">Далее</string>
+    <string name="WaitTip">Пожалуйста, подождите</string>
+    <string name="addNetWork">Добавить сеть</string>
+    <string name="agree">Принять</string>
+    <string name="aliAccount">Войти в Aliyun</string>
+    <string name="allowFlymeMessage">Веб-звонки и сообщения бесплатны, но оператор взимает плату за SMS-активацию. Контакты будут согласованы с их онлайн-статусами.</string>
+    <string name="allowLocation">Карты и иные приложения, использующие GPS, определяют Ваше местоположение</string>
+    <string name="alwaysUse">По умолчанию для этого действия</string>
+    <string name="app_name">Мастер установки</string>
+    <string name="autoUpdateDec">Автообновление ПО из AppCenter через Wi-Fi</string>
+    <string name="autoUpdateTittle">Обновление ПО</string>
+    <string name="cancel">Отмена</string>
+    <string name="cmcc">China Mobile</string>
+    <string name="connetted">Соединено</string>
+    <string name="connetting">Соединение…</string>
+    <string name="cutc">China Unicom</string>
+    <string name="date_time_set">Установить</string>
+    <string name="desc_IP">"1. Основные положения
+
+Meizu has always attached great importance to IPR protection and abided by Chinese IPR laws, regulations and binding regulatory documents.
+
+All information on the Flyme OS, including but not limited to, the entire content of all trademarks, identifiers, business name and logo, texts, images, audios, videos, and programs used on the Flyme OS. The Flyme OS layout, web design, Flyme OS architecture and data editing, software or program used, and intellectual property rights are all independently owned by Meizu or co-owned with legal right holders concerning the related content.
+
+Unless otherwise provided by law, without written authorization from Meizu, no one shall be allowed to reproduce, edit, distribute, assemble, modify, download, imitate, copy, republish, mirror, reverse engineer, or decompile or disassemble any content of copyright and other intellectual property rights owned by Meizu in any form, or else will be investigated for legal responsibility according to law by Meizu. 
+
+The reprint of web content on the Flyme OS by any third party within the limits of fair use must be indicated the source of reprint, author, links, and Meizu copyright symbol (if any) may not be removed; otherwise Meizu reserves the right to pursue its legal responsibilities.
+
+Where texts or icons indicating a service from a third party, the final content of the service is ultimately provided by the third party; Flyme OS only provide web services include automatic connection, automatic transmission, data storage space, searching, linking or file-sharing technology and etc. Meizu shall not carry out any form of censorship, edit or modification on its content.
+
+2. Уведомление о защите прав собственности
+
+According to Chinese laws, regulations and requirements of normative documents, Meizu developed measures and steps aimed at the protection of the legitimate interests of right holders, specifically as follows: 
+
+2.1 Notice of infringement
+
+If the right holders claim that the content or links provided by third parties on the Flyme OS can be possibly in violation of their legitimate rights and interests, they may file a notice of infringement with Meizu, which shall contain the following:
+
+a) Specific information of right holders, including the name, address, e-mail, phone number, copy of a valid identity document (such as the identity cards, passports, business licenses);
+
+b) The name of infringement content required to be removed and network address of links required to be unlinked;
+
+c) Initial evidence of infringement, including but not limited to the ownership documents that can prove the right holders' legal right of the alleged infringement and descriptions about the infringement facts.
+
+The notice of infringement must be signed by the right holder or an authorized person. In case the right holder is legal person or other units, offical seal is required.
+
+The right holder shall be responsible for the authenticity of his notice, and assume full legal responsibility arising therefrom.
+
+After receipt of such notice by Meizu, a formal examination shall be done during a reasonable period of time, e.g. about whether the notice meets the above requirements. Meizu will remove the alleged infringement content or disconnect the allegedly infringing link in accordance with the provisions of the laws and regulations. At the same time, Meizu hs the right to require the right holder to provide further evidence for the purpose of review, which the right holder should cooperate with.
+
+While Meizu legally deletes the content of complaint or disconnects the link, it has the right to transfer the notice of infringement to the content or link provider; if as a result of unkonown address the notice cannot be transferred, Meizu will publish the notice of infringement through Internet.
+
+2.2 Counter notification
+
+The content or link providers can file a counter notification in writing with Meizu requesting recovery of deleted content or broken links within 3 working days after receipt of the notice of infringement transferred by Meizu or having learned it through Internet, provided that they think their offered content or links did not violate the rights of others.
+
+The counter notification shall include the following:
+
+a) Specific information of content or link providers, including the name, address, telephone number, a valid identity document (such as the identity cards, passports, and business licenses);
+
+b) The exact name and network address corresponding to the content or links required to be restored;
+
+c) Initial evidence of non-infringement, including but not limited to the ownership documents that can prove their legal rights to the allegedly infringing content or links, and descriptions of non-infringement facts.
+
+The counter notification shall be signed by the right holder or a legally authorized person, and an official seal needs to be affixed for a unit.
+
+The service object shall be responsible for the authenticity of the counter notification, and assume full legal responsibility arising therefrom.
+
+After receiving the counter notification submitted by the content or link providers, a formal examination shall be done during a reasonable period of time, and if the counter notification meets the above requirements, Meizu will immediately restore the deleted content or broken links, while tranferring the counter notification to the right holders. The right holders shall not notify Meizu again of deleting the content, or disconnecting the links.
+
+2.3 Submission of notice of infringement and counter notification
+
+The notice of infringement and counter notification shall be filed with Meizu through the following ways:
+
+a) To send the scanning copy to: ipr@meizu.com; 
+
+b) To mail the written materials to: Intellectual Property Right Department, Meizu Tech Bldg., Technology and Innovation Coast, Zhuhai (Postal Code: 519085).
+
+The deletion or restoration of content and disconnection or reconnecting of links are conducted by Meizu in accordance with laws, for which Meizu does not undertake any responsibility.
+
+Within the scope permitted by law, the final interpretation of this Statement is owned by Meizu.
+
+©Meizu Telecom Equipment Co., Ltd."</string>
+    <string name="desc_find_phone">Если эта функция включена, пользователь может искать или заблокировать телефон и делать снимки, если телефон утерян</string>
+    <string name="desc_privacy">"Meizu and its partners (hereinafter called \"Meizu\", the \"Company\", \"We\") understand the importance of privacy for customers. We strive to clearly explain how we collect, use, disclose, transfer and store your information. The privacy policies outline our information processing approach. 
+
+Meizu always attached great importance to protection of privacy for users (including the natural persons, legal persons and other organizations through legitimate access to or use of of this product, hereinafter referred to as \"Users\" or \"You\"). In order to better protect your rights of use of the products and personal information, We hereby disclose the product or service usage, users’ rights and obligations, as well as the collection, usage, storage, security protection, and way of disclosure of users' personal information and data. Before using the products or services, be sure to read and fully understand requirements and limitations in this \"Privacy Statement\" (hereinafter referred to as the \"Statement\"), which is provided with independence and integrity. When you choose to use the products, you are deemed to have understood and agreed to all the terms in this Statement, and voluntarily assume full responsibility and risk in the use of the products or service. If you do not agree with this Statement, please terminate the use of our products or services. 
+
+What personal information do we collect? 
+
+There are two ways of collecting information: 
+
+Information you provides to us: 
+
+When you register a Flyme account, it may require you to provide your personal information to us, such as: your name, e-mail address, phone number, certificate number. 
+
+Information we collect in your using of our products and services: 
+
+It may require you to provide your mailing address, bank account number, etc.
+
+If necessary, we will also collect product-related information, such as the IP address, Cookie, location information, product manufacturers, product type, product unique identifier, device data, and other information. 
+
+Why do we collect personal information? 
+
+The are two main reasons based on which we need to collect your personal information: 1) Part of services can be provided only after your information is obtained; 2) Your information will help us better optimize the products and services to better meet your needs and provide you with more convenient personal customization services. 
+
+How do we collect personal information?
+
+1. Information you provides directly
+
+Some services require you to provide information directly to us. For example: 
+
+Many of our services allow users to create an account or profiles. Among these services, we may ask you to provide certain personal information in order to set up the account or profiles. For example, when you create a Flyme account, you may need to submit certain personal information, such as your name, phone number, email address, and ID number. 
+
+If you order a product or paid services to us, we may ask for your name, contact information, shipping address, billing address, and credit card information in order to process your order. 
+
+2. Information about service usage 
+
+In addition to the information you provides, we may also collect information about your usage of our services through software in your device as well as other ways. For example, we may collect: 
+
+Device information, such as the hardware model, phone number, IMEI number and other unique device identifier, MAC address, IP address, operating system version, and set-up of devices used to access the services. 
+
+Log information, such as the time and duration of use of services, the query words inputted through the search services, and any information stored on Cookie set in the devices. 
+
+Location information, such as the information about IP address of devices that may be sent to us when you use certain services. 
+
+Voice messages, such as the voice we recorded when you use voice commands to control the services (and may be stored on our server). (Please note, we work with a third-party service provider that are on our behalf to deliver voice-text conversion service. That provider may receive and store certain voice commands.) 
+
+For additional information about your use of the services, such as apps used, websites visited and how you interact with the service content. 
+
+3. Information from a third-party source 
+
+We may obtain your information from public sources (where permitted by law) and may combine it with information we received or other information about you. If you choose to connect third-party network services, we may also get your information from these services. 
+
+4. Other information we collect 
+
+We may also collect additional information about you, your device or use of services through other means, which we will show you before or during the collection to ask for your permission. 
+
+You can choose not to provide certain types of information (for example, information what we request when we improve profiles of Flyme account), but this may affect your access to certain services. 
+
+How do we use personal information collected? 
+
+1. Register for your or your device with services; 
+
+2. Provide the services or functions that you request; 
+
+3. Provide customized content and make recommendations for you according to your past use of our service activities; 
+
+4. Advertising, such as provide customized advertising and sponsorship content (through our advertising services, you can learn more about our practice here) and send you promotional information; 
+
+5. Assess and analyze markets, customers, products, and services, as well as ask your opinions of our products and services, and perform customer surveys; 
+
+6. Learn how you use our services in order to improve our services and develop new products and services; 
+
+7. Provide maintenance services for your device; 
+
+8. To the extent applicable law permits, hold a free prize draw, agon or promotions; 
+
+9. Other uses after winning your consent. 
+
+How do we store and protect personal information? 
+
+Meizu uses generally accepted industrial security standards and take encryption measures to protect users' personal identification information and data, to ensure that your information will not be accessed by unauthorized use or disclosure. 
+
+On the technical side, Meizu uses antivirus software, encryption protection, and monitoring systems to enhance defense and protection for Meizu data center. In the aspect of system, through security and privacy protection knowledge training conducted to Meizu staff, employees' understanding of importance of data protection is ensured. But based on the Internet defects and running risks, Meizu does not guarantee that your information is absolutely secure.
+
+ 
+
+Third-party links and products 
+
+Where texts or icons indicating a service from a third party, the final content of the service is ultimately provided by the third party, and we do not carry out any form of censorship on its content, and also we shall not be responsible for security or privacy of any information collected on these websites or by other services. You should be more careful and view the privacy statements applicable to the third-party websites and services used.
+
+Disclosure of information
+
+We will not disclose your personal information to third parties, except in the following circumstances: 
+
+1) With your consent
+
+Only with your consent shall we disclose your personal information to third parties.
+
+2) Disclose your personal information to our affiliates or partners 
+
+In order to provide better service, we may disclose part of your personal information to our affiliated companies and partners, but we will strictly prohibit affiliates or partners sharing the information for any other purpose. 
+
+3) In accordance with legal requirements 
+
+In accordance with the requirements of laws, regulations, judicial or government authorities, we may disclose your personal information. In the case we are dealing with restructuring, merger or liquidation, your personal information may be transferred to the counterparty. 
+
+Cookies and other technologies 
+
+In order to better optimize the user experience, we will collect cookies data generated when users are using the products or services. Our cookies will not be used to identify your personality, only making you enjoy a better and more convenient service during access. 
+
+Legal Liability 
+
+1. Users should use the product based on reasonable and bona fide principles. If damage or third party litigation is caused as a result of your misuse, we will retain the right to defense and to seek compensation, the extent of which including but not limited to losses arising due to your misconduct, including but not limited to, court costs, attorney fees, transportation fees, and travel expenses.
+
+ 2. The Statement is governed by laws of People's Republic of China. Any disputes arising from the Statement shall be resolved through consultation. In case such negotiation fails, the dispute may be submitted to the court where Meizu is located for settlement. 
+
+Renewal of the Privacy Statement
+
+In keeping with the products, services, and law, the Privacy Statement will be modified or changed at any time, which will be published promptly once it happens. You can continue to browse the Website or use Meizu products and services after such modifications or changes, which will be deemed to have accepted our modifications or changes to the Privacy Statement."</string>
+    <string name="desc_update">Подключение к сети и проверка обновлений</string>
+    <string name="desktopBackupInfo" formatted="false">Копия из %s %s</string>
+    <string name="disConnetted">Разъединено</string>
+    <string name="disConnetting">Выключение…</string>
+    <string name="disagree">Отклонить</string>
+    <string name="flymeAccount">Войти в Flyme</string>
+    <string name="flymeMessage">Общение Flyme</string>
+    <string name="flymeUseAgreement">《Памятка пользователя Flyme》</string>
+    <string name="flymeUseWarningTittle">Памятка пользователя Flyme</string>
+    <string name="ignore">Пропустить</string>
+    <string name="invite_title">Flyme предоставляет такие услуги, как безопасность, резервное копирование и т.д.:</string>
+    <string name="joinImprovementProgram">Сбор информации об использовании продукта для его совершенствования, не нарушая конфиденциальность.</string>
+    <string name="joinProgram">Присоединиться к программе улучшения пользовательского опыта</string>
+    <string name="loading">Загрузка</string>
+    <string name="locationService">Сервис обнаружения</string>
+    <string name="login">Войти</string>
+    <string name="mc_allow">Разрешить</string>
+    <string name="mc_alway_allow">Разрешать всегда</string>
+    <string name="mc_cancel">Отмена</string>
+    <string name="mc_cancel_button_text">Отмена</string>
+    <string name="mc_cancel_collected_message">Убрать из избранного</string>
+    <string name="mc_cancel_praised_message">Отменить отзыв</string>
+    <string name="mc_change_num">Обновить</string>
+    <string name="mc_collected_message">Статус избранного</string>
+    <string name="mc_custom_date_time_gregorian">Григор.</string>
+    <string name="mc_custom_date_time_lunar">Лунный</string>
+    <string name="mc_date_time_day">д</string>
+    <string name="mc_date_time_hour">ч</string>
+    <string name="mc_date_time_min">м</string>
+    <string name="mc_date_time_month">м</string>
+    <string name="mc_date_time_sec">с</string>
+    <string name="mc_date_time_set">Установить</string>
+    <string name="mc_date_time_year">г</string>
+    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_decline">Отклонить</string>
+    <string name="mc_disable">Отключить</string>
+    <string name="mc_every_day">Ежедневно</string>
+    <string name="mc_friday">ПТ</string>
+    <string name="mc_go_Refreshing">Обновить</string>
+    <string name="mc_hour">час</string>
+    <string name="mc_is_Refreshing">Обновление</string>
+    <string name="mc_last_refresh">Последнее обновление</string>
+    <string name="mc_last_refresh_hour">" ч. назад"</string>
+    <string name="mc_last_refresh_just_now">сейчас</string>
+    <string name="mc_last_refresh_minute">мин назад</string>
+    <string name="mc_last_refresh_second">сек. назад</string>
+    <string name="mc_loading_view_text">Загрузка</string>
+    <string name="mc_minute">мин</string>
+    <string name="mc_monday">ПН</string>
+    <string name="mc_never">Единожды</string>
+    <string name="mc_permission_apply">Разрешения</string>
+    <string name="mc_permission_message_content">%1$s требуется %2$s %3$d разрешений</string>
+    <string name="mc_pm_allow_check_app">Разрешить</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
+    <string name="mc_pm_bluetooth">Bluetooth</string>
+    <string name="mc_pm_call">Вызов</string>
+    <string name="mc_pm_call_log">Читать журнал вызовов</string>
+    <string name="mc_pm_camera">Камера (Фото/Видео)</string>
+    <string name="mc_pm_close">Выкл.</string>
+    <string name="mc_pm_contacts">Читать контакты</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
+    <string name="mc_pm_dlg_cancel">Отмена</string>
+    <string name="mc_pm_dlg_ok">ОК</string>
+    <string name="mc_pm_location">Местоположение</string>
+    <string name="mc_pm_network">Передача данных</string>
+    <string name="mc_pm_nfc">NFC</string>
+    <string name="mc_pm_not_allow_check_app">Запретить</string>
+    <string name="mc_pm_not_allow_dialog_push">Отключить</string>
+    <string name="mc_pm_online_intenert">Интернет</string>
+    <string name="mc_pm_open">Открыть</string>
+    <string name="mc_pm_r_mms">Читать MMS</string>
+    <string name="mc_pm_r_sms">Читать SMS</string>
+    <string name="mc_pm_recordaudio_local">Аудиозаписи</string>
+    <string name="mc_pm_recordaudio_phone">Записи разговоров</string>
+    <string name="mc_pm_s_mms">Послать MMS</string>
+    <string name="mc_pm_s_sms">Послать SMS</string>
+    <string name="mc_pm_set_bluetooth_on">Включить Bluetooth</string>
+    <string name="mc_pm_set_gprs_on">Включить передачу данных</string>
+    <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
+    <string name="mc_pm_wlan">Wi-Fi</string>
+    <string name="mc_praised_message">Нравится</string>
+    <string name="mc_pull_refresh">Проведите вниз для обновления</string>
+    <string name="mc_reject">Отклонить</string>
+    <string name="mc_saturday">СБ</string>
+    <string name="mc_search">Поиск</string>
+    <string name="mc_search_button_text">Поиск</string>
+    <string name="mc_search_icon">Поиск</string>
+    <string name="mc_search_icon_input_clear">Очистить</string>
+    <string name="mc_search_text">Поиск</string>
+    <string name="mc_second">сек</string>
+    <string name="mc_selectionbutton_all">Все</string>
+    <string name="mc_sunday">ВС</string>
+    <string name="mc_thursday">ЧТ</string>
+    <string name="mc_time_picker_leap">Встав.</string>
+    <string name="mc_tuesday">ВТ</string>
+    <string name="mc_voice_icon">Голосовой поиск</string>
+    <string name="mc_wednesday">СР</string>
+    <string name="mc_weekend">Выходные</string>
+    <string name="mc_working_day">Будни</string>
+    <string name="mc_yes">ОК</string>
+    <string name="more_item_label">Ещё</string>
+    <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
+    <string name="mz_action_bar_multi_choice_select_all">Все</string>
+    <string name="mz_action_bar_multi_choice_select_all_cancel">Нет</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_date_time_day">д</string>
+    <string name="mz_date_time_hour">ч</string>
+    <string name="mz_date_time_min">м</string>
+    <string name="mz_date_time_month">м</string>
+    <string name="mz_date_time_sec">с</string>
+    <string name="mz_date_time_year">г</string>
+    <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_set">Установить</string>
+    <string name="noActiveNetworkTip">Нет подключения к сети, пожалуйста, проверьте настройки</string>
+    <string name="no_availible_WLAN">Не найдено Wi-Fi-подключение. Вы можете войти через мобильную передачу данных.</string>
+    <string name="no_avialible_network">Сеть недоступна. Вы можете закончить загрузку руководства, а затем войти в аккаунт, чтобы воспользоваться всеми сервисами Flyme в настройках, когда сеть будет доступна.</string>
+    <string name="ok">OK</string>
+    <string name="open_wifi_confirm_message">Вы можете включить Wi-Fi для входа в аккаунт Flyme</string>
+    <string name="open_wifi_confirm_title">Включить Wi-Fi?</string>
+    <string name="please_select_phase2">Вторая фаза аутентификации</string>
+    <string name="protocol_title">Условия использования</string>
+    <string name="readAndAccept">Прочитано и принято</string>
+    <string name="reset">Сбросить мастер установки</string>
+    <string name="restoreDesktop">Восстановление рабочего стола</string>
+    <string name="restoreDesktopDec">Автосинхронизация приложений и ярлыков рабочего стола по Wi-Fi</string>
+    <string name="setup">Запустить мастер установки</string>
+    <string name="setupUseSyncAndPush">Вы можете использовать Flyme-аккаунт для синхронизации данных и получения уведомлений. Данная операция увеличит расход трафика.</string>
+    <string name="simCardOne">"SIM 1 "</string>
+    <string name="simCardTwo">"SIM 2 "</string>
+    <string name="skip">Пропустить</string>
+    <string name="syncData">Синхронизация данных</string>
+    <string name="title_IP">Положения защиты интеллектуальной собственности</string>
+    <string name="title_find_phone">Поиск телефона</string>
+    <string name="title_privacy">Заявление о конфиденциальности</string>
+    <string name="title_update">Сервис обновления</string>
+    <string name="useFlymeToSync">Используйте Flyme-аккаунт для синхронизации данных</string>
+    <string name="useNewUserGuide">Руководство для новичков</string>
+    <string name="useNewUserGuideTip">Поможет вам узнать о различных функциях</string>
+    <string name="userWaringTip">"Спасибо за выбор Flyme OS. Прочтите, пожалуйста, данную памятку перед использованием.
+Некоторые сервисы Flyme, включая синхронизацию данных, поиск телефона, центр безопасности, магазин приложений и прочее, требуют подключения к сети для передачи данных. Вы самостоятельно несёте все расходы, связанные с оплатой услуг по передаче данных. Свяжитесь с вашим оператором связи для уточнения тарифов на данный вид услуги.
+Сервис позиционирования Flyme включается вместе с запуском системы, поэтому те приложения, которые требуют информации о местоположении, могут обращаться к нему в любое время. Если вы отключите эту службу, то приложения не смогут получить информацию о местоположении. Таким образом, мы предлагаем вам обратить особое внимание на приложения, которые запрашивают разрешения на информацию о местоположении."</string>
+    <string name="userWaringTipChinaMobile">"Спасибо за выбор Flyme OS. Прочтите, пожалуйста, данную памятку перед использованием.
+Некоторые сервисы Flyme, включая синхронизацию данных, поиск телефона, центр безопасности, магазин приложений и прочее, требуют подключения к сети для передачи данных. Вы самостоятельно несете все расходы, связанные с оплатой услуг по передаче данных. Свяжитесь с вашим оператором связи для уточнения тарифов на данный вид услуги.
+Сервис позиционирования Flyme включается вместе с запуском системы, поэтому те приложения, которые требуют информации о местоположении, могут обращаться к нему в любое время. Если вы отключите эту службу, то приложения не смогут получить информацию о местоположении. Таким образом, мы предлагаем вам обратить особое внимание на приложения, которые запрашивают разрешения на информацию о местоположении."</string>
+    <string name="userWaringTipForArmy">"Спасибо за выбор Flyme OS. Прочтите, пожалуйста, данную памятку перед использованием.
+Некоторые сервисы Flyme, включая синхронизацию данных, поиск телефона, центр безопасности, магазин приложений и прочее, требуют подключения к сети для передачи данных. Вы самостоятельно несёте все расходы, связанные с оплатой услуг по передаче данных. Свяжитесь с вашим оператором связи для уточнения тарифов на данный вид услуги.
+Сервис позиционирования Flyme включается вместе с запуском системы, поэтому те приложения, которые требуют информации о местоположении, могут обращаться к нему в любое время. Если вы отключите эту службу, то приложения не смогут получить информацию о местоположении. Таким образом, мы предлагаем вам обратить особое внимание на приложения, которые запрашивают разрешения на информацию о местоположении."</string>
+    <string name="userWaringTipYunos">"Спасибо за выбор Flyme OS от YunOS. Прочтите, пожалуйста, данную памятку перед использованием.
+Некоторые сервисы Flyme, включая синхронизацию данных, поиск телефона, центр безопасности, магазин приложений и прочее, требуют подключения к сети для передачи данных. Вы самостоятельно несёте все расходы, связанные с оплатой услуг по передаче данных. Свяжитесь с вашим оператором связи для уточнения тарифов на данный вид услуги.
+Сервис позиционирования Flyme включается вместе с запуском системы, поэтому те приложения, которые требуют информации о местоположении, могут обращаться к нему в любое время. Если вы отключите эту службу, то приложения не смогут получить информацию о местоположении. Таким образом, мы предлагаем вам обратить особое внимание на приложения, которые запрашивают разрешения на информацию о местоположении."</string>
+    <string name="userWaringTipYunosChinaMobile">"Спасибо за выбор Flyme OS от YunOS. Прочтите, пожалуйста, данную памятку перед использованием.
+Некоторые сервисы Flyme, включая синхронизацию данных, поиск телефона, центр безопасности, магазин приложений и прочее, требуют подключения к сети для передачи данных. Вы самостоятельно несете все расходы, связанные с оплатой услуг по передаче данных. Свяжитесь с вашим оператором связи для уточнения тарифов на данный вид услуги.
+Сервис позиционирования Flyme включается вместе с запуском системы, поэтому те приложения, которые требуют информации о местоположении, могут обращаться к нему в любое время. Если вы отключите эту службу, то приложения не смогут получить информацию о местоположении. Таким образом, мы предлагаем вам обратить особое внимание на приложения, которые запрашивают разрешения на информацию о местоположении."</string>
+    <string name="userWaringTittle">Памятка пользователя</string>
+    <string name="userWarningInfo">Для полноценного использования системы части сервисов Flyme требуется доступ к сетям и местоположению. Перед использованием этого устройства, пожалуйста, прочитайте %s</string>
+    <string name="waring_title">Условия использования</string>
+    <string name="welcomeTip">Контакты, почта, сообщения, заметки, календарь, избранное, настройки</string>
+    <string name="wifi_cancel">Отмена</string>
+    <string name="wifi_certinstall">Установка или просмотр сертификата</string>
+    <string name="wifi_connect">ОК</string>
+    <string name="wifi_connect_to_network">Пожалуйста, подключитесь к сети</string>
+    <string name="wifi_disabled">Отключено</string>
+    <string name="wifi_dns">DNS</string>
+    <string name="wifi_dns1">DNS 1</string>
+    <string name="wifi_dns2">DNS 2</string>
+    <string name="wifi_eap_anonymous">Неизвестный</string>
+    <string name="wifi_eap_ca_cert">СА-сертификат</string>
+    <string name="wifi_eap_identity">Пользователь</string>
+    <string name="wifi_eap_method">ЕАР-метод</string>
+    <string name="wifi_eap_user_cert">Сертификат пользователя</string>
+    <string name="wifi_empty_list_wifi_off">Включить Wi-Fi для просмотра доступных сетей</string>
+    <string name="wifi_empty_list_wifi_on">Нет доступных сетей Wi-FI</string>
+    <string name="wifi_forget">Удалить</string>
+    <string name="wifi_gateway">Шлюз</string>
+    <string name="wifi_ip_address">IP-адрес</string>
+    <string name="wifi_mobile_network">Мобильная сеть</string>
+    <string name="wifi_netmask">Маска сети</string>
+    <string name="wifi_no_sim_card">SIM-карта не найдена</string>
+    <string name="wifi_noinstall_cert">Сертификат не установлен</string>
+    <string name="wifi_not_in_range">Недоступна</string>
+    <string name="wifi_password">Пароль</string>
+    <string name="wifi_password_error">Ошибка пароля</string>
+    <string name="wifi_remembered">Сохранено</string>
+    <string name="wifi_save">Сохранить</string>
+    <string name="wifi_secured">Защищено через %1$s</string>
+    <string name="wifi_secured_with_status">%2$s, защищено через%1$s</string>
+    <string name="wifi_security">Безопасность</string>
+    <string name="wifi_show_password">Показать пароль</string>
+    <string name="wifi_signal">Мощность сигнала</string>
+    <string name="wifi_speed">Скорость</string>
+    <string name="wifi_ssid">Сеть SSID</string>
+    <string name="wifi_starting">Включение Wi-Fi</string>
+    <string name="wifi_status">Статус</string>
+    <string name="wifi_stopping">Выключение Wi-Fi</string>
+    <string name="wifi_unchanged">(не изменено)</string>
+    <string name="wifi_unspecified">(не указано)</string>
+    <string name="wifi_use_mobile_network">Мобильная сеть</string>
+    <string name="wifi_use_wifi">Wi-Fi</string>
+    <string name="wifi_wapi_psk_type">Тип пароля</string>
+    <string name="wifi_wapicertmanager">Установка сертификата</string>
+    <string name="mc_pattern_a_hour_before">1 час назад</string>
+    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_hour_before">, часов назад</string>
+    <string name="mc_pattern_minute_before">, минут назад</string>
+    <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
+    <string name="mc_pattern_month_day_hour_minute" formatted="false">%-e/%-m %H:%M</string>
+    <string name="mc_pattern_month_day_hour_minute_12" formatted="false">%-e/%-m %I:%M %p</string>
+    <string name="mc_pattern_today">Сегодня</string>
+    <string name="mc_pattern_week_month_day_hour_minute" formatted="false">%a %-e/%-m %H:%M</string>
+    <string name="mc_pattern_week_month_day_hour_minute_12" formatted="false">%a %-e/%-m %I:%M %p</string>
+    <string name="mc_pattern_year_month" formatted="false">%-m/%Y</string>
+    <string name="mc_pattern_year_month_day" formatted="false">%-e/%-m/%Y</string>
+    <string name="mc_pattern_year_month_day_hour_minute" formatted="false">%-e/%-m/%Y %H:%M</string>
+    <string name="mc_pattern_year_month_day_hour_minute_12" formatted="false">%-e/%-m/%Y %I:%M %p</string>
+    <string name="mc_pattern_yesterday">Вчера</string>
+</resources>
