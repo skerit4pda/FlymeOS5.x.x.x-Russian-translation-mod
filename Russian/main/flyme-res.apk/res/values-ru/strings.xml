@@ -61,7 +61,7 @@
      <string name="dlg_check_app_control_summary">Применить разрешение %s</string>
      <string name="dlg_check_app_control_summary_on">Функция %s%s</string>
      <string name="dlg_check_app_message">\"%s\" разрешено: %s (может быть изменено в Настройки/Управление приложениями)</string>
-     <string name="dlg_check_app_message_location">\"%s\"applies for the permission of %s. Configuration can be changed in Setting/Security and location/Locating service</string>
+     <string name="dlg_check_app_message_location">\"%s\" запрашивает доступ к %s. Параметры могут быть изменены в Настройки/Безопасность и Местоположение/Сервисы местоположения</string>
      <string name="dlg_check_app_message_off">\"%s\" хочет отключить функцию %s</string>
      <string name="dlg_check_app_message_on">\"%s\" запрашивает доступ к %s</string>
      <string name="dlg_check_app_shortcut">%s хочет создать ярлык</string>
@@ -88,7 +88,7 @@
      <string name="global_actions_toggle_airplane_mode">Полёт</string>
      <string name="hall_state_path_string">/sys/devices/platform/gpio-keys.0/key_hall_state</string>
      <string name="hour">Час</string>
-     <string name="launcher_choose_hint">Setting/Customize set the default Launcher</string>
+     <string name="launcher_choose_hint">Настроить/Установить домашний экран по умолчанию</string>
      <string name="local_number">Местный номер</string>
      <string name="location">Определение местоположения</string>
      <string name="location_c">Определение местоположения</string>
@@ -97,7 +97,7 @@
      <string name="lock_week">(EEE) д ММММ</string>
      <string name="lockscreen_carrier_default">Нет сети</string>
      <string name="low_internal_storage_view_title">Внутреннее хранилище заполнено</string>
-     <string name="low_storage_warning_message">Please free up some space, or some apps and system functions may not work well.</string>
+     <string name="low_storage_warning_message">Пожалуйста, освободите место во внутренней памяти, или некоторые системные приложения и фунцкии могут не работать.</string>
      <string name="mtp_locked_section">Хранилище</string>
      <string name="mz_anr_close_or_not">Хотите выйти?</string>
      <string name="mz_date_time_day">д</string>
@@ -121,9 +121,9 @@
      <string name="mz_numeric_date_format_myd">EEE, M/yyyy/d</string>
      <string name="mz_numeric_date_format_ydm">yyyy/d/M, EEE</string>
      <string name="mz_numeric_date_format_ymd">yyyy/M/d, EEE</string>
-     <string name="mz_permdesc_networkUpgrade">Allows an application to download and install system updates automatically, which may erase all data, configuration and installed applications.</string>
+     <string name="mz_permdesc_networkUpgrade">Разрешает приложению загружать и устанавливать системные обновления, которые могут стереть все данные, настройки и установленные приложения.</string>
      <string name="mz_permlab_networkUpgrade">Обновление сети</string>
-     <string name="mz_pull_refresh">Потяните, чтобы обновить</string>
+     <string name="mz_pull_refresh">Проведите вниз для обновления</string>
      <string name="mz_resolver_back">Отменить</string>
      <string name="mz_resolver_default_app">По умолчанию</string>
      <string name="mz_resolver_grid_text_more">Ещё</string>
@@ -143,7 +143,7 @@
      <string name="mz_wif_setting_dialog_set">Выбрать</string>
      <string name="network">Моб. данные</string>
      <string name="nfc">NFC</string>
-     <string name="nfc_activity_not_found_err">NFC sharing has expired and cannot be shared</string>
+     <string name="nfc_activity_not_found_err">Тайм-аут передачи NFC. Передача не может быть осуществлена</string>
      <string name="not_allow_check_app">Отклонить</string>
      <string name="not_allow_dialog_push">Отклонить</string>
      <string name="online_intenert">Интернет</string>
@@ -198,7 +198,7 @@
      <string name="perm_alert">Всплывающие окна</string>
      <string name="perm_aotulunch">Автозапуск</string>
      <string name="perm_notification">Уведомления</string>
-     <string name="permdesc_add-global_unlock_file">Разрешить приложению добавлять файл раблокировки</string>
+     <string name="permdesc_add-global_unlock_file">Разрешить приложению добавлять файл разблокировки</string>
      <string name="permdesc_backupAccounts">Разрешить приложению сохранять или восстанавливать системные аккаунты</string>
      <string name="permdesc_forceKillProcess">Разрешить приложению завершать процессы</string>
      <string name="permdesc_force_clear_when_granted_expired">Разрешить приложению очищать данные авторизации</string>
@@ -210,12 +210,12 @@
      <string name="permdesc_recognize_fingerprint">Разрешить приложению проверку совпадения отпечатков</string>
      <string name="permdesc_register_fingerprint">Разрешить приложению регистрацию отпечатков</string>
      <string name="permdesc_request_grant_access_protect_file">Разрешить приложению запрашивать доступ к защищенным файлам</string>
-     <string name="permdesc_rootRecoveryState">"Разрешить приложению чтение и запись статусов root и recovery. Большинству приложений это не требуется "</string>
+     <string name="permdesc_rootRecoveryState">"Разрешить приложению чтение и запись статусов Root и Recovery. Большинству приложений это не требуется"</string>
      <string name="permdesc_updateAppOpsStats">Приложение сможет изменять собранную статистику операций в приложениях. Это разрешение не используется обычными приложениями.</string>
      <string name="permdesc_writeusagestats">Разрешить приложению записывать статистику использования данных.</string>
-     <string name="permlab_add_global_unlock_file">добавлять файл разблокировки</string>
-     <string name="permlab_backupAccounts">сохранять или восстанавливать системные аккаунты</string>
-     <string name="permlab_forceKillProcess">завершать процессы</string>
+     <string name="permlab_add_global_unlock_file">Добавлять файл разблокировки</string>
+     <string name="permlab_backupAccounts">Сохранять или восстанавливать системные аккаунты</string>
+     <string name="permlab_forceKillProcess">Завершать процессы</string>
      <string name="permlab_force_grant_access_protect_file">Иметь доступ к защищенным файлам</string>
      <string name="permlab_getAppOpsStats">Получение рабочего журнала приложений</string>
      <string name="permlab_modify_protect_file_list">Изменять список защищенных файлов</string>
@@ -224,7 +224,7 @@
      <string name="permlab_recognize_fingerprint">Проверять совпадение отпечатков</string>
      <string name="permlab_register_fingerprint">Регистрировать отпечатки</string>
      <string name="permlab_request_grant_access_protect_file">Запрашивать доступ к защищенным файлам</string>
-     <string name="permlab_rootRecoveryState">"статус root и recovery "</string>
+     <string name="permlab_rootRecoveryState">"Статус Root и Recovery"</string>
      <string name="permlab_updateAppOpsStats">Изменение рабочего журнала приложений</string>
      <string name="permlab_writeusagestats">Записывать статистику использования</string>
      <string name="phoneTypeFaxWork">Факс</string>
@@ -234,7 +234,7 @@
      <string name="r_mms_c">Чтение MMS</string>
      <string name="r_sms">Чтение SMS</string>
      <string name="r_sms_c">Чтение SMS</string>
-     <string name="read_write_calibration_values_permission_title">чтение и запись значений калибровки</string>
+     <string name="read_write_calibration_values_permission_title">Чтение и запись значений калибровки</string>
      <string name="recommend_open_mstore_faile">Ошибка открытия магазина Meizu</string>
      <string name="recommend_recommend">Рекомендовано</string>
      <string name="recommend_search_gooleplay">Поиск в %s</string>
