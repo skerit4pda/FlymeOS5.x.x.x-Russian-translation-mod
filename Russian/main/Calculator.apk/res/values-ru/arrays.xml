@@ -15,17 +15,17 @@
         <item>VND</item>
     </string-array>
     <string-array name="area_cn">
-        <item>кв. метр</item>
-        <item>кв. километр</item>
+        <item>м²</item>
+        <item>км²</item>
         <item>му</item>
-        <item>кв. фут</item>
-        <item>кв. сантиметр</item>
-        <item>кв. сантиметр</item>
-        <item>кв. миллиметр</item>
-        <item>кв. миля</item>
+        <item>фт²</item>
+        <item>дм²</item>
+        <item>см²</item>
+        <item>мм²</item>
+        <item>миля²</item>
         <item>акр</item>
-        <item>кв. ярд</item>
-        <item>кв. дюйм</item>
+        <item>ярд²</item>
+        <item>дюйм²</item>
         <item>гектар</item>
     </string-array>
     <string-array name="cnnumber_list">
@@ -620,19 +620,19 @@
         <item>Объём</item>
     </string-array>
     <string-array name="volume_cn">
-        <item>куб. метр</item>
+        <item>м³</item>
         <item>литр</item>
         <item>галлон</item>
-        <item>куб. фут</item>
+        <item>фт³</item>
         <item>гектолитр</item>
-        <item>куб. дециметр</item>
-        <item>куб. сантиметр</item>
-        <item>миллилитр</item>
-        <item>куб. миллиметр</item>
+        <item>дм³</item>
+        <item>см³</item>
+        <item>мл</item>
+        <item>мм³</item>
         <item>баррель</item>
         <item>унция</item>
-        <item>куб. ярд</item>
-        <item>куб. дюйм</item>
+        <item>ярд³</item>
+        <item>дюйм³</item>
     </string-array>
     <string-array name="wight_cn">
         <item>килограмм</item>
