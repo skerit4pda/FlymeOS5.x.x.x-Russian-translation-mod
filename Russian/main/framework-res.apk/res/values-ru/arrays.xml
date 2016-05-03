@@ -43,10 +43,4 @@
         <item>Другое</item>
         <item>Создать свой ярлык</item>
     </string-array>
-	<integer-array name="config_virtualKeyVibePattern">
-        <item>0</item>
-        <item>8</item>
-        <item>20</item>
-        <item>28</item>
-    </integer-array>
 </resources>
