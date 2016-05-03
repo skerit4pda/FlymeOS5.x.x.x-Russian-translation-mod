@@ -546,9 +546,9 @@
   <string name="mc_pattern_week_hour_minute_12" formatted="false">%a %I:%M %p</string>
   <string name="membership">Членские привелегии</string>
   <string name="menu_filter">Фильтр аудиозаписей</string>
-  <string name="menu_filter_detail">скрывается спустя 60 секунд проигрывания аудиозаписей</string>
+  <string name="menu_filter_detail">Скрывается спустя 60 секунд проигрывания аудиозаписей</string>
   <string name="menu_scan_music">Сканировать музыку на накопителе</string>
-  <string name="message_push">уведомляет о полуении сообщения</string>
+  <string name="message_push">Уведомляет о получении сообщения</string>
   <string name="music_scan">Сканирование ...</string>
   <string name="music_scan_count_other">Найдено треков: %d</string>
   <string name="music_scan_count_zero">Найдено треков: %d</string>
@@ -593,7 +593,7 @@
   <string name="get_today">Сегодня</string>
   <string name="hello_world">Hello world!</string>
   <string name="mc_action_settings">Настройки</string>
-  <string name="mc_app_name">MeizuCommon</string>
+  <string name="mc_app_name">Общие файлы Meizu</string>
   <string name="mc_hello_world">Hello world!</string>
   <string name="mc_pattern_hour_minute" formatted="false">%H:%M</string>
   <string name="mc_pattern_week">%a</string>
