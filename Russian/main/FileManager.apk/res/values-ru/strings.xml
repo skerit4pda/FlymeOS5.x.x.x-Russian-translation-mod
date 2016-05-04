@@ -11,8 +11,8 @@
     <string name="abc_searchview_description_search">Поиск</string>
     <string name="abc_searchview_description_submit">Отправить запрос</string>
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
-    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
-    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с пользователем %s</string>
     <string name="add_fast_folder">Добавить в избранное</string>
     <string name="add_fast_folder_fail_tips">Добавлено в избранное</string>
     <string name="add_fast_folder_success_tips">Добавлено</string>
@@ -146,7 +146,7 @@
     <string name="mc_date_time_sec">с</string>
     <string name="mc_date_time_set">Установить</string>
     <string name="mc_date_time_year">г</string>
-    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_answer">Принять</string>
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_disable">Отключить</string>
     <string name="mc_every_day">Ежедневно</string>
@@ -155,7 +155,7 @@
     <string name="mc_hour">час</string>
     <string name="mc_is_Refreshing">Обновление</string>
     <string name="mc_last_refresh">Последнее обновление</string>
-    <string name="mc_last_refresh_hour">" час назад"</string>
+    <string name="mc_last_refresh_hour">час. назад</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
     <string name="mc_last_refresh_minute">мин. назад</string>
     <string name="mc_last_refresh_second">сек. назад</string>
@@ -166,14 +166,14 @@
     <string name="mc_permission_apply">Разрешения</string>
     <string name="mc_permission_message_content">%1$s требуется %2$s, %3$d разрешений</string>
     <string name="mc_pm_allow_check_app">Разрешить</string>
-    <string name="mc_pm_allow_dialog_push">Разрешить Push</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
     <string name="mc_pm_bluetooth">Bluetooth</string>
     <string name="mc_pm_call">Вызов</string>
     <string name="mc_pm_call_log">Читать журнал вызовов</string>
     <string name="mc_pm_camera">Камера (Фото/Видео)</string>
     <string name="mc_pm_close">Выкл.</string>
     <string name="mc_pm_contacts">Читать контакты</string>
-    <string name="mc_pm_dialog_push">Всплывающий Push</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
     <string name="mc_pm_dlg_cancel">Отмена</string>
     <string name="mc_pm_dlg_ok">ОК</string>
     <string name="mc_pm_location">Местоположение</string>
@@ -194,7 +194,7 @@
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
     <string name="mc_praised_message">Нравится</string>
-    <string name="mc_pull_refresh">Вниз для обновления</string>
+    <string name="mc_pull_refresh">Проведите вниз для обновления</string>
     <string name="mc_reject">Отклонить</string>
     <string name="mc_saturday">СБ</string>
     <string name="mc_search">Поиск</string>
@@ -210,7 +210,7 @@
     <string name="mc_voice_icon">Голосовой поиск</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
     <string name="meizu_shop_delete_not_allow_message">Ресурсы из демонстрации не могут быть удалены</string>
     <string name="memory_info">"Доступно "</string>
@@ -385,8 +385,8 @@
     <string name="zip_display_name">Архивы</string>
     <string name="zip_name_exist_tip">Имя файла существует, выберите другое имя</string>
     <string name="dialog_title_zip">Файлы для архивирования: %s</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
