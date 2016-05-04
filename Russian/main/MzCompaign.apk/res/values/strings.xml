@@ -373,7 +373,7 @@
     <string name="title_lack_score">Недостаточно очков</string>
     <string name="title_lottery">Лотерея</string>
     <string name="title_lottery_desc">Описание лотереи</string>
-    <string name="title_more_vip"><Больше привилегий</string>
+    <string name="title_more_vip">Больше привилегий</string>
     <string name="title_my_score">Очки: %1$s</string>
     <string name="title_notify">Уведомление</string>
     <string name="title_other">Другое</string>
