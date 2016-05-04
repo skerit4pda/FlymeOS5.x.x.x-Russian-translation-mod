@@ -11,8 +11,8 @@
     <string name="abc_searchview_description_search">Поиск</string>
     <string name="abc_searchview_description_submit">Отправить запрос</string>
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
-    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
-    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с пользователем %s</string>
     <string name="about_card_title">О контакте</string>
     <string name="account_phone">Только телефон, без синхронизации</string>
     <string name="account_type_format">Контакт %1$s</string>
@@ -629,9 +629,9 @@
     <string name="mc_cancel">Отмена</string>
     <string name="mc_cancel_button_text">Отмена</string>
     <string name="mc_cancel_collected_message">Удалено из избранного</string>
-    <string name="mc_cancel_praised_message">Не нравится</string>
+    <string name="mc_cancel_praised_message">Отменить отзыв</string>
     <string name="mc_change_num">Обновить</string>
-    <string name="mc_collected_message">Избранное</string>
+    <string name="mc_collected_message">Статус избранного</string>
     <string name="mc_custom_date_time_gregorian">Григор.</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
     <string name="mc_date_time_day">д</string>
@@ -640,7 +640,7 @@
     <string name="mc_date_time_month">м</string>
     <string name="mc_date_time_sec">с</string>
     <string name="mc_date_time_set">Установить</string>
-    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_answer">Принять</string>
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_disable">Отключить</string>
     <string name="mc_every_day">Ежедневно</string>
@@ -649,7 +649,7 @@
     <string name="mc_hour">час</string>
     <string name="mc_is_Refreshing">Обновление</string>
     <string name="mc_last_refresh">Последнее обновление</string>
-    <string name="mc_last_refresh_hour">" час назад"</string>
+    <string name="mc_last_refresh_hour">час назад</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
     <string name="mc_last_refresh_minute">мин назад</string>
     <string name="mc_last_refresh_second">сек назад</string>
@@ -1001,8 +1001,8 @@
     <string name="yp_loading">Загрузка...</string>
     <string name="yp_not_install">Приложение не установлено</string>
     <string name="percentage">%s%%</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-m/%-e</string>
