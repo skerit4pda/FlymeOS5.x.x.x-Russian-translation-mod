@@ -1099,4 +1099,5 @@
     <item type="id" name="wifi_wps">false</item>
 	<item type="id" name="recently_1_hour">false</item>
     <item type="id" name="recently_22_hour">false</item>
+	<item type="id" name="hide_inf_icon">false</item>
 </resources>
