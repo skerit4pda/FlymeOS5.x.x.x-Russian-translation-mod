@@ -32,12 +32,12 @@
 
 .method public static ScaleTicker(Landroid/content/Context;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
     .locals 2
-    .param p0, "context"    # Landroid/content/Context;   
+    .param p0, "context"    # Landroid/content/Context;
     .param p1, "dr"    # Landroid/graphics/drawable/Drawable;
 
     .prologue
     .line 18
-    const/4 v0, 0x0    
+    const/4 v0, 0x0
 
     .line 22
     instance-of v1, p1, Landroid/graphics/drawable/BitmapDrawable;

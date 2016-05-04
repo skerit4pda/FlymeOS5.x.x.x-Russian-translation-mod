@@ -82,7 +82,7 @@
     iput-object p1, p0, Lcom/flyme/systemui/statusbar/phone/MarqueeTicker;->mContext:Landroid/content/Context;
 
     .line 74
-    const v0, 0x7f0b028c
+    const v0, 0x7f0b0293
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -102,7 +102,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageSwitcher;->setInAnimation(Landroid/view/animation/Animation;)V
 
     .line 81
-    const v0, 0x7f0b028d
+    const v0, 0x7f0b0294
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -406,17 +406,17 @@
 
     .line 115
     .local v13, "icon":Landroid/graphics/drawable/Drawable;
-    invoke-virtual/range {p0 .. p1}, Lcom/flyme/systemui/statusbar/phone/MarqueeTicker;->isInternalApp(Landroid/service/notification/StatusBarNotification;)Z
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lcom/flyme/systemui/statusbar/phone/MarqueeTicker;->mContext:Landroid/content/Context;
+
+    move-object/from16 v0, p1
+
+    invoke-static {v4, v0}, Lcom/flyme/systemui/statusbar/phone/FlymeStatusBarIconUtils;->isInternalApp(Landroid/content/Context;Landroid/service/notification/StatusBarNotification;)Z
 
     move-result v4
 
-    if-nez v4, :cond_skip
-
-    invoke-static {v0, v13}, Lcom/flyme/systemui/statusbar/phone/IconScaleTicker;->ScaleTicker(Landroid/content/Context;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
-
-    move-result-object v13
-
-    :cond_skip
+    if-eqz v4, :cond_3
 
     .line 116
     move-object/from16 v18, v13
@@ -576,7 +576,7 @@
 
     move-result v4
 
-    if-eqz v4, :cond_5
+    goto :cond_5
 
     .line 124
     move-object/from16 v0, p0
@@ -587,7 +587,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0205e8
+    const v5, 0x7f0205e9
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -607,11 +607,19 @@
 
     move-result-object v4
 
-    const v5, 0x7f0205e7
+    const v5, 0x7f0205e8
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v18
+	
+	iget-object v0, v0, Lcom/flyme/systemui/statusbar/phone/MarqueeTicker;->mContext:Landroid/content/Context;
+
+    invoke-static {v0, v13}, Lcom/flyme/systemui/statusbar/phone/IconScaleTicker;->ScaleTicker(Landroid/content/Context;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v13
+
+    move-object/from16 v18, v13
 
     .restart local v18    # "tickerIcon":Landroid/graphics/drawable/Drawable;
     goto/16 :goto_1
@@ -777,112 +785,6 @@
 
     .line 248
     return-void
-.end method
-
-.method isInternalApp(Landroid/service/notification/StatusBarNotification;)Z
-    .locals 6
-    .param p1, "sbn"    # Landroid/service/notification/StatusBarNotification;
-
-    .prologue
-    const/4 v3, 0x0
-
-    .line 271
-    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;->getPackageName()Ljava/lang/String;
-
-    move-result-object v2
-
-    .line 273
-    .local v2, "pkg":Ljava/lang/String;
-    if-nez v2, :cond_1
-
-    .line 304
-    :cond_0
-    :goto_0
-    return v3
-
-    .line 278
-    :cond_1
-    :try_start_0
-    iget-object v4, p0, Lcom/flyme/systemui/statusbar/phone/MarqueeTicker;->mContext:Landroid/content/Context;
-
-    invoke-virtual {v4}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v4
-
-    const/4 v5, 0x0
-
-    invoke-virtual {v4, v2, v5}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
-
-    move-result-object v0
-
-    .line 281
-    .local v0, "appInfo":Landroid/content/pm/ApplicationInfo;
-    if-eqz v0, :cond_0
-
-    iget v4, v0, Landroid/content/pm/ApplicationInfo;->flags:I
-
-    and-int/lit8 v4, v4, 0x1
-
-    if-eqz v4, :cond_0
-
-    .line 286
-    const-string v4, "com.android.vending"
-
-    invoke-virtual {v2, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_0
-
-    const-string v4, "com.google."
-
-    invoke-virtual {v2, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_0
-
-    const-string v4, "com.pccw"
-
-    invoke-virtual {v2, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_0
-
-    const-string v4, "com.zensis."
-
-    invoke-virtual {v2, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_0
-
-    const-string v4, "com.mtel.pccwmobilesports"
-
-    invoke-virtual {v2, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-    :try_end_0
-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    move-result v4
-
-    if-nez v4, :cond_0
-
-    .line 296
-    const/4 v3, 0x1
-
-    goto :goto_0
-
-    .line 301
-    .end local v0    # "appInfo":Landroid/content/pm/ApplicationInfo;
-    :catch_0
-    move-exception v1
-
-    .line 303
-    .local v1, "e":Landroid/content/pm/PackageManager$NameNotFoundException;
-    invoke-virtual {v1}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
-
-    goto :goto_0
 .end method
 
 .method public reflowText()V

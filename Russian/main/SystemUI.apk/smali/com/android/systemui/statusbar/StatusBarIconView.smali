@@ -93,7 +93,7 @@
     .line 59
     iget-object v2, p0, Lcom/android/systemui/statusbar/StatusBarIconView;->mNumberPain:Landroid/graphics/Paint;
 
-    const v3, 0x7f020625
+    const v3, 0x7f020626
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -136,7 +136,7 @@
 .end method
 
 .method public static getIcon(Landroid/content/Context;Lcom/android/internal/statusbar/StatusBarIcon;)Landroid/graphics/drawable/Drawable;
-    .locals 9
+    .locals 10
     .param p0, "context"    # Landroid/content/Context;
     .param p1, "icon"    # Lcom/android/internal/statusbar/StatusBarIcon;
 
@@ -153,6 +153,8 @@
     invoke-static {v5}, Lcom/flyme/systemui/statusbar/phone/MeizuCustomizedIcons;->isMeizuCustomizedIcon(Ljava/lang/String;)Z
 
     move-result v5
+	
+	move v9, v5
 
     if-eqz v5, :cond_0
 
@@ -177,9 +179,11 @@
     .end local v2    # "iconId":I
     :goto_0
 	
-	invoke-static {p0, p1, v5}, Lcom/android/systemui/statusbar/IconScale;->ScaleIfNeeded(Landroid/content/Context;Lcom/android/internal/statusbar/StatusBarIcon;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+	if-nez v9, :cond_1s
+    invoke-static {p0, p1, v5}, Lcom/android/systemui/statusbar/IconScale;->ScaleIfNeeded(Landroid/content/Context;Lcom/android/internal/statusbar/StatusBarIcon;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
+    :cond_1s
     return-object v5
 
     .line 191

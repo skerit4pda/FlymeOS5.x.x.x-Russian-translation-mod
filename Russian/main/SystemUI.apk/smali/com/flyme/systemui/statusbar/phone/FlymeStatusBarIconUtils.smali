@@ -532,28 +532,6 @@
     goto :goto_1
 .end method
 
-.method public static isInternalApp1(Landroid/content/Context;Landroid/service/notification/StatusBarNotification;)Z
-    .locals 1
-    .param p0, "mContext"    # Landroid/content/Context;
-    .param p1, "sbn"    # Landroid/service/notification/StatusBarNotification;
-
-    .prologue
-    const/4 v0, 0x1
-
-    return v0
-.end method
-
-.method public static isInternalApp1(Landroid/content/Context;Ljava/lang/String;)Z
-    .locals 1
-    .param p0, "mContext"    # Landroid/content/Context;
-    .param p1, "pkg"    # Ljava/lang/String;
-
-    .prologue
-    const/4 v0, 0x1
-
-    return v0
-.end method
-
 .method public static isInternalApp(Landroid/content/Context;Landroid/service/notification/StatusBarNotification;)Z
     .locals 2
     .param p0, "mContext"    # Landroid/content/Context;
@@ -791,6 +769,68 @@
     .catch Ljava/lang/Throwable; {:try_start_1 .. :try_end_1} :catch_0
 
     goto :goto_1
+.end method
+
+.method public static isInternalApp1(Landroid/content/Context;Landroid/service/notification/StatusBarNotification;)Z
+    .locals 3
+    .param p0, "mContext"    # Landroid/content/Context;
+    .param p1, "sbn"    # Landroid/service/notification/StatusBarNotification;
+
+    .prologue
+    const/4 v0, 0x0
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "hide_inf_icon"
+
+    invoke-static {v1, v2, v0}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {p0, p1}, Lcom/flyme/systemui/statusbar/phone/FlymeStatusBarIconUtils;->isInternalApp(Landroid/content/Context;Landroid/service/notification/StatusBarNotification;)Z
+
+    move-result v0
+
+    :goto_0
+    return v0
+.end method
+
+.method public static isInternalApp1(Landroid/content/Context;Ljava/lang/String;)Z
+    .locals 3
+    .param p0, "mContext"    # Landroid/content/Context;
+    .param p1, "pkg"    # Ljava/lang/String;
+
+    .prologue
+    const/4 v0, 0x0
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "hide_inf_icon"
+
+    invoke-static {v1, v2, v0}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {p0, p1}, Lcom/flyme/systemui/statusbar/phone/FlymeStatusBarIconUtils;->isInternalApp(Landroid/content/Context;Ljava/lang/String;)Z
+
+    move-result v0
+
+    :goto_0
+    return v0
 .end method
 
 .method public static isSuperPowerModeIcon(Ljava/lang/String;)Z

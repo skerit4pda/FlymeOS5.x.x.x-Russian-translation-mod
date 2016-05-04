@@ -353,9 +353,9 @@
 
     .line 356
     .local v9, "pi":Landroid/app/PendingIntent;
-    const v4, 0x10404f2
+    const v4, 0x1040505
 
-    const v5, 0x10404f3
+    const v5, 0x1040506
 
     const v6, 0x108008a
 
@@ -486,13 +486,13 @@
     .line 379
     const/4 v12, 0x0
 
-    const v13, 0x1040510
+    const v13, 0x1040523
 
-    const v14, 0x1040511
+    const v14, 0x1040524
 
-    const v15, 0x7f020373
+    const v15, 0x7f020374
 
-    const v16, 0x7f0203d5
+    const v16, 0x7f0203d6
 
     const/16 v17, 0x1
 
@@ -651,9 +651,9 @@
 
     const v14, 0x7f0e0052
 
-    const v15, 0x7f020373
+    const v15, 0x7f020374
 
-    const v16, 0x7f0203d5
+    const v16, 0x7f0203d6
 
     const/16 v17, 0x0
 
@@ -773,13 +773,13 @@
     .line 440
     const/4 v12, 0x0
 
-    const v13, 0x1040518
+    const v13, 0x104052b
 
-    const v14, 0x1040519
+    const v14, 0x104052c
 
-    const v15, 0x7f020374
+    const v15, 0x7f020375
 
-    const v16, 0x7f0203d6
+    const v16, 0x7f0203d7
 
     const/16 v17, 0x1
 
@@ -931,13 +931,13 @@
     .restart local v9    # "pi":Landroid/app/PendingIntent;
     const/4 v12, 0x0
 
-    const v13, 0x1040512
+    const v13, 0x1040525
 
-    const v14, 0x1040513
+    const v14, 0x1040526
 
-    const v15, 0x7f020374
+    const v15, 0x7f020375
 
-    const v16, 0x7f0203d6
+    const v16, 0x7f0203d7
 
     const/16 v17, 0x1
 
@@ -1026,13 +1026,13 @@
     .restart local v9    # "pi":Landroid/app/PendingIntent;
     const/4 v12, 0x0
 
-    const v13, 0x1040514
+    const v13, 0x1040527
 
-    const v14, 0x1040515
+    const v14, 0x1040528
 
-    const v15, 0x7f020374
+    const v15, 0x7f020375
 
-    const v16, 0x7f0203d6
+    const v16, 0x7f0203d7
 
     const/16 v17, 0x1
 
@@ -1081,13 +1081,13 @@
     .line 502
     const/4 v12, 0x0
 
-    const v13, 0x104051a
+    const v13, 0x104052d
 
-    const v14, 0x104051b
+    const v14, 0x104052e
 
-    const v15, 0x7f020374
+    const v15, 0x7f020375
 
-    const v16, 0x7f0203d6
+    const v16, 0x7f0203d7
 
     const/16 v17, 0x1
 
@@ -1132,13 +1132,13 @@
     .line 515
     const/4 v12, 0x1
 
-    const v13, 0x1040516
+    const v13, 0x1040529
 
-    const v14, 0x1040517
+    const v14, 0x104052a
 
-    const v15, 0x7f020374
+    const v15, 0x7f020375
 
-    const v16, 0x7f0203d6
+    const v16, 0x7f0203d7
 
     const/16 v17, 0x1
 
@@ -1509,7 +1509,7 @@
 
     const v14, 0xa0202cd
 
-    const v15, 0x7f02061d
+    const v15, 0x7f02061e
 
     const/16 v16, 0x0
 
@@ -1621,7 +1621,7 @@
 
     const v14, 0xa0202cd
 
-    const v15, 0x7f02061d
+    const v15, 0x7f02061e
 
     const/16 v16, 0x0
 
@@ -1673,7 +1673,7 @@
 
     const v14, 0xa0202cd
 
-    const v15, 0x7f02061d
+    const v15, 0x7f02061e
 
     const/16 v16, 0x0
 
@@ -2353,7 +2353,7 @@
 
     move-result-object v8
 
-    const v9, 0x1060059
+    const v9, 0x106005e
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2877,7 +2877,7 @@
 
     move-result-object v12
 
-    const v13, 0x1060059
+    const v13, 0x106005e
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3802,11 +3802,11 @@
 
     .line 658
     .local v8, "pi":Landroid/app/PendingIntent;
-    const v3, 0x10404f0
+    const v3, 0x1040503
 
-    const v4, 0x10404f1
+    const v4, 0x1040504
 
-    const v5, 0x108066f
+    const v5, 0x108067a
 
     const/4 v6, 0x0
 
@@ -3912,9 +3912,9 @@
 
     .line 675
     .restart local v8    # "pi":Landroid/app/PendingIntent;
-    const v3, 0x10404f2
+    const v3, 0x1040505
 
-    const v4, 0x10404f3
+    const v4, 0x1040506
 
     const v5, 0x108008a
 
