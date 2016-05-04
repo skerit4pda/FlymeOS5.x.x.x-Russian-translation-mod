@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" android:visibility="invisible"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <TextView android:textSize="@dimen/mz_text_size_normal" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MainText" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/mark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginStart="6.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textSize="@dimen/mz_text_size_small" android:textColor="@color/compaign_theme_color" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="3.0dip" style="@style/SubText" />
+        <TextView android:textSize="12.0sp" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exchange_score_label" android:singleLine="true" style="@style/SubText" />
+        <LinearLayout android:id="@id/money_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip">
+            <TextView android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" style="@style/SubText" />
+            <TextView android:textSize="@dimen/mz_text_size_small" android:textColor="@color/compaign_theme_color" android:id="@id/money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" style="@style/SubText" />
+            <TextView android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exchange_recorder_money_label" style="@style/SubText" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/image" android:background="@color/transparent" android:layout_width="90.0dip" android:layout_height="70.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="16.0dip" android:scaleType="fitCenter" />
+</LinearLayout>

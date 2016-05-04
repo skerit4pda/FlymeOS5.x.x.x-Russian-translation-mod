@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:visibility="invisible"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/loading_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" android:visibility="invisible">
+        <com.meizu.common.widget.AccountLoadingView android:id="@id/loading_view" android:layout_width="@dimen/loading_view_width_height" android:layout_height="@dimen/loading_view_width_height" android:layout_marginRight="8.0dip" common:mcLoadingRadius="@dimen/loading_view_radius" common:mcRingWidth="@dimen/loading_view_ring_width" />
+        <TextView android:textSize="@dimen/mz_text_size_normal" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:alpha="0.3" />
+    </LinearLayout>
+    <com.meizu.common.widget.EmptyView android:layout_gravity="center" android:id="@id/error_view" android:layout_width="wrap_content" android:layout_height="wrap_content" common:mcTopMarginOfTips="20.0dip" common:mcSrcOfImage="@drawable/mz_ic_empty_view_refresh" common:mcTitle="@string/load_error_retry_tip" />
+    <com.meizu.common.widget.EmptyView android:layout_gravity="center" android:id="@id/no_network_view" android:layout_width="wrap_content" android:layout_height="wrap_content" common:mcTopMarginOfTips="20.0dip" common:mcSrcOfImage="@drawable/mz_ic_empty_view_no_network" common:mcTitle="@string/mz_wif_setting_dialog_message" common:mcTitleTextAppearance="@style/TextAppearance.Small.EmptyViewToast.Title" />
+    <TextView android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/empty_view" android:paddingLeft="@dimen/mz_list_item_content_padding_left" android:paddingRight="@dimen/mz_list_item_content_padding_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_data" style="@style/TipText" />
+</FrameLayout>

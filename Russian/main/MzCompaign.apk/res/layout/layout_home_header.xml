@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/compaign_theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/fake_header" android:background="@color/compaign_theme_color" android:layout_width="fill_parent" android:layout_height="@dimen/login_header_height" />
+    <com.meizu.common.widget.SettingMenu android:id="@id/setting_menu" android:background="@color/compaign_theme_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip" android:paddingStart="5.5dip" android:paddingEnd="5.5dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/banner_container" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <com.meizu.common.widget.banner.ConvenientBanner android:id="@id/convenientBanner" android:layout_width="0.0dip" android:layout_height="0.0dip" app:isShowTurningPoint="false" app:canLoop="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/enter_container_layout" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <flyme.support.v7.widget.MzRecyclerView android:id="@id/enter_list" android:background="@color/white" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:minHeight="100.0dip" android:isScrollContainer="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/vip_container_layout" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <com.meizu.common.widget.CategoryContainer android:id="@id/vip_container" android:background="@color/white" android:clickable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:showDividers="none" app:CategoryText="@string/title_vip_recommend" app:EditCategoryText="@string/title_more_vip" app:showIcon="true" style="@style/CategoryContainer" />
+        <flyme.support.v7.widget.MzRecyclerView android:id="@id/vip_list" android:layout_width="0.0dip" android:layout_height="0.0dip" android:isScrollContainer="false" />
+    </LinearLayout>
+    <com.meizu.common.widget.CategoryContainer android:background="@color/white" android:clickable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:CategoryText="@string/title_score_exchange" app:showIcon="true" style="@style/CategoryContainer" />
+</LinearLayout>
