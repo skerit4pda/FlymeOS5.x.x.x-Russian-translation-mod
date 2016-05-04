@@ -11,8 +11,8 @@
     <string name="abc_searchview_description_search">Поиск</string>
     <string name="abc_searchview_description_submit">Отправить запрос</string>
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
-    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
-    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с пользователем %s</string>
     <string name="advance_value_insert_dot_max">Вводимое число не может быть больше 10 знаков после запятой</string>
     <string name="alwaysUse">По умолчанию для этого действия</string>
     <string name="app_name">Калькулятор</string>
@@ -182,8 +182,8 @@
     <string name="unit_value_insert_max_length">Вводимое число не может превышать 15 цифр</string>
     <string name="yuan">yuan</string>
     <string name="zheng">zheng</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
