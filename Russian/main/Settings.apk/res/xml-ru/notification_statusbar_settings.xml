@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_and_statusbar"
+  xmlns:android="http://schemas.android.com/apk/prv/res/android">
+    <PreferenceCategory android:title="@string/notificationbar_category_title" />
+    <Preference android:title="@string/app_notifications_title" android:key="app_notifications" android:widgetLayout="@flyme:layout/mz_select_dialog_appcompat" android:fragment="com.android.settings.notification.NotificationAppList" />
+    <Preference android:title="@string/notifcaionbar_item_management" android:key="notificationbar_item_management" android:widgetLayout="@flyme:layout/mz_select_dialog_appcompat">
+        <intent android:action="android.intent.action.QS_TILE_CONFIG_ACTIVITY" />
+    </Preference>
+    <PreferenceCategory android:title="@string/lockscreen_category_title" android:key="lockscreen_category" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/show_notification_on_lockscreen" android:key="show_notification_on_lockscreen" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/show_notification_content" android:key="show_notification_content" android:summary="@string/show_notification_content_summary" android:dependency="show_notification_on_lockscreen" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/wakeup_screen_on_notification_title" android:key="wakeup_screen_show_notification" android:summary="@string/wakeup_screen_on_notification_summary" android:dependency="show_notification_on_lockscreen" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/lockscreen_pull_down_notificationbar" android:key="lockscreen_pull_down_notibar" android:summary="@string/lockscreen_pull_down_notificationbar_summary" />
+    <PreferenceCategory android:title="@string/statusbar" />
+	<com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="Скрыть иконку бесконечности" android:key="hide_inf_icon" android:summary="Необходимо перезагрузить, чтобы изменения вступили в силу" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/accessibility_current_network_speed_title" android:key="toggle_current_network_speed" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/accessibility_status_bar_tint_title" android:key="toggle_status_bar_tint" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/statusbar_power_percent" android:key="statusbar_battery_percent" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/full_scrren_quick_access" android:key="full_screen_access" android:summary="@string/full_scrren_quick_access_summary" />
+</PreferenceScreen>
