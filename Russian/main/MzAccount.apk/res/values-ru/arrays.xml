@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="registerTypeHint">
-        <item>Номер телефона</item>
-        <item>Имя акаунта</item>
-    </string-array>
     <string-array name="mc_custom_time_picker_lunar_day">
         <item>1</item>
         <item>2</item>
@@ -49,5 +45,9 @@
         <item>Октябрь</item>
         <item>Ноябрь</item>
         <item>Декабрь</item>
+    </string-array>
+    <string-array name="registerTypeHint">
+        <item>Номер телефона</item>
+        <item>Имя акаунта</item>
     </string-array>
 </resources>
