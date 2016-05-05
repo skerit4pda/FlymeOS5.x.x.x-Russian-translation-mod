@@ -249,7 +249,7 @@
     <string name="illegal_pay_request">Illegal payment request</string>
     <string name="invalidate_url">Invalidate URL</string>
     <string name="label_campaign">Компания</string>
-    <string name="label_edit_data">Редактировать данные</string>
+    <string name="label_edit_data">Редактировать</string>
     <string name="label_flyme_coin">Мои монеты Flyme</string>
     <string name="label_my_address">Мой адрес</string>
     <string name="label_my_award">Мои награды</string>
@@ -290,7 +290,7 @@
     <string name="not_establish">Not open</string>
     <string name="not_login">Login/register</string>
     <string name="not_login_warning">This feature requires an Flyme account support,tap to login</string>
-    <string name="not_opened">Закрыть</string>
+    <string name="not_opened">Выключено</string>
     <string name="not_reach_grade">you can not exchange with current level</string>
     <string name="not_start">Not Started</string>
     <string name="notification_dec">Task has been finished, you can go to compaign center for lottery</string>
@@ -300,7 +300,7 @@
     <string name="obtain_now">Получить сейчас</string>
     <string name="ok">OK</string>
     <string name="ongoing">Ongoing</string>
-    <string name="opened">Открыть</string>
+    <string name="opened">Включено</string>
     <string name="orderInfoIncomplete">Illegal request, order incomplete</string>
     <string name="order_number">Номер заказа: %s</string>
     <string name="pay_fail">Payment failed</string>
