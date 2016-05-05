@@ -9,17 +9,16 @@
 # static fields
 .field public static final SEARCH_INDEX_DATA_PROVIDER:Lcom/android/settings/search/Indexable$SearchIndexProvider;
 
-
 # instance fields
 .field private mContentResolver:Landroid/content/ContentResolver;
-
-.field private mHideInfIcon:Lcom/meizu/common/preference/SwitchPreference;
 
 .field private mToggleBatteryPercentPreference:Lcom/meizu/common/preference/SwitchPreference;
 
 .field private mToggleCurrentNetworkSpeedPreference:Lcom/meizu/common/preference/SwitchPreference;
 
 .field private mToggleFullAccessPreference:Lcom/meizu/common/preference/SwitchPreference;
+
+.field private mHideInfIcon:Lcom/meizu/common/preference/SwitchPreference;
 
 .field private mToggleLockScreenShowNotification:Lcom/meizu/common/preference/SwitchPreference;
 
@@ -141,18 +140,18 @@
     check-cast v0, Lcom/meizu/common/preference/SwitchPreference;
 
     iput-object v0, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mToggleFullAccessPreference:Lcom/meizu/common/preference/SwitchPreference;
+#new 
 
-    .line 720
-    const-string v0, "hide_inf_icon"
+const-string v0, "hide_inf_icon"
 
-    invoke-virtual {p0, v0}, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+invoke-virtual {p0, v0}, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
-    move-result-object v0
+move-result-object v0
 
-    check-cast v0, Lcom/meizu/common/preference/SwitchPreference;
+check-cast v0, Lcom/meizu/common/preference/SwitchPreference;
 
-    iput-object v0, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mHideInfIcon:Lcom/meizu/common/preference/SwitchPreference;
-
+iput-object v0, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mHideInfIcon:Lcom/meizu/common/preference/SwitchPreference;
+#end_new
     .line 73
     const-string v0, "lockscreen_pull_down_notibar"
 
@@ -307,7 +306,7 @@
 
     move v0, v1
 
-    :goto_7
+:goto_7
     invoke-virtual {v3, v0}, Lcom/meizu/common/preference/SwitchPreference;->setChecked(Z)V
 
     .line 100
@@ -325,31 +324,26 @@
 
     move v0, v1
 
-    :goto_8
-    invoke-virtual {v3, v0}, Lcom/meizu/common/preference/SwitchPreference;->setChecked(Z)V
+#new lines
+   :goto_7s
+   invoke-virtual {v3, v0}, Lcom/meizu/common/preference/SwitchPreference;->setChecked(Z)V
 
     .line 100
     iget-object v3, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mHideInfIcon:Lcom/meizu/common/preference/SwitchPreference;
 
     iget-object v0, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mContentResolver:Landroid/content/ContentResolver;
-
+  
     const-string v4, "hide_inf_icon"
 
     invoke-static {v0, v4, v2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     move-result v0
 
-    if-eqz v0, :cond_a
+    if-eqz v0, :cond_9s
 
     move v0, v1
 
-    :goto_9
-    invoke-virtual {v3, v0}, Lcom/meizu/common/preference/SwitchPreference;->setChecked(Z)V
-
-    .line 100
-    move v0, v1
-
-    :goto_a
+    :goto_8
     invoke-virtual {v3, v0}, Lcom/meizu/common/preference/SwitchPreference;->setChecked(Z)V
 
     .line 102
@@ -363,11 +357,11 @@
 
     move-result v0
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_a
 
     move v0, v1
 
-    :goto_b
+    :goto_9
     invoke-virtual {v3, v0}, Lcom/meizu/common/preference/SwitchPreference;->setChecked(Z)V
 
     .line 104
@@ -381,9 +375,9 @@
 
     move-result v3
 
-    if-eqz v3, :cond_c
+    if-eqz v3, :cond_b
 
-    :goto_c
+    :goto_a
     invoke-virtual {v0, v1}, Lcom/meizu/common/preference/SwitchPreference;->setChecked(Z)V
 
     .line 106
@@ -501,30 +495,28 @@
 
     :cond_9
     move v0, v2
+#new
 
-    goto/16 :goto_8
+goto/16 :goto_7s
+
+:cond_9s
+move v0, v2
+#end_new
+
+    .line 100
+    goto :goto_8
 
     :cond_a
     move v0, v2
 
-    goto/16 :goto_9
-
-    move v0, v2
-
-    .line 100
-    goto/16 :goto_a
+    .line 102
+    goto :goto_9
 
     :cond_b
-    move v0, v2
-
-    .line 102
-    goto :goto_b
-
-    :cond_c
     move v1, v2
 
     .line 104
-    goto :goto_c
+    goto :goto_a
 .end method
 
 .method private initValue()V
@@ -787,7 +779,7 @@
     :cond_c
     iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mToggleFullAccessPreference:Lcom/meizu/common/preference/SwitchPreference;
 
-    if-ne p2, v2, :cond_e
+    if-ne p2, v2, :cond_cs
 
     .line 152
     iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mContentResolver:Landroid/content/ContentResolver;
@@ -812,11 +804,12 @@
 
     goto :goto_7
 
-    .line 1511
-    :cond_e
+#new lines
+ .line 1511
+    :cond_cs
     iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mHideInfIcon:Lcom/meizu/common/preference/SwitchPreference;
 
-    if-ne p2, v2, :cond_10
+    if-ne p2, v2, :cond_e
 
     .line 152
     iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mContentResolver:Landroid/content/ContentResolver;
@@ -824,6 +817,36 @@
     const-string v3, "hide_inf_icon"
 
     iget-object v4, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mHideInfIcon:Lcom/meizu/common/preference/SwitchPreference;
+
+    invoke-virtual {v4}, Lcom/meizu/common/preference/SwitchPreference;->isChecked()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_ds
+
+    :goto_7s
+    invoke-static {v2, v3, v0}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
+
+    goto/16 :goto_1
+
+    :cond_ds
+    move v0, v1
+
+    goto :goto_7s
+#
+
+    .line 155
+    :cond_e
+    iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mTogglePullDownNotificationbar:Lcom/meizu/common/preference/SwitchPreference;
+
+    if-ne p2, v2, :cond_0
+
+    .line 156
+    iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mContentResolver:Landroid/content/ContentResolver;
+
+    const-string v3, "lockscreen_pull_notificationbar"
+
+    iget-object v4, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mTogglePullDownNotificationbar:Lcom/meizu/common/preference/SwitchPreference;
 
     invoke-virtual {v4}, Lcom/meizu/common/preference/SwitchPreference;->isChecked()Z
 
@@ -840,64 +863,6 @@
     move v0, v1
 
     goto :goto_8
-
-    .line 1512
-    :cond_10
-    iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mCenterClock:Lcom/meizu/common/preference/SwitchPreference;
-
-    if-ne p2, v2, :cond_12
-
-    .line 152
-    iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mContentResolver:Landroid/content/ContentResolver;
-
-    const-string v3, "center_clock"
-
-    iget-object v4, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mCenterClock:Lcom/meizu/common/preference/SwitchPreference;
-
-    invoke-virtual {v4}, Lcom/meizu/common/preference/SwitchPreference;->isChecked()Z
-
-    move-result v4
-
-    if-eqz v4, :cond_11
-
-    :goto_9
-    invoke-static {v2, v3, v0}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
-
-    goto/16 :goto_1
-
-    :cond_11
-    move v0, v1
-
-    goto :goto_9
-
-    .line 155
-    :cond_12
-    iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mTogglePullDownNotificationbar:Lcom/meizu/common/preference/SwitchPreference;
-
-    if-ne p2, v2, :cond_0
-
-    .line 156
-    iget-object v2, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mContentResolver:Landroid/content/ContentResolver;
-
-    const-string v3, "lockscreen_pull_notificationbar"
-
-    iget-object v4, p0, Lcom/meizu/settings/notificationstatusbar/NotificationStatusbarSettings;->mTogglePullDownNotificationbar:Lcom/meizu/common/preference/SwitchPreference;
-
-    invoke-virtual {v4}, Lcom/meizu/common/preference/SwitchPreference;->isChecked()Z
-
-    move-result v4
-
-    if-eqz v4, :cond_13
-
-    :goto_a
-    invoke-static {v2, v3, v0}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
-
-    goto/16 :goto_1
-
-    :cond_13
-    move v0, v1
-
-    goto :goto_a
 .end method
 
 .method public onStart()V
