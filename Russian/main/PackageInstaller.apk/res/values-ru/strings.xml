@@ -292,4 +292,5 @@
     <item type="string" name="APKTOOL_DUMMY_0080">false</item>
     <string name="install_failed_version_downgrade">Установка не удалась, более старая версия</string>
     <string name="install_warning_default_summry"></string>
+	<string name="perms_new_perm_prefix">"Новое: "</string>
 </resources>
