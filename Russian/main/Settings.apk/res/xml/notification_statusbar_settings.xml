@@ -12,7 +12,7 @@
     <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/wakeup_screen_on_notification_title" android:key="wakeup_screen_show_notification" android:summary="@string/wakeup_screen_on_notification_summary" android:dependency="show_notification_on_lockscreen" />
     <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/lockscreen_pull_down_notificationbar" android:key="lockscreen_pull_down_notibar" android:summary="@string/lockscreen_pull_down_notificationbar_summary" />
     <PreferenceCategory android:title="@string/statusbar" />
-	<com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="Hide infinity icon" android:key="hide_inf_icon" android:summary="Reboot your device once you changed this" />
+    <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="Hide infinity icon" android:key="hide_inf_icon" android:summary="Reboot your device once you changed this" />
     <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/accessibility_current_network_speed_title" android:key="toggle_current_network_speed" />
     <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/accessibility_status_bar_tint_title" android:key="toggle_status_bar_tint" />
     <com.meizu.common.preference.SwitchPreference android:persistent="false" android:title="@string/statusbar_power_percent" android:key="statusbar_battery_percent" />
