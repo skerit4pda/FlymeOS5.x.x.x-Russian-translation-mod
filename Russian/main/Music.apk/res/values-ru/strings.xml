@@ -547,7 +547,7 @@
   <string name="mc_pattern_hour_minute_12" formatted="false">%I:%M %p</string>
   <string name="mc_pattern_week_hour_minute_12" formatted="false">%a %I:%M %p</string>
   <string name="membership">Членские привелегии</string>
-  <string name="menu_filter">Фильтр аудиофайлов</string>
+  <string name="menu_filter">Фильтр аудиозаписей</string>
   <string name="menu_filter_detail">Скрывать короче 60 сек.</string>
   <string name="menu_scan_music">Поиск музыки на устройстве</string>
   <string name="message_push">Уведомляет о получении сообщения</string>
