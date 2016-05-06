@@ -693,7 +693,7 @@
     <string name="r_sms_c">Читать ваши SMS</string>
     <string name="ram_cleaner_0001">Ускорение памяти</string>
     <string name="ram_cleaner_0002">Свободно ОЗУ</string>
-    <string name="ram_cleaner_0003">Занято %1$s / Своб. %2$s</string>
+    <string name="ram_cleaner_0003">Занято %1$s / Свободно %2$s</string>
     <string name="ram_cleaner_0004">Ускорить</string>
     <string name="ram_cleaner_0005">Ускорить</string>
     <string name="ram_cleaner_0006">Ускорение завершено</string>
@@ -856,7 +856,7 @@
     <string name="sysclear_trash_bugreports">Лог системных ошибок</string>
     <string name="sysclear_trash_cache">Кэш</string>
     <string name="sysclear_trash_data_log">Лог системного диска</string>
-    <string name="sysclear_trash_gallery_invalid_thumbnail">Некорректыне миниатюры галереи</string>
+    <string name="sysclear_trash_gallery_invalid_thumbnail">Некорректные миниатюры галереи</string>
     <string name="sysclear_trash_gallery_thumbnail">Миниатюры галереи</string>
     <string name="sysclear_trash_gallery_thumbnail_warn">Удаление может вызвать ошибку приложения Камера</string>
     <string name="sysclear_trash_logs">Системный лог</string>
@@ -939,7 +939,7 @@
     <string name="title_power_mode">Энергосбережение</string>
     <string name="title_power_setting">Настройки</string>
     <string name="title_prompt_item">Запрос на %1$s: %2$s</string>
-    <string name="title_reject_item">Запрет на %1$s:%2$s</string>
+    <string name="title_reject_item">Запрет на %1$s: %2$s</string>
     <string name="title_screen_autobright">Автояркость</string>
     <string name="title_screen_blur">Динамическое размытие</string>
     <string name="title_screen_bright">Яркость</string>
@@ -970,7 +970,7 @@
     <string name="total_set_error_msg">Общий ежемесячный трафик не должен быть меньше остаточного трафика</string>
     <string name="trafficCorrection">Калибровка трафика</string>
     <string name="trafficUnit">Мб</string>
-    <string name="traffic_airplanemode">Невозможно включить режим полета</string>
+    <string name="traffic_airplanemode">Невозможно включить режим полёта</string>
     <string name="traffic_app_list">Список приложений:</string>
     <string name="traffic_click_to_correct">Калибровка</string>
     <string name="traffic_click_to_setUp">Установить</string>
@@ -982,14 +982,14 @@
     <string name="traffic_day_allow_mobile_data_usage">Передача данных за день</string>
     <string name="traffic_day_wifi_list_summary">Передача по Wi-Fi за день</string>
     <string name="traffic_daywarning_dialog_title">Дневной лимит израсходован</string>
-    <string name="traffic_daywarning_gemini_dialog_title">Дневной лимит для карты %1$s израсходован</string>
+    <string name="traffic_daywarning_gemini_dialog_title">Дневной лимит для SIM %1$s израсходован</string>
     <string name="traffic_daywarning_switch_dialog_summary">Было использовано %1$s среднесуточного объёма данных. В этом месяце доступно ещё %2$s данных.</string>
     <string name="traffic_daywarning_switch_preference_title">Среднесут. предупреждение</string>
-    <string name="traffic_gemini_guide_users_setup_dialog_title">Трафик для карты %1$s не установлен</string>
-    <string name="traffic_gemini_used_all_dialog_title">Месячный план трафика для Карты %1$s используется до</string>
-    <string name="traffic_gemini_warning_dialog_title">Использование передачи данных для Карты %1$s достигло предельных значений</string>
+    <string name="traffic_gemini_guide_users_setup_dialog_title">Трафик для SIM %1$s не установлен</string>
+    <string name="traffic_gemini_used_all_dialog_title">Месячный план трафика для SIM %1$s используется до</string>
+    <string name="traffic_gemini_warning_dialog_title">Использование передачи данных для SIM %1$s достигло предельных значений</string>
     <string name="traffic_guide_add_wp_dialog_message_line1">Добавить виджет трафика на рабочий стол?</string>
-    <string name="traffic_guide_add_wp_dialog_title">Добавить настольный виджет?</string>
+    <string name="traffic_guide_add_wp_dialog_title">Добавить виджет?</string>
     <string name="traffic_guide_users_setup_dialog_message">В этом месяце использовано %1$s для мобильной передачи данных. Рекомендуется настроить трафик.</string>
     <string name="traffic_guide_users_setup_dialog_pbt">Настроить</string>
     <string name="traffic_guide_users_setup_dialog_title">Трафик не настроен</string>
@@ -1015,7 +1015,7 @@
     <string name="traffic_send_correct_msg_to_operator_regular">Периодическая отправка бесплатных сообщений оператору для коррекции учёта трафика</string>
     <string name="traffic_set_operator_info">Настройки оператора</string>
     <string name="traffic_show_in_notifi_bar">Трафик в панели уведомлений</string>
-    <string name="traffic_sim">SIM%1$d</string>
+    <string name="traffic_sim">SIM %1$d</string>
     <string name="traffic_sim_attribution">Атрибуты SIM</string>
     <string name="traffic_subscribe_data">Купить трафик</string>
     <string name="traffic_subscribe_data_plan">Купить тарифный план</string>
@@ -1030,7 +1030,7 @@
     <string name="traffic_warning_dialog_text2">Напоминание</string>
     <string name="traffic_week_allow_mobile_data_usage">Передача данных за неделю</string>
     <string name="traffic_week_wifi_list_summary">Передача по Wi-Fi за неделю</string>
-    <string name="traffic_widget_add_switch">Виджет трафика на десктопе</string>
+    <string name="traffic_widget_add_switch">Виджет трафика</string>
     <string name="traffic_widget_not_applicable">/</string>
     <string name="traffic_widget_remain_idle_summary">Остаток трафика в простое</string>
     <string name="traffic_widget_remain_summary">Осталось</string>
@@ -1149,8 +1149,8 @@
     <string name="warning_illegal_number">Номер в черном списке не может содержать специальные символы</string>
     <string name="white_list">Белый список</string>
     <string name="wifi_update">Автообн. БД вирусов по Wi-Fi</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
