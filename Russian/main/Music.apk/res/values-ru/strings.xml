@@ -168,8 +168,8 @@
   <string name="file_manager_title">Добавить</string>
   <string name="folder_title">Папка</string>
   <string name="free_price">Свободно</string>
-  <string name="from_camera">Камера</string>
-  <string name="from_gallery">Выбрать из галереи</string>
+  <string name="from_camera">Сделать снимок</string>
+  <string name="from_gallery">Доступные изображения</string>
   <string name="guess_like">Возможно, вам понравится</string>
   <string name="guide_roaming">Искать похожую музыку</string>
   <string name="has_result">Результат</string>
