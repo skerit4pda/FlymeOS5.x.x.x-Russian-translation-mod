@@ -33,8 +33,8 @@
     <string name="setup_device">Настроить устройство</string>
     <string name="progress_data_process">Обработка данных установки...</string>
     <string name="progress_connect_to_wifi">Соединение через Wi-Fi...</string>
-    <string name="progress_download">Загрузка приложение для администрирования...</string>
-    <string name="progress_install">Установка приложение для администрирования...</string>
+    <string name="progress_download">Загрузка приложения для администрирования...</string>
+    <string name="progress_install">Установка приложения для администрирования...</string>
     <string name="progress_set_owner">Установка владельца устройства...</string>
     <string name="device_owner_cancel_title">Прервать настройку?</string>
     <string name="device_owner_cancel_message">"Вы уверены, что хотите, чтобы остановить настройку и стереть данные с устройства?"</string>
