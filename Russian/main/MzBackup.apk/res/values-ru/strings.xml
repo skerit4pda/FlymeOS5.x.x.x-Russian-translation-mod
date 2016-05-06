@@ -11,8 +11,8 @@
     <string name="abc_searchview_description_search">Поиск</string>
     <string name="abc_searchview_description_submit">Отправить запрос</string>
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
-    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
-    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с пользователем %s</string>
     <string name="alwaysUse">По умолчанию для этого действия</string>
     <string name="app_data">ПО и данные</string>
     <string name="app_name">Бэкап</string>
@@ -58,7 +58,7 @@
     <string name="mc_date_time_sec">с</string>
     <string name="mc_date_time_set">Установить</string>
     <string name="mc_date_time_year">г</string>
-    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_answer">Принять</string>
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_disable">Отключить</string>
     <string name="mc_every_day">Ежедневно</string>
@@ -125,7 +125,7 @@
     <string name="mms">MMS</string>
     <string name="more_item_label">Ещё</string>
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="mz_backup_delete_dialog_ok_text">Удалить записи: %s</string>
     <string name="mz_date_time_day">д</string>
     <string name="mz_date_time_hour">ч</string>
