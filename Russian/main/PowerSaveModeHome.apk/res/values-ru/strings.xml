@@ -33,7 +33,7 @@
     <string name="mc_date_time_sec">с.</string>
     <string name="mc_date_time_set">Установить</string>
     <string name="mc_date_time_year">г.</string>
-    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_answer">Принять</string>
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_disable">Отключить</string>
     <string name="mc_every_day">Ежедневно</string>
@@ -130,8 +130,8 @@
     <string name="sure">OK</string>
     <string name="title">Хотите выйти?</string>
     <string name="unknow_contact_person">Неизвест.</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
