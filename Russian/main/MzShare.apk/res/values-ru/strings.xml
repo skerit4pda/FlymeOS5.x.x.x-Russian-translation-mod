@@ -12,8 +12,8 @@
     <string name="abc_searchview_description_search">Поиск</string>
     <string name="abc_searchview_description_submit">Отправить запрос</string>
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
-    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
-    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с пользователем %s</string>
     <string name="ack_record">Запись подтверждения</string>
     <string name="airplane_error_msg">В режиме полёта нельзя использовать Bluetooth</string>
     <string name="airplane_error_title">Режим полёта</string>
@@ -254,7 +254,7 @@
     <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
     <string name="mc_pm_dlg_cancel">Отмена</string>
     <string name="mc_pm_dlg_ok">ОК</string>
-    <string name="mc_pm_location">Позиционирование</string>
+    <string name="mc_pm_location">Местоположение</string>
     <string name="mc_pm_network">Передача данных</string>
     <string name="mc_pm_nfc">NFC</string>
     <string name="mc_pm_not_allow_check_app">Запретить</string>
@@ -271,7 +271,7 @@
     <string name="mc_pm_set_gprs_on">Включить передачу данных</string>
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
-    <string name="mc_pull_refresh">Вниз для обновления</string>
+    <string name="mc_pull_refresh">Проведите вниз для обновления</string>
     <string name="mc_reject">Отклонить</string>
     <string name="mc_saturday">СБ</string>
     <string name="mc_search">Поиск</string>
@@ -282,7 +282,7 @@
     <string name="mc_tuesday">ВТ</string>
     <string name="mc_wednesday">СР</string>
     <string name="mc_weekend">Выходные</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_yes">ОК</string>
     <string name="more_item_label">Ещё</string>
     <string name="mc_cancel_button_text">Отмена</string>
@@ -297,7 +297,7 @@
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Нет</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="mc_cancel_collected_message">Убрать из избранного</string>
     <string name="mc_cancel_praised_message">Отменить отзыв</string>
     <string name="mc_collected_message">Статус избранного</string>
