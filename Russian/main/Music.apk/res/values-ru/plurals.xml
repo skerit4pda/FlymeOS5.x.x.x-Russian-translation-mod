@@ -6,15 +6,15 @@
     </plurals>
     <plurals name="album_count">
         <item quantity="other">Альбомов: %d</item>
-        <item quantity="one">1 альбом</item>
+        <item quantity="one">Альбомов: 1</item>
     </plurals>
     <plurals name="artist_count">
         <item quantity="other">Исполнителей: %d</item>
-        <item quantity="one">1 исполнитель</item>
+        <item quantity="one">Исполнителей: 1</item>
     </plurals>
     <plurals name="download_completed_count">
         <item quantity="other">Треков загружено: %d</item>
-        <item quantity="one">1 трек загружен</item>
+        <item quantity="one">Треков загружено: 1</item>
     </plurals>
     <plurals name="download_failed_count">
         <item quantity="other">Ошибка загрузки, треков: %d</item>
@@ -22,7 +22,7 @@
     </plurals>
     <plurals name="song_item_count">
         <item quantity="other">Треки: %1$d</item>
-        <item quantity="one">1 трек</item>
+        <item quantity="one">Треки: 1</item>
     </plurals>
     <plurals name="select_count">
         <item quantity="other">Выбрано: %d</item>
