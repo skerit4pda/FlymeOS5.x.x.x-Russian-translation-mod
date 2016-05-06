@@ -17,9 +17,9 @@
     <string name="pattern_year_month_day_hour_minute_12" formatted="false">%Y/%-m/%-e %p %I:%M</string>
     <string name="pattern_yesterday">Вчера</string>
     <string name="pattern_hour_before">, часов назад</string>
-    <string name="pattern_a_hour_before">1 час назад</string>
+    <string name="pattern_a_hour_before">час назад</string>
     <string name="pattern_minute_before">, минут назад</string>
-    <string name="pattern_a_minute_before">1 минуту назад</string>
+    <string name="pattern_a_minute_before">минуту назад</string>
     <string name="pattern_day_month" formatted="false">%-e/%-m</string>
     <string name="pattern_day_month_year" formatted="false">%-e/%-m/%Y</string>
     <string name="pattern_day_month_year_hour_minute" formatted="false">%-e/%-m/%Y %H:%M</string>
@@ -49,7 +49,7 @@
     <string name="new_call">%d новых записей</string>
     <string name="mz_action_bar_multi_choice_cancel">Отмена</string>
     <string name="mz_action_bar_multi_choice_select_all">Все</string>
-    <string name="mz_action_bar_multi_choice_title">Выбрано %d</string>
+    <string name="mz_action_bar_multi_choice_title">Выбрано: %d</string>
     <string name="delete_record_item">Удалить записи: %d</string>
     <string name="mz_action_bar_multi_choice_select_all_cancel">Не выбрано</string>
     <string name="mz_action_bar_select_file_title">Выбрать аудиофайлы</string>
@@ -142,9 +142,9 @@
     <string name="mc_pattern_year_month_day_hour_minute_12" formatted="false">%-e/%-m/%Y %p %I:%M</string>
     <string name="mc_pattern_yesterday">Вчера</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_today">Сегодня</string>
     <string name="mc_action_settings">Настройки</string>
     <string name="mc_yes">ОК</string>
@@ -172,7 +172,7 @@
     <string name="mc_date_time_sec">с</string>
     <string name="mc_date_time_set">Установить</string>
     <string name="mc_description_target_decline">Отклонить</string>
-    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_answer">Принять</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
     <string name="mc_custom_date_time_gregorian">Григор.</string>
     <string name="mc_permission_apply">Разрешения</string>
