@@ -6,7 +6,7 @@
     <string name="eq_dialog_title">Эквалайзер</string>
     <string name="headset_plug">Чтобы услышать эти эффекты, подключите наушники.</string>
     <string name="bass_boost_strength">Усиление нижних частот</string>
-    <string name="virtualizer_strength">Эффект 3D</string>
+    <string name="virtualizer_strength">Объемный звук</string>
     <string name="pr_title">"Реверберация: "</string>
     <string name="pr_summary">Дополнительные эффекты реверберации в помещении</string>
     <string name="pr_dialog_title">Шаблон ревербератора</string>
@@ -59,7 +59,7 @@
     <string name="alwaysUse">По умолчанию для этого действия</string>
     <string name="mz_network_unavailable_hint">Сеть недоступна. Проверьте настройки сети.</string>
     <string name="mz_wif_setting_dialog_set">Установить</string>
-    <string name="mz_wif_setting_dialog_message">Сеть недоступна. Проверьте настройки сети.</string>
+    <string name="mz_wif_setting_dialog_message">Нет сети. Проверьте настройки сети.</string>
     <string name="mc_pattern_hour_minute" formatted="false">%H:%M</string>
     <string name="mc_pattern_hour_minute_12" formatted="false">%p %I:%M</string>
     <string name="mc_pattern_week">%a</string>
@@ -76,12 +76,12 @@
     <string name="mc_pattern_year_month_day_hour_minute_12" formatted="false">%-e/%-m/%Y %p %I:%M</string>
     <string name="mc_pattern_yesterday">Вчера</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_today">Сегодня</string>
     <string name="mc_app_name">MeizuCommon</string>
-    <string name="mc_action_settings">Settings</string>
+    <string name="mc_action_settings">Настройки</string>
     <string name="mc_hello_world">Hello world!</string>
     <string name="mc_yes">ОК</string>
     <string name="mc_cancel">Отмена</string>
@@ -98,7 +98,7 @@
     <string name="mc_sunday">ВС</string>
     <string name="mc_never">Единожды</string>
     <string name="mc_every_day">Ежедневно</string>
-    <string name="mc_working_day">Рабочие дни</string>
+    <string name="mc_working_day">Будни</string>
     <string name="mc_weekend">Выходные</string>
     <string name="mc_date_time_month">м</string>
     <string name="mc_date_time_year">г</string>
@@ -108,7 +108,7 @@
     <string name="mc_date_time_sec">с</string>
     <string name="mc_date_time_set">Установить</string>
     <string name="mc_description_target_decline">Отклонить</string>
-    <string name="mc_description_target_answer">Правильный вариант</string>
+    <string name="mc_description_target_answer">Принять</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
     <string name="mc_custom_date_time_gregorian">Григор.</string>
     <string name="mc_permission_apply">Разрешения</string>
@@ -125,7 +125,7 @@
     <string name="mc_pm_s_mms">Послать MMS</string>
     <string name="mc_pm_network">Передача данных</string>
     <string name="mc_pm_wlan">Wi-Fi</string>
-    <string name="mc_pm_location">Позиционирование</string>
+    <string name="mc_pm_location">Местоположение</string>
     <string name="mc_pm_recordaudio_local">Аудиозаписи</string>
     <string name="mc_pm_recordaudio_phone">Записи разговоров</string>
     <string name="mc_pm_camera">Камера (Фото/Видео)</string>
@@ -137,14 +137,14 @@
     <string name="mc_pm_dlg_cancel">Отмена</string>
     <string name="mc_pm_bluetooth">Bluetooth</string>
     <string name="mc_pm_nfc">NFC</string>
-    <string name="mc_pm_dialog_push">Всплывающий Push</string>
-    <string name="mc_pm_allow_dialog_push">Разрешить Push</string>
+    <string name="mc_pm_dialog_push">Всплывающие Push-уведомления</string>
+    <string name="mc_pm_allow_dialog_push">Разрешить Push-уведомления</string>
     <string name="mc_pm_not_allow_dialog_push">Отключить</string>
     <string name="mc_pm_set_wifi_on">Включить Wi-Fi</string>
     <string name="mc_pm_set_bluetooth_on">Включить Bluetooth</string>
     <string name="mc_pm_set_gprs_on">Включить передачу данных</string>
     <string name="mc_pm_online_intenert">Интернет</string>
-    <string name="mc_pull_refresh">Вниз для обновления</string>
+    <string name="mc_pull_refresh">Проведите вниз для обновления</string>
     <string name="mc_is_Refreshing">Обновление</string>
     <string name="mc_go_Refreshing">Обновить</string>
     <string name="mc_last_refresh">Последнее обновление</string>
@@ -152,7 +152,7 @@
     <string name="mc_last_refresh_minute">мин назад</string>
     <string name="mc_last_refresh_second">сек назад</string>
     <string name="mc_last_refresh_just_now">сейчас</string>
-    <string name="mc_selectionbutton_all">All</string>
+    <string name="mc_selectionbutton_all">Все</string>
     <string name="mc_search">Поиск</string>
     <string name="mc_search_text">Поиск</string>
     <string name="mc_search_button_text">Поиск</string>
