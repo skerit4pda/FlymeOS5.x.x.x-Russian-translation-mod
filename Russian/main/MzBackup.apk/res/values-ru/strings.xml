@@ -38,7 +38,7 @@
     <string name="delete">Удалить</string>
     <string name="desk_update">Эта операция не может быть выполнена во время резервного копирования</string>
     <string name="empty_text">Нет резервных копий</string>
-    <string name="empty_text_title">Контакты, пароли Wi-Fi, приложения и их данные могут быть скопированы</string>
+    <string name="empty_text_title">Контакты, пароли Wi-Fi, приложения и их данные будут скопированы</string>
     <string name="has_know">Пропустить</string>
     <string name="has_skip">Пропущено</string>
     <string name="just_backup">Сохранено %s назад</string>
@@ -222,8 +222,8 @@
     <string name="without_card">Нет карты</string>
     <string name="without_sd_card">Чтобы восстановить данные на новом устройстве, можно передать на него файл резервной копии через компьютер для процедуры восстановления.</string>
     <string name="yes">Да</string>
-    <string name="mc_pattern_a_hour_before">1 час назад</string>
-    <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+    <string name="mc_pattern_a_hour_before">час назад</string>
+    <string name="mc_pattern_a_minute_before">минуту назад</string>
     <string name="mc_pattern_hour_before">, часов назад</string>
     <string name="mc_pattern_minute_before">, минут назад</string>
     <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
