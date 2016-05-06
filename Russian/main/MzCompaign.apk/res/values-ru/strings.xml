@@ -200,7 +200,7 @@
     <string name="delete_success">Delete successfully</string>
     <string name="delivering">Доставка</string>
     <string name="desc_exchange_success">Add to my awards successfully</string>
-    <string name="desc_find_phone">When enabled, users can locate or lock the phone and take pictures if the phone is lost</string>
+    <string name="desc_find_phone">Можно найти или заблокировать телефон и делать снимки, если телефон потерян.</string>
     <string name="district">Район</string>
     <string name="draft_save_success">Saved draft successfully</string>
     <string name="earn_score">Gain score</string>
@@ -288,7 +288,7 @@
     <string name="no_task_support">"The task can't be handled!"</string>
     <string name="non_permission_tip">Exchange after upgrade to %s</string>
     <string name="not_establish">Not open</string>
-    <string name="not_login">Login/register</string>
+    <string name="not_login">Войти/зарегистрироваться</string>
     <string name="not_login_warning">This feature requires an Flyme account support,tap to login</string>
     <string name="not_opened">Выключено</string>
     <string name="not_reach_grade">you can not exchange with current level</string>
@@ -326,8 +326,8 @@
     <string name="setting_network">Установить</string>
     <string name="stock_tip">В наличии: %s</string>
     <string name="sum_score_empire_notify">Score will expire and notify to exchange gift</string>
-    <string name="syncDec">Sync Contacts, Messages, Memos and etc.on cloud</string>
-    <string name="syncTitle">Sync data</string>
+    <string name="syncDec">Синхронизация контактов, сообщений, заметок и т.д.</string>
+    <string name="syncTitle">Синхронизация данных</string>
     <string name="tab_title_earn">Gain score</string>
     <string name="tab_title_exchange">Exchange award</string>
     <string name="task_not_found">Task Not Found</string>
