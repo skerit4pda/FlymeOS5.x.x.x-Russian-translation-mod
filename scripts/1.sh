@@ -5,8 +5,8 @@ set -e
 BUSYBOX=/system/xbin/busybox
 
 if [ ! -x "$BUSYBOX" ] ; then
-    echo "busybox in not installed"
-    echo "4pda users should install busybox from"
+    echo "Busybox in not installed"
+    echo "4PDA users could install busybox from"
     echo "http://4pda.ru/forum/index.php?showtopic=187868"
     exit 1
 fi
@@ -20,10 +20,11 @@ fi
 VERSION="5.1"
 echo " "
 echo " "
+echo "AlexLartsev19, S0bes, jabro23, Alan626, tthor and skerit presents"
 echo "Russian translation mod installer"
 echo "By flymeos5translate team"
 echo "Script by 1Speede1"
-echo "for Meizu M2 Note (Flyme OS 5.6.4.19)"
+echo "for Meizu M2 Note (Flyme OS 5.6.5.3)"
 echo " "
 echo " "
 
@@ -37,7 +38,7 @@ mount -o remount,rw -t auto /custom;
 mount -o remount,rw -t auto /system;
 
 # delete chinese apps
-echo "- Deleting chinese"
+echo "- Deleting chinese..."
 rm -rf /data/data/com.meizu.mstore;
 rm -rf /data/data/com.meizu.mstore-1;
 rm -rf /data/data/com.meizu.mstore-3;
@@ -137,7 +138,7 @@ rm -rf /system/app/Weather;
 rm -rf /system/app/O2OService;
 
 # install russification and Google Apps
-echo "- Installing russification and GApps"
+echo "- Installing russification and GoogleApps..."
 # make missing directories, set owner and permissions
 find . -type d | grep -vE "^\.$|META-INF" | while read ; do
     if [ ! -d "${REPLY#.}" ] ; then 
