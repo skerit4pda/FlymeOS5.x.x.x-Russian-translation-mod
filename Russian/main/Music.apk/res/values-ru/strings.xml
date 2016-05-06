@@ -156,11 +156,11 @@
   <string name="edit_local_thumb_fragment_title">Правка обложки</string>
   <string name="edit_local_thumb_title">Локальные</string>
   <string name="edit_online_thumb_title">Обложки в сети</string>
-  <string name="edit_playlist">Правка</string>
-  <string name="edit_playlist_name">Имя</string>
-  <string name="edit_playlist_tag">Тег</string>
-  <string name="edit_publish">Правка и публикация</string>
-  <string name="edit_string">Правка</string>
+  <string name="edit_playlist">Редактировать</string>
+  <string name="edit_playlist_name">Имя:</string>
+  <string name="edit_playlist_tag">Тег:</string>
+  <string name="edit_publish">Редактирование</string>
+  <string name="edit_string">Редактировать</string>
   <string name="empty_music_lib">Пустая библиотека музыки</string>
   <string name="enable_choose_left">Вы можете выбрать %d</string>
   <string name="error_type">Тип ошибки</string>
@@ -183,11 +183,11 @@
   <string name="import_no_playlist_error">В аккаунте нет избранных треков</string>
   <string name="importing_music_message">Идет импорт</string>
   <string name="info_progress_text">Поиск обложки и текста</string>
-  <string name="intput_name">Имя</string>
-  <string name="introduce">Представление</string>
+  <string name="intput_name">Имя:</string>
+  <string name="introduce">Иформация о плейлисте</string>
   <string name="list_section_memeber_title">VIP</string>
   <string name="list_section_senior_memeber_title">Премиум VIP</string>
-  <string name="listen_mark">Слушать музыку в высок. Качестве</string>
+  <string name="listen_mark">Слушать музыку в высок. качестве</string>
   <string name="load_more_error">Ошибка загрузки</string>
   <string name="local_device">Локальный плеер</string>
   <string name="lossless_quality">Качество без потерь</string>
@@ -367,8 +367,8 @@
   <string name="on_artit_detail">Нет информации об исполнителе</string>
   <string name="other_error">Другое</string>
   <string name="password_error">Ошибка учетной записи или пароля</string>
-  <string name="pattern_a_hour_before">1 час назад</string>
-  <string name="pattern_a_minute_before">1 минуту назад</string>
+  <string name="pattern_a_hour_before">час назад</string>
+  <string name="pattern_a_minute_before">минуту назад</string>
   <string name="pattern_hour_before">, ч. назад</string>
   <string name="pattern_minute_before">, минут назад</string>
   <string name="pattern_month_day" formatted="false">%-m/%-e</string>
@@ -498,8 +498,8 @@
   <string name="xiami_music">Музыка Xiami</string>
   <string name="yuan">юань</string>
   <string name="yuan_title">RMB %s</string>
-  <string name="mc_pattern_a_hour_before">1 час назад</string>
-  <string name="mc_pattern_a_minute_before">1 минуту назад</string>
+  <string name="mc_pattern_a_hour_before">час назад</string>
+  <string name="mc_pattern_a_minute_before">минуту назад</string>
   <string name="mc_pattern_hour_before">, часов назад</string>
   <string name="mc_pattern_minute_before">, минут назад</string>
   <string name="mc_pattern_month_day" formatted="false">%-e/%-m</string>
@@ -557,13 +557,13 @@
   <string name="new_version_upgrade">Доступна новая версия</string>
   <string name="no_content">Нет контента</string>
   <string name="no_desc_title">Нет заставки</string>
-  <string name="no_notice">No Announcement</string>
-  <string name="no_reply">No Reply</string>
-  <string name="notice">Notice</string>
-  <string name="notice_detail">Notice Detail</string>
-  <string name="optional">(Optional)</string>
+  <string name="no_notice">Нет объявлений</string>
+  <string name="no_reply">Нет ответа</string>
+  <string name="notice">Уведомление</string>
+  <string name="notice_detail">Детали</string>
+  <string name="optional">(Опционально)</string>
   <string name="reply">ответить</string>
-  <string name="reply_comment">Reply：%s</string>
+  <string name="reply_comment">Ответить：%s</string>
   <string name="reply_to_my">Reply To My</string>
   <string name="report">Report</string>
   <string name="report_comment">Report Comment</string>
