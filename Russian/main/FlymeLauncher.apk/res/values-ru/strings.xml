@@ -14,8 +14,8 @@
     <string name="abc_searchview_description_search">Поиск</string>
     <string name="abc_searchview_description_submit">Отправить запрос</string>
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
-    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
-    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделится с пользователем %s</string>
     <string name="accessibility_all_apps_button">Приложения</string>
     <string name="accessibility_delete_button">Удалить</string>
     <string name="accessibility_search_button">Поиск</string>
