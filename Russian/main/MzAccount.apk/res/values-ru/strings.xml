@@ -389,7 +389,7 @@
     <string name="not_fill">Пусто</string>
     <string name="not_login">Вход/Регистрация</string>
     <string name="not_network_error">Нет доступной сети</string>
-    <string name="not_opened">Закрыто</string>
+    <string name="not_opened">Выключено</string>
     <string name="not_search_result">Нет результатов</string>
     <string name="notification_desc_ali_sync">Объединить облако данных Flyme и YunOS</string>
     <string name="notification_titile_ali_sync">Аккаунт</string>
@@ -399,7 +399,7 @@
     <string name="openSecurityService">Включить защиту аккаунта</string>
     <string name="openSystemPermission">Открыть доступ к системе</string>
     <string name="openSystemWarningTip">Вы можете открыть доступ к системе, чтобы управлять системными файлами, однако, это может вызвать определенные риски, например: невозможность найти утерянный телефон, потеря файлов, утечка паролей, изменения в производительности системы или стабильности и другие прямые или косвенные убытки, вызванные открытием системных привилегий. Для закрытия доступа к системе будет необходимо выполнить очистку данных (Clear data).</string>
-    <string name="opened">Открыто</string>
+    <string name="opened">Включено</string>
     <string name="other">Другое</string>
     <string name="otherAccount">Другие аккаунты</string>
     <string name="passwordErrorHint">Пароль должен содержать от 8 до 16 прописных или строчных букв, цифр и специальных символов. По крайней мере, два типа символов необходимо использовать.</string>
