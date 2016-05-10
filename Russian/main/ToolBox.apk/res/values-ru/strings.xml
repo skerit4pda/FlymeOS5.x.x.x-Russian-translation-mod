@@ -224,6 +224,6 @@
     <string name="level_shortcut_international_product">Уровень</string>
     <string name="magnifier_shortcut_international_product">Лупа</string>
     <string name="mirror_shortcut_international_product">Зеркало</string>
-    <string name="ruler_shortcut_international_product">Шкала</string>
+    <string name="ruler_shortcut_international_product">Линейка</string>
     <string name="torch_shortcut_international_product">Фонарик</string>
 </resources>
