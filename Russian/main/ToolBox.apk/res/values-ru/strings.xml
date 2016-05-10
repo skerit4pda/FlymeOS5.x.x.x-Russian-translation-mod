@@ -189,7 +189,7 @@
     <string name="no_sd_card_error_msg">Внешний накопитель отсутствует, вставьте карту памяти и попробуйте снова</string>
     <string name="pitch_text">Вертикаль</string>
     <string name="roll_text">Горизонталь</string>
-    <string name="ruler">Шкала</string>
+    <string name="ruler">Линейка</string>
     <string name="sensor_error_cancel">Нет</string>
     <string name="sensor_error_message">Сенсор не может получить данные</string>
     <string name="share_btn_text">Передать</string>
