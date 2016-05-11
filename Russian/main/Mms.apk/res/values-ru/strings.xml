@@ -500,7 +500,7 @@
     <string name="menu_key_tip">Клавиатура</string>
     <string name="menu_record">Рация</string>
     <string name="menu_smile_tip">Смайлы</string>
-    <string name="message_favorite_label">Избранное</string>
+    <string name="message_favorite_label">Добавить в избранное</string>
     <string name="message_has_expire_title">Сообщение истекло</string>
     <string name="message_has_expired">Срок действия истек. Не может быть загружено.</string>
     <string name="message_notice_label">Сообщения</string>
