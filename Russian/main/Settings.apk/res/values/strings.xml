@@ -267,7 +267,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
     <string name="settings_shortcut">Settings shortcut</string>
     <string name="airplane_mode">Airplane mode</string>
     <string name="radio_controls_title">More</string>
-    <string name="wireless_networks_settings_title">Wireless and networks</string>
+    <string name="wireless_networks_settings_title">Wireless and network</string>
     <string name="radio_controls_summary">Manage WLAN, Bluetooth, airplane mode, mobile networks, &amp; VPNs</string>
     <string name="cellular_data_title">Cellular data</string>
     <string name="calls_title">Calls</string>
@@ -1485,8 +1485,8 @@ Some apps may not work until updated by their developers."</string>
     <string name="accessibility_screen_magnification_summary">"When this feature is turned on, you can zoom in and out by triple-tapping the screen.
 
 While zoomed in, you can:
-"<ul><li>"Pan: Drag two or more fingers across the screen.
-"<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li></li></ul>"
+"<li><ul>"Pan: Drag two or more fingers across the screen.
+"<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li></ul></li>"
 
 You can also temporarily magnify what's under your finger by triple-tapping and holding. In this magnified state, you can drag your finger to explore different parts of the screen. Lift your finger to return to your previous state.
 
@@ -2549,52 +2549,6 @@ This helps protect data on lost or stolen devices."</string>
     <string name="slot_number">(Slot%1$d)</string>
     <string name="sms_change_default_dialog_text">Use %1$s instead of %2$s as your SMS app?</string>
     <string name="sms_change_default_no_previous_dialog_text">Use %s as your SMS app?</string>
-    <item type="string" name="APKTOOL_DUMMY_988">false</item>
-    <item type="string" name="APKTOOL_DUMMY_989">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_990">false</item>
-    <item type="string" name="APKTOOL_DUMMY_991">false</item>
-    <item type="string" name="APKTOOL_DUMMY_992">false</item>
-    <item type="string" name="APKTOOL_DUMMY_993">false</item>
-    <item type="string" name="APKTOOL_DUMMY_994">false</item>
-    <item type="string" name="APKTOOL_DUMMY_995">false</item>
-    <item type="string" name="APKTOOL_DUMMY_996">false</item>
-    <item type="string" name="APKTOOL_DUMMY_997">false</item>
-    <item type="string" name="APKTOOL_DUMMY_998">false</item>
-    <item type="string" name="APKTOOL_DUMMY_999">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9aa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9ab">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9ac">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9ad">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9ae">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9af">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b5">false</item>
     <string name="abc_action_mode_done">Done</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -3165,7 +3119,7 @@ This helps protect data on lost or stolen devices."</string>
     <string name="master_clearing">Restoring data, please wait, Restarting</string>
     <string name="clean_userdata">Factory reset</string>
     <string name="clean_userdata_summary">Wipe user data including contacts, messages, accounts, etc.</string>
-    <string name="dual_sim_network_settings_title">SIMs and network</string>
+    <string name="dual_sim_network_settings_title">SIMs and networks</string>
     <string name="usb_mtp_notification">USB Connection Notification</string>
     <string name="usb_mtp_tip_normal">"Install file named filetransfer.dmg on Mac under CD-ROM or see %s "</string>
     <string name="usb_mtp_tip_url">http://www.android.com/filetransfer</string>
@@ -3337,6 +3291,7 @@ This helps protect data on lost or stolen devices."</string>
     <string name="gallery_category_title">Gallery</string>
     <string name="email_category_title">Email</string>
     <string name="music_category_title">Music</string>
+    <string name="video_category_title">Video</string>
     <string name="system_built_in_title">Default</string>
     <string name="header_category_notificaion">Sounds &amp; notifications</string>
     <string name="do_not_disturb_title">DND mode</string>
@@ -3406,9 +3361,9 @@ This helps protect data on lost or stolen devices."</string>
     <string name="forget_pwd_associate_account_title">Link your Flyme account</string>
     <string name="forget_pwd_associate_account_summary">Use Flyme account to retrieve password</string>
     <string name="forget_pwd">Forgot password?</string>
-    <string name="easy_mode">Easy mode</string>
-    <string name="easy_mode_tip">Easy mode uses a simpler home screen layout and larger fonts and icons, all of which bring you an easier way to use the phone</string>
-    <string name="easy_mode_cancel_dialog_msg">Exit Easy mode?</string>
+    <string name="easy_mode">Extra-large easy mode</string>
+    <string name="easy_mode_tip">Extra-large easy mode uses a simpler Home screen layout with larger fonts and icons, all of which bring you an easier way to use the phone</string>
+    <string name="easy_mode_cancel_dialog_msg">Exit Extra-large easy mode?</string>
     <string name="lte_only_dialog_button_yes">Yes</string>
     <string name="lte_only_dialog_button_no">No</string>
     <string name="whether_enable_4G">You are about to enable 4G. The current network service will be stopped while searching for LTE network. Would you like to continue?</string>
@@ -3448,8 +3403,92 @@ This helps protect data on lost or stolen devices."</string>
     <string name="mz_install_unknown_applications_summary">@string/install_unknown_applications</string>
     <string name="global_data_title">Global Data</string>
     <string name="global_data_summary">Convenient and reliable overseas Data service</string>
+    <string name="unsupport_add_account">The application does not support adding accounts</string>
     <string name="fast_scroll_alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ#</string>
     <string name="vioce_assisant_hit">试试说: 铃声</string>
+    <string name="mz_timezone_pacific_majuro">Marshall Islands</string>
+    <string name="mz_timezone_pacific_midway">Midway Island</string>
+    <string name="mz_timezone_pacific_honolulu">Hawaii</string>
+    <string name="mz_timezone_america_anchorage">Alaska</string>
+    <string name="mz_timezone_america_los_angeles">Pacific Time</string>
+    <string name="mz_timezone_america_tijuana">Tijuana</string>
+    <string name="mz_timezone_america_phoenix">Arizona</string>
+    <string name="mz_timezone_america_chihuahua">Chihuahua</string>
+    <string name="mz_timezone_america_denver">Mountain Time</string>
+    <string name="mz_timezone_america_costa_rica">Central America</string>
+    <string name="mz_timezone_america_chicago">Central Time</string>
+    <string name="mz_timezone_america_mexico_city">Mexico City</string>
+    <string name="mz_timezone_america_regina">Saskatchewan</string>
+    <string name="mz_timezone_america_bogota">Bogota</string>
+    <string name="mz_timezone_america_new_york">Eastern Time</string>
+    <string name="mz_timezone_america_caracas">Venezuela</string>
+    <string name="mz_timezone_america_barbados">Atlantic Time (Barbados)</string>
+    <string name="mz_timezone_america_manaus">Manaus</string>
+    <string name="mz_timezone_america_santiago">Santiago</string>
+    <string name="mz_timezone_america_st_johns">Newfoundland</string>
+    <string name="mz_timezone_america_sao_paulo">Brasilia</string>
+    <string name="mz_timezone_america_argentina_buenos_aires">Buenos Aires</string>
+    <string name="mz_timezone_america_godthab">Greenland</string>
+    <string name="mz_timezone_america_montevideo">Montevideo</string>
+    <string name="mz_timezone_atlantic_south_georgia">Mid-Atlantic</string>
+    <string name="mz_timezone_atlantic_azores">Azores</string>
+    <string name="mz_timezone_atlantic_cape_verde">Cape Verde Islands</string>
+    <string name="mz_timezone_africa_casablanca">Casablanca</string>
+    <string name="mz_timezone_europe_london">London, Dublin</string>
+    <string name="mz_timezone_europe_amsterdam">Amsterdam, Berlin</string>
+    <string name="mz_timezone_europe_belgrade">Belgrade</string>
+    <string name="mz_timezone_europe_brussels">Brussels</string>
+    <string name="mz_timezone_europe_sarajevo">Sarajevo</string>
+    <string name="mz_timezone_africa_windhoek">Windhoek</string>
+    <string name="mz_timezone_africa_brazzaville">W. Africa Time</string>
+    <string name="mz_timezone_asia_amman">Amman, Jordan</string>
+    <string name="mz_timezone_europe_athens">Athens, Istanbul</string>
+    <string name="mz_timezone_asia_beirut">Beirut, Lebanon</string>
+    <string name="mz_timezone_africa_cairo">Cairo</string>
+    <string name="mz_timezone_europe_helsinki">Helsinki</string>
+    <string name="mz_timezone_asia_jerusalem">Jerusalem</string>
+    <string name="mz_timezone_europe_minsk">Minsk</string>
+    <string name="mz_timezone_africa_harare">Harare</string>
+    <string name="mz_timezone_asia_baghdad">Baghdad</string>
+    <string name="mz_timezone_europe_moscow">Moscow</string>
+    <string name="mz_timezone_asia_kuwait">Kuwait</string>
+    <string name="mz_timezone_africa_nairobi">Nairobi</string>
+    <string name="mz_timezone_asia_tehran">Tehran</string>
+    <string name="mz_timezone_asia_baku">Baku</string>
+    <string name="mz_timezone_asia_tbilisi">Tbilisi</string>
+    <string name="mz_timezone_asia_yerevan">Yerevan</string>
+    <string name="mz_timezone_asia_dubai">Dubai</string>
+    <string name="mz_timezone_asia_kabul">Kabul</string>
+    <string name="mz_timezone_asia_karachi">Islamabad, Karachi</string>
+    <string name="mz_timezone_asia_oral">"Ural'sk"</string>
+    <string name="mz_timezone_asia_yekaterinburg">Yekaterinburg</string>
+    <string name="mz_timezone_asia_calcutta">Kolkata</string>
+    <string name="mz_timezone_asia_colombo">Sri Lanka</string>
+    <string name="mz_timezone_asia_katmandu">Kathmandu</string>
+    <string name="mz_timezone_asia_almaty">Astana</string>
+    <string name="mz_timezone_asia_rangoon">Yangon</string>
+    <string name="mz_timezone_asia_krasnoyarsk">Krasnoyarsk</string>
+    <string name="mz_timezone_asia_bangkok">Bangkok</string>
+    <string name="mz_timezone_asia_shanghai">Beijing China</string>
+    <string name="mz_timezone_asia_hong_kong">Hong Kong China</string>
+    <string name="mz_timezone_asia_irkutsk">Irkutsk</string>
+    <string name="mz_timezone_asia_kuala_lumpur">Kuala Lumpur</string>
+    <string name="mz_timezone_australia_perth">Perth</string>
+    <string name="mz_timezone_asia_taipei">Taipei China</string>
+    <string name="mz_timezone_asia_seoul">Seoul</string>
+    <string name="mz_timezone_asia_tokyo">Tokyo, Osaka</string>
+    <string name="mz_timezone_asia_yakutsk">Yakutsk</string>
+    <string name="mz_timezone_australia_adelaide">Adelaide</string>
+    <string name="mz_timezone_australia_darwin">Darwin</string>
+    <string name="mz_timezone_australia_brisbane">Brisbane</string>
+    <string name="mz_timezone_australia_hobart">Hobart</string>
+    <string name="mz_timezone_australia_sydney">Sydney, Canberra</string>
+    <string name="mz_timezone_asia_vladivostok">Vladivostok</string>
+    <string name="mz_timezone_pacific_guam">Guam</string>
+    <string name="mz_timezone_asia_magadan">Magadan</string>
+    <string name="mz_timezone_pacific_auckland">Auckland</string>
+    <string name="mz_timezone_pacific_fiji">Fiji</string>
+    <string name="mz_timezone_pacific_tongatapu">Tonga</string>
     <string name="mz_date_time_month">m</string>
     <string name="mz_date_time_year">y</string>
     <string name="mz_date_time_day">d</string>
@@ -3571,6 +3610,52 @@ This helps protect data on lost or stolen devices."</string>
     <string name="mc_value_not_checked">Not selected</string>
     <string name="mc_description_target_decline">Reject</string>
     <string name="mc_description_target_answer">Answer</string>
-	<string name="recently_1_hour">Last hour</string>
+    <string name="recently_1_hour">Last hour</string>
     <string name="recently_22_hour">Last 22 hours</string>
+    <item type="string" name="APKTOOL_DUMMY_988">false</item>
+    <item type="string" name="APKTOOL_DUMMY_989">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_990">false</item>
+    <item type="string" name="APKTOOL_DUMMY_991">false</item>
+    <item type="string" name="APKTOOL_DUMMY_992">false</item>
+    <item type="string" name="APKTOOL_DUMMY_993">false</item>
+    <item type="string" name="APKTOOL_DUMMY_994">false</item>
+    <item type="string" name="APKTOOL_DUMMY_995">false</item>
+    <item type="string" name="APKTOOL_DUMMY_996">false</item>
+    <item type="string" name="APKTOOL_DUMMY_997">false</item>
+    <item type="string" name="APKTOOL_DUMMY_998">false</item>
+    <item type="string" name="APKTOOL_DUMMY_999">false</item>
+    <item type="string" name="APKTOOL_DUMMY_99a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_99b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_99c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_99d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_99e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_99f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9b5">false</item>
 </resources>
