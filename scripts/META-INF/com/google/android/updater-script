@@ -1,0 +1,14 @@
+ui_print(" ");
+ui_print(" ");
+ui_print("AlexLartsev19, S0bes, jabro23, Alan626, tthor and skerit presents");
+ui_print("Russian translation mod installer");
+ui_print("By flymeos5translate team");
+ui_print("Script by 1Speede1");
+ui_print("for Meizu M2 Note (Flyme OS 5.6.5.3)");
+ui_print(" ");
+ui_print(" ");
+ui_print("- Mounting /data, /custom, /system partitions");
+run_program("/sbin/mount", "/data");
+run_program("/sbin/mount", "/custom");
+run_program("/sbin/mount", "/system");
+
