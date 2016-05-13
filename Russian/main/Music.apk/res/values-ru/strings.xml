@@ -26,7 +26,7 @@
   <string name="account_select_none_combo_error">Пожалуйста, выберите пакет</string>
   <string name="account_title">Аккаунт</string>
   <string name="action_add">Добавить</string>
-  <string name="action_add_to_current_playinglist">Добавить в проигрываемые</string>
+  <string name="action_add_to_current_playinglist">Добавить</string>
   <string name="action_add_to_playlist">В плейлист</string>
   <string name="action_continue">Далее</string>
   <string name="action_delete_file">Удалить</string>
@@ -34,7 +34,7 @@
   <string name="action_delete_playlist">Удалить плейлист</string>
   <string name="action_download">Загрузка</string>
   <string name="action_pause_download">Пауза загрузки</string>
-  <string name="action_play_selected">Воспроизвести выбранное</string>
+  <string name="action_play_selected">Воспроизвести</string>
   <string name="action_remove_folder">Удалить</string>
   <string name="action_remove_song">Удалить</string>
   <string name="action_rename">Переименовать</string>
@@ -60,7 +60,7 @@
   <string name="all_detail_pager_other_albums">Похожие альбомы</string>
   <string name="all_files">Все файлы</string>
   <string name="all_limit_title">VIP: достигнут максимум скачивания в высоком качестве, скачать бесплатно в стандартном качестве?</string>
-  <string name="all_music">Все</string>
+  <string name="all_music">Аудиотека</string>
   <string name="all_result">Все результаты</string>
   <string name="alwaysUse">По умолчанию для этого действия</string>
   <string name="app_name">Музыка</string>
@@ -106,7 +106,7 @@
   <string name="create_pic">Сделать фото</string>
   <string name="create_playlist_overwrite_text">Переписать</string>
   <string name="create_playlist_title">Новый плейлист</string>
-  <string name="created_playlist_title">Мой плейлист</string>
+  <string name="created_playlist_title">Плейлисты</string>
   <string name="cue_not_deleted">Файл CUE не удалён</string>
   <string name="cue_playlist_title">Плейлист CUE</string>
   <string name="current_setting_hint">Выбрано для загрузки: %s</string>
@@ -193,7 +193,7 @@
   <string name="lossless_quality">Качество без потерь</string>
   <string name="low_storage">Менее, чем 100 Мб памяти. Ошибка загрузки.</string>
   <string name="lrc_list_title">Текст песни</string>
-  <string name="main_pager_title_mysong">Мои треки</string>
+  <string name="main_pager_title_mysong">Музыка</string>
   <string name="mc_allow">Разрешить</string>
   <string name="mc_alway_allow">Разрешать всегда</string>
   <string name="mc_cancel">Отмена</string>
@@ -438,7 +438,7 @@
   <string name="search_settings_description">Исполнители, альбомы и треки</string>
   <string name="search_tab_album">Альбом</string>
   <string name="search_tab_artist">Исполнитель</string>
-  <string name="search_tab_local_music">Местная музыка</string>
+  <string name="search_tab_local_music">Аудиотека</string>
   <string name="search_tab_online_music">Онлайн-музыка</string>
   <string name="search_tab_playlist">Плейлист</string>
   <string name="search_tab_song">Трек</string>
