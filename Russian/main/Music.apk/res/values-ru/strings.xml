@@ -569,12 +569,12 @@
   <string name="report_comment">Report Comment</string>
   <string name="report_reasons">Report Reasons</string>
   <string name="send_content">Send content</string>
-  <string name="setting_title">setting</string>
-  <string name="update">Upgrade now</string>
+  <string name="setting_title">настройки</string>
+  <string name="update">Обновить сейчас</string>
   <string name="update_continue">Continue to upgrade</string>
   <string name="update_empty_text">No current version introduction</string>
-  <string name="update_exit">exit</string>
-  <string name="update_install">Click on install</string>
+  <string name="update_exit">выйти</string>
+  <string name="update_install">Нажмите на установку</string>
   <string name="update_need_title">For normal use, complete the upgrade</string>
   <string name="version">The current version:</string>
   <string name="version_is_new">The current version is up to date</string>

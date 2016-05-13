@@ -44,7 +44,7 @@
     <string name="Transfer">Перевод</string>
     <string name="TransferAccounts">Перевод</string>
     <string name="TransferAmount">Сумма</string>
-    <string name="TransferAmountLimit">Сумма перевода должна быть между 0.01 RMB и 100 RMB</string>
+    <string name="TransferAmountLimit">Сумма перевода должна быть от 0.01 RMB до 100 RMB</string>
     <string name="TransferError">Ошибка перевода</string>
     <string name="TransferSuccess">Перевод выполнен</string>
     <string name="TransferToAccount">Перевести на</string>
